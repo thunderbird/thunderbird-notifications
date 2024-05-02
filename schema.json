@@ -55,7 +55,8 @@
         "description",
         "severity",
         "type"
-      ]
+      ],
+      "dependentRequired": { "CTA": ["URL"] }
     }
   ]
 }
