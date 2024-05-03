@@ -31,7 +31,7 @@
       "URL": {
         "type": "string",
         "format": "uri",
-        "description": "URL to load, if any."
+        "description": "URL to open from the CTA, if any."
       },
       "CTA": {
         "type": "string",
@@ -54,10 +54,16 @@
             "maximum": 100
           },
           "exclude": {
-            "$ref": "#/definitions/profile"
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/profile"
+            }
           },
           "include": {
-            "$ref": "#/definitions/profile"
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/profile"
+            }
           }
         }
       }
@@ -107,7 +113,8 @@
               "freebsd",
               "openbsd",
               "netbsd",
-              "solaris"
+              "solaris",
+              "other"
             ],
             "description": "Operating System"
           }
