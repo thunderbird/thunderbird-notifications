@@ -13,12 +13,12 @@
       "start_at": {
         "type": "string",
         "format": "date-time",
-        "description": "Timestamp after which Thunderbird will show the event after startup."
+        "description": "UTC Timestamp after which Thunderbird will show the event after startup."
       },
       "end_at": {
         "type": "string",
         "format": "date-time",
-        "description": "Timestamp after which Thunderbird will never show the event, even if it has never been shown to the user."
+        "description": "UTC Timestamp after which Thunderbird will never show the event, even if it has never been shown to the user."
       },
       "title": {
         "type": "string",
