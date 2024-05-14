@@ -99,7 +99,7 @@
         "channels": {
           "type": "array",
           "items": {
-            "enum": ["esr", "release", "beta", "daily"],
+            "enum": ["default", "esr", "release", "beta", "daily"],
             "description": "Channel"
           }
         },
