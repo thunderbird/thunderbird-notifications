@@ -107,8 +107,8 @@
           "type": "array",
           "items": {
             "enum": [
-              "windows",
-              "macos",
+              "win",
+              "macosx",
               "linux",
               "freebsd",
               "openbsd",
