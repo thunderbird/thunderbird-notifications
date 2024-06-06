@@ -6,15 +6,15 @@ import os
 YAML_DIR = 'yaml_notifications'
 JSON_DIR = 'json_notifications'
 
-if not os.path.isdir(YAML_DIR):
-  raise ValueError(f"'{YAML_DIR}' is not a directory")
-if not os.path.isdir(JSON_DIR):
-  os.makedirs(JSON_DIR)
-
 class YAMLtoJSONConverter:
   def __init__(self, yaml_dir, json_dir):
     self.yaml_dir = yaml_dir
     self.json_dir = json_dir
+
+    if not os.path.isdir(self.yaml_dir):
+      raise ValueError(f"'{self.yaml_dir}' is not a directory")
+    if not os.path.isdir(self.json_dir):
+      os.makedirs(self.json_dir)
 
   def get_yaml_files(self):
     # Using glob's ** pattern by specifying `recursive=True`
@@ -50,7 +50,7 @@ class YAMLtoJSONConverter:
 
         out_fname = self.generate_json_name(in_fname)
         if out_fname:
-          out_path = f'{self.json_dir}/{out_fname}'
+          out_path = os.path.join(self.json_dir, out_fname)
           if not os.path.exists(out_path):
             with open(out_path, "w") as f:
               self.write_json(data_from_yaml, f)
