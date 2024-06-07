@@ -1,13 +1,10 @@
+import yaml
+import json
 from enum import Enum
 from typing import Optional
 from uuid import UUID
 from datetime import datetime
 from pydantic import BaseModel, Field, HttpUrl, RootModel, model_validator
-
-import yaml
-import json
-
-GENERATED_SCHEMA_FILE = 'generated-schema.json'
 
 class ChannelEnum(str, Enum):
     default = "default"
@@ -86,8 +83,8 @@ class NotificationSchema(RootModel):
       data = NotificationSchema.yaml_to_data(contents)
       return NotificationSchema(data)
 
-  def generate_json_schema():
+  def generate_json_schema(schema_file_name):
       """Static method to write a JSON schema file based on pydantic model"""
       schema = NotificationSchema.model_json_schema()
-      with open(GENERATED_SCHEMA_FILE, "w") as f:
+      with open(schema_file_name, "w") as f:
             f.write(json.dumps(schema, indent=2))
