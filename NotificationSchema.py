@@ -79,9 +79,9 @@ class NotificationSchema(RootModel):
       print(f'Error parsing YAML file: {e}')
       return None
 
-  def from_yaml(in_fname):
+  def from_yaml(file_name):
     """Static method to generate NotificationSchema from a yaml file"""
-    with open(in_fname, "r") as fh:
+    with open(file_name, "r") as fh:
       contents = fh.read()
       data = NotificationSchema.yaml_to_data(contents)
       return NotificationSchema(data)

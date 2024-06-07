@@ -16,34 +16,37 @@ class YAMLtoJSONConverter:
     if not os.path.isdir(self.json_dir):
       os.makedirs(self.json_dir)
 
-  def get_yaml_files(self):
+  def get_yaml_file_paths(self):
     # Using glob's ** pattern by specifying `recursive=True`
-    yaml_files = glob.glob(f'./{self.yaml_dir}/**/*.yaml', recursive=True)
-    return yaml_files
+    yaml_file_paths = glob.glob(f'./{self.yaml_dir}/**/*.yaml', recursive=True)
+    return yaml_file_paths
 
-  def generate_json_name(self, yaml_filepath):
+  def generate_json_file_name(self, yaml_file_path):
     # Extract and verify the file extension
-    base_name, ext = os.path.splitext(yaml_filepath)
+    base_name, ext = os.path.splitext(yaml_file_path)
     if ext.lower() != '.yaml':
       return None
     return f'{os.path.basename(base_name)}.json'
 
-  def write_schema_as_json(self, schema, out_file):
+  def write_schema_as_json(self, schema, json_file):
     try:
-      out_file.write(schema.model_dump_json(indent=2))
+      json_file.write(schema.model_dump_json(indent=2))
     except Exception as e:
       print(f'Error writing JSON file: {e}')
 
   def convert(self):
-    for in_fname in self.get_yaml_files():
-      schema = NotificationSchema.from_yaml(in_fname)
+    """Reads, validates YAML files from a directory and writes JSON files to separate directory."""
+    for yaml_file_path in self.get_yaml_file_paths():
+      schema = NotificationSchema.from_yaml(yaml_file_path)
 
-      out_fname = self.generate_json_name(in_fname)
-      if out_fname:
-        out_path = os.path.join(self.json_dir, out_fname)
-        if not os.path.exists(out_path):
-          with open(out_path, "w") as f:
-            self.write_schema_as_json(schema, f)
+      json_file_name = self.generate_json_file_name(yaml_file_path)
+      if not json_file_name:
+        continue
+
+      json_file_path = os.path.join(self.json_dir, json_file_name)
+      if not os.path.exists(json_file_path):
+        with open(json_file_path, "w") as f:
+          self.write_schema_as_json(schema, f)
 
 def main():
   converter = YAMLtoJSONConverter(YAML_DIR, JSON_DIR)
