@@ -1,7 +1,7 @@
 from enum import Enum
 from uuid import UUID
 from datetime import datetime
-from pydantic import BaseModel, HttpUrl, RootModel, model_validator
+from pydantic import BaseModel, HttpUrl, RootModel, model_validator, field_validator
 
 import yaml
 
@@ -45,6 +45,13 @@ class Targeting(BaseModel):
     percent_chance: float | None = None
     exclude: list[Profile] | None = None
     include: list[Profile] | None = None
+
+    @field_validator('percent_chance')
+    @classmethod
+    def min_max_percent_chance(cls, v: float):
+       if v < 0 or v > 100:
+            raise ValueError("'percent_chance' must be a value from 0 to 100")
+
 
 class Notification(BaseModel):
     id: UUID
