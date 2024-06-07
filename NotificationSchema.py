@@ -72,6 +72,7 @@ class NotificationSchema(RootModel):
   root: list[Notification]
 
   def yaml_to_data(yaml_str):
+    """Static method to load YAML from a string and return the corresponding python object"""
     try:
       return yaml.safe_load(yaml_str)
     except yaml.YAMLError as e:
@@ -79,14 +80,14 @@ class NotificationSchema(RootModel):
       return None
 
   def from_yaml(in_fname):
-    """Static function to generate NotificationSchema from a yaml file"""
+    """Static method to generate NotificationSchema from a yaml file"""
     with open(in_fname, "r") as fh:
       contents = fh.read()
       data = NotificationSchema.yaml_to_data(contents)
       return NotificationSchema(data)
 
-  @classmethod
-  def generate_json_schema(cls):
+  def generate_json_schema():
+      """Static method to write a JSON schema file based on pydantic model"""
       schema = NotificationSchema.model_json_schema()
       with open(GENERATED_SCHEMA_FILE, "w") as f:
             f.write(json.dumps(schema, indent=2))
