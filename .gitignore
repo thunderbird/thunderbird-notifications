@@ -1,0 +1,19 @@
+.vscode
+__pycache__
+.pytest_cache
+dist
+*.db
+*.ini
+*.log
+*credentials.json
+*.pickle
+.env
+venv
+.idea
+*.egg-info
+.coverage
+htmlcov
+caldav
+
+# Mac noise
+**/.DS_Store
