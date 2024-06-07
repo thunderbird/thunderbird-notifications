@@ -88,3 +88,4 @@ class NotificationSchema(RootModel):
       schema = NotificationSchema.model_json_schema()
       with open(schema_file_name, "w") as f:
             f.write(json.dumps(schema, indent=2))
+
