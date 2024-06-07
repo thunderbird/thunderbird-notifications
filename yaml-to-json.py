@@ -1,4 +1,4 @@
-import yaml
+import json
 import glob
 import os
 from NotificationSchema import NotificationSchema
@@ -44,6 +44,12 @@ class YAMLtoJSONConverter:
         if not os.path.exists(out_path):
           with open(out_path, "w") as f:
             self.write_schema_as_json(schema, f)
+
+  @classmethod
+  def generate_json_schema(cls):
+      schema = NotificationSchema.model_json_schema()  # (1)!
+      with open('generated-schema.json', "w") as f:
+            f.write(json.dumps(schema, indent=2))
 
 def main():
   converter = YAMLtoJSONConverter(YAML_DIR, JSON_DIR)
