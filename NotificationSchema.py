@@ -1,7 +1,8 @@
 from enum import Enum
+from typing import Optional
 from uuid import UUID
 from datetime import datetime
-from pydantic import BaseModel, HttpUrl, RootModel, model_validator, field_validator
+from pydantic import BaseModel, Field, HttpUrl, RootModel, model_validator
 
 import yaml
 import json
@@ -45,16 +46,9 @@ class TypeEnum(str, Enum):
     blog = "blog"
 
 class Targeting(BaseModel):
-    percent_chance: float | None = None
+    percent_chance: Optional[float] = Field(None, ge=0, le=100)
     exclude: list[Profile] | None = None
     include: list[Profile] | None = None
-
-    @field_validator('percent_chance')
-    @classmethod
-    def min_max_percent_chance(cls, v: float):
-       if v < 0 or v > 100:
-            raise ValueError("'percent_chance' must be a value from 0 to 100")
-
 
 class Notification(BaseModel):
     id: UUID
