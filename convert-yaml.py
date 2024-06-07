@@ -1,10 +1,15 @@
 import glob
 import os
+import sys
+import argparse
 
 from NotificationSchema import NotificationSchema
 
-YAML_DIR = 'yaml_notifications'
-JSON_DIR = 'json_notifications'
+parser = argparse.ArgumentParser(description='Converts Thunderbird notifications from YAML to JSON.')
+parser.add_argument('yaml_dir', type=str, help='Directory containing notifications as YAML files')
+parser.add_argument('json_dir', type=str, help='Directory to output JSON files')
+parser.add_argument('--overwrite', help='Overwrite existing JSON files',  action='store_true')
+args = parser.parse_args()
 
 class YAMLtoJSONConverter:
   def __init__(self, yaml_dir, json_dir):
@@ -12,7 +17,7 @@ class YAMLtoJSONConverter:
     self.json_dir = json_dir
 
     if not os.path.isdir(self.yaml_dir):
-      raise ValueError(f"'{self.yaml_dir}' is not a directory")
+      raise ValueError(f"Argument for yaml_dir '{self.yaml_dir}' is not a directory")
     if not os.path.isdir(self.json_dir):
       os.makedirs(self.json_dir)
 
@@ -44,12 +49,18 @@ class YAMLtoJSONConverter:
         continue
 
       json_file_path = os.path.join(self.json_dir, json_file_name)
-      if not os.path.exists(json_file_path):
+      does_exist = os.path.exists(json_file_path)
+      should_write = args.overwrite or not does_exist
+      if should_write:
         with open(json_file_path, "w") as f:
           self.write_schema_as_json(schema, f)
 
 def main():
-  converter = YAMLtoJSONConverter(YAML_DIR, JSON_DIR)
+  if len(sys.argv) < 3 or len(sys.argv) > 4:
+      parser.print_help()
+      sys.exit(1)
+
+  converter = YAMLtoJSONConverter(args.yaml_dir, args.json_dir)
   converter.convert()
 
 if __name__ == "__main__":
