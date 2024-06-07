@@ -4,6 +4,9 @@ from datetime import datetime
 from pydantic import BaseModel, HttpUrl, RootModel, model_validator, field_validator
 
 import yaml
+import json
+
+GENERATED_SCHEMA_FILE = 'generated-schema.json'
 
 class ChannelEnum(str, Enum):
     default = "default"
@@ -88,3 +91,8 @@ class NotificationSchema(RootModel):
       data = NotificationSchema.yaml_to_data(contents)
       return NotificationSchema(data)
 
+  @classmethod
+  def generate_json_schema(cls):
+      schema = NotificationSchema.model_json_schema()
+      with open(GENERATED_SCHEMA_FILE, "w") as f:
+            f.write(json.dumps(schema, indent=2))
