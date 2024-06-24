@@ -1,11 +1,9 @@
 name: convert-yaml-to-json
 
 on:
-  [push]
-  # push:
-  #   branches: ["main"]
-  # pull_request:
-  #   branches: ["main"]
+  push:
+    paths:
+      - "yaml/**.yaml"
 
 jobs:
   build:
