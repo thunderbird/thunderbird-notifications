@@ -21,4 +21,4 @@ jobs:
           pip install -r requirements.txt
       - name: Run python script
         run: |
-          python convert-yaml.py test/data/yaml test/data/json
+          python convert-yaml.py yaml json
