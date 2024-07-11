@@ -19,4 +19,4 @@ jobs:
       - name: Install dependencies
         run: go install github.com/santhosh-tekuri/jsonschema/cmd/jv@latest
       - name: Validate JSON files
-        run: jv test/data/snapshot-schema.json test/data/json/*.json
+        run: jv test/data/snapshot-schema.json json/*.json
