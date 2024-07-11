@@ -21,7 +21,7 @@ jobs:
       - name: Validate JSON files
         run: |
           if [ -d "json" ] && [ "$(ls -A json/*.json 2>/dev/null)" ]; then
-            jv snapshot-schema.json json/*.json
+            jv schema.json json/*.json
           else
             echo "No JSON files to process."
           fi
