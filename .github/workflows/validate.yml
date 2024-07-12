@@ -2,18 +2,35 @@ name: validate-json
 
 on:
   workflow_call:
-  push:
-    branches: ["*"]
+    inputs:
+      should_download:
+        description: "Download JSON artifacts if called by another workflow?"
+        type: boolean
+    outputs:
+      is_valid:
+        description: "Is the JSON valid?"
+        value: ${{ jobs.validate.outputs.is_valid}}
+
   pull_request:
     branches: ["*"]
+
   workflow_dispatch:
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    outputs:
+      is_valid: ${{ steps.save_state.outputs.is_valid}}
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Download JSON artifacts # if called by another workflow
+        if: ${{ inputs.should_download }}
+        uses: actions/download-artifact@v4
+        with:
+          name: json-files
+          path: json
 
       - name: Set up Go
         uses: actions/setup-go@v5
@@ -33,5 +50,6 @@ jobs:
           fi
 
       - name: Save state
+        id: save_state
         if: steps.validate_json.conclusion == 'success'
-        run: echo "JV_COMMAND_SUCCESS=true" >> $GITHUB_ENV
+        run: echo "is_valid=true" >> $GITHUB_OUTPUT
