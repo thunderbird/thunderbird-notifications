@@ -23,7 +23,8 @@
         {
           "locales": [],
           "versions": [],
-          "channels": []
+          "channels": [],
+          "operating_systems": []
         }
       ]
     }
@@ -52,7 +53,8 @@
         {
           "locales": [],
           "versions": [],
-          "channels": []
+          "channels": [],
+          "operating_systems": []
         }
       ]
     }
