@@ -32,22 +32,23 @@ jobs:
           name: json-files
           path: json
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
           go-version: ">=1.22.4"
 
-      - name: Install dependencies
+      - name: Install Go dependencies
         run: go install github.com/santhosh-tekuri/jsonschema/cmd/jv@latest
 
       - name: Validate JSON files
         id: validate_json
-        run: |
-          if [ -d "json" ] && [ "$(ls -A json/*.json 2>/dev/null)" ]; then
-            jv schema.json json/*.json
-          else
-            echo "No JSON files to process."
-          fi
+        run: python validate-json.py schema.json json
 
       - name: Save state
         id: save_state

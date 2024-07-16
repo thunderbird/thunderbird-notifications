@@ -19,6 +19,7 @@
       - locales: []
         versions: []
         channels: []
+        operating_systems: []
 - id: f103c749-9932-48bb-8f61-2e8ed2beacc3
   start_at: "2024-05-03T15:49:20.331Z"
   end_at: "2024-05-03T15:49:20.331Z"
@@ -39,3 +40,4 @@
       - locales: []
         versions: []
         channels: []
+        operating_systems: []
