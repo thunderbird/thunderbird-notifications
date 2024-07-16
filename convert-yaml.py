@@ -53,6 +53,7 @@ class YAMLtoJSONConverter:
       should_write = args.overwrite or not does_exist
       if should_write:
         with open(json_file_path, "w") as f:
+          print(f'Writing {json_file_path}')
           self.write_schema_as_json(schema, f)
 
 def main():
