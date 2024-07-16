@@ -36,7 +36,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
+          # cache: "pip"
 
       - name: Set up Go
         uses: actions/setup-go@v5
