@@ -21,7 +21,6 @@ class JSONValidator:
 
   def validate(self):
     json_files = [f for f in os.listdir(self.json_dir) if f.endswith('.json')]
-    print(json_files)
     if not json_files:
         print("No JSON files to process.")
         return 0  # Exit successfully if no JSON files are found
@@ -33,7 +32,7 @@ class JSONValidator:
       print('Validation command completed successfully')
       return 0
     except subprocess.CalledProcessError as e:
-      print(f'Error running validation command: {e.stderr}', file=sys.stderr)
+      print(f'Error running validation command: {e.stdout}', file=sys.stdout)
       return 1
 
 def main():
