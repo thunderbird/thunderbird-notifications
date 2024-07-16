@@ -23,12 +23,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run convert-yaml.py
-        run: |
-          if [ -d "yaml" ] && [ "$(ls -A yaml/*.yaml 2>/dev/null)" ]; then
-            python convert-yaml.py yaml json
-          else
-            echo "No YAML files to process."
-          fi
+        run: python convert-yaml.py yaml json
 
       - name: Upload JSON artifacts for validation
         uses: actions/upload-artifact@v4

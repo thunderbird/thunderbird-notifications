@@ -41,7 +41,12 @@ class YAMLtoJSONConverter:
 
   def convert(self):
     """Reads, validates YAML files from a directory and writes JSON files to separate directory."""
-    for yaml_file_path in self.get_yaml_file_paths():
+    yaml_file_paths = self.get_yaml_file_paths()
+    if not yaml_file_paths:
+        print("No YAML files to process.")
+        return
+
+    for yaml_file_path in yaml_file_paths:
       schema = NotificationSchema.from_yaml(yaml_file_path)
 
       json_file_name = self.generate_json_file_name(yaml_file_path)
