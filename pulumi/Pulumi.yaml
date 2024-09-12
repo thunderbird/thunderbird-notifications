@@ -1,0 +1,11 @@
+name: thunderbird-notifications
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: Hosting for the in-app notifications JSON.
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python

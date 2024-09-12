@@ -1,0 +1,9 @@
+config:
+  aws:region: us-west-2
+  cloudflare:apiToken:
+    secure: AAABAI9HRU0mr0fgQeMEa6CVMN+TKGgfF5fLWjokoZqPCQc/+XBqTbjOLFRWFBxRv2ioVpo2QtKKHOzAk1sIT9Si56ovLTlA
+  thunderbird-notifications:bucket_name: thunderbird-notifications-stage
+  thunderbird-notifications:certificate_arn: arn:aws:acm:us-east-1:768512802988:certificate/4ebbc853-6675-4f28-bc7c-12977101c275
+  thunderbird-notifications:domain: notifications-stage.thunderbird.net
+  thunderbird-notifications:notifications_file_path: ../stage/json/notifications.json
+  thunderbird-notifications:zone_id: fc41f087fcce4577fefa863012e13de2
