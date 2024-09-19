@@ -1,5 +1,8 @@
 config:
-  aws:region: us-west-2
+  aws:defaultTags:
+    tags:
+      environment: "stage"
+      project: "thunderbird-notifications"
   cloudflare:apiToken:
     secure: AAABAI9HRU0mr0fgQeMEa6CVMN+TKGgfF5fLWjokoZqPCQc/+XBqTbjOLFRWFBxRv2ioVpo2QtKKHOzAk1sIT9Si56ovLTlA
   thunderbird-notifications:bucket_name: thunderbird-notifications-stage
