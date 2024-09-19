@@ -9,6 +9,7 @@ domain_name = config.require("domain")
 zone_id = config.require("zone_id")
 certificate_arn = config.require("certificate_arn")
 notifications_file_path = config.require("notifications_file_path")  # ../stage/notifications.json
+schema_file_path = config.require("schema_file_path")
 
 name_prefix = pulumi.get_project() + "-" + pulumi.get_stack()
 
@@ -56,6 +57,15 @@ notifications_file = aws.s3.BucketObject(
     bucket=bucket.id,
     key='notifications.json',
     source=FileAsset(notifications_file_path),
+    content_type='application/json'
+)
+
+# Upload the notifications.json file without ACLs
+schema_file = aws.s3.BucketObject(
+    'schema_json',
+    bucket=bucket.id,
+    key='schemas/1.0/schema.json',
+    source=FileAsset(schema_file_path),
     content_type='application/json'
 )
 

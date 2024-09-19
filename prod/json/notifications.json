@@ -5,7 +5,7 @@
     "end_at": "2024-05-03T15:49:20.331000Z",
     "title": "hello user - this needs translation",
     "description": "lorem ipsum user - this needs translation",
-    "URL": "http://thunderbird.net/",
+    "URL": "https://thunderbird.net/",
     "CTA": "lorem ipsum user - this needs translation",
     "severity": 5,
     "type": "donation",
@@ -13,6 +13,7 @@
       "percent_chance": 100.0,
       "exclude": [
         {
+          "displayed_notifications": [],
           "locales": [],
           "versions": [],
           "channels": [],
@@ -21,6 +22,7 @@
       ],
       "include": [
         {
+          "displayed_notifications": [],
           "locales": [],
           "versions": [],
           "channels": [],
@@ -43,6 +45,7 @@
       "percent_chance": 10.0,
       "exclude": [
         {
+          "displayed_notifications": [],
           "locales": [],
           "versions": [],
           "channels": [],
@@ -51,6 +54,7 @@
       ],
       "include": [
         {
+          "displayed_notifications": [],
           "locales": [],
           "versions": [],
           "channels": [],

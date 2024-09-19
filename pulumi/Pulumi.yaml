@@ -6,6 +6,7 @@ runtime:
     virtualenv: venv
 description: Hosting for the in-app notifications JSON.
 config:
+  schema_file_path: ../schema.json
   aws:region: us-west-2
   pulumi:tags:
     value:
