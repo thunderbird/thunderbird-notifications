@@ -1,5 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notifications.thunderbird.net/schemas/1.0/schema.json",
   "title": "Thunderbird In-App Notifications",
   "type": "array",
   "items": {
@@ -42,7 +43,7 @@
         "description": "Severity level, where 1 is the most important/urgent and 5 is the least."
       },
       "type": {
-        "enum": ["donation", "message", "security", "blog"],
+        "enum": ["donation", "donation_old", "message", "security", "blog"],
         "description": "Category of notification."
       },
       "targeting": {
@@ -84,23 +85,25 @@
     "profile": {
       "type": "object",
       "properties": {
-        "locales": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "versions": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
         "channels": {
           "type": "array",
           "items": {
             "enum": ["default", "esr", "release", "beta", "daily"],
-            "description": "Channel"
+            "description": "The client release channel name."
+          }
+        },
+        "displayed_notifications": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "An id of an event previously displayed by the client."
+          }
+        },
+        "locales": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "The selected UI language of the client."
           }
         },
         "operating_systems": {
@@ -116,7 +119,14 @@
               "solaris",
               "other"
             ],
-            "description": "Operating System"
+            "description": "The operating system the client is running under."
+          }
+        },
+        "versions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A client application version string."
           }
         }
       }
