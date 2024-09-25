@@ -24,6 +24,7 @@ class OperatingSystemEnum(str, Enum):
     other = "other"
 
 class Profile(BaseModel):
+    displayed_notifications: list[str] | None = None
     locales: list[str] | None = None
     versions: list[str] | None = None
     channels: list[ChannelEnum] | None = None
@@ -38,6 +39,7 @@ class SeverityEnum(int, Enum):
 
 class TypeEnum(str, Enum):
     donation = "donation"
+    donation_old = "donation_old"
     message = "message"
     security = "security"
     blog = "blog"
