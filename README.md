@@ -27,7 +27,7 @@ python validate-json.py schema.json json
 
 ```sh
 # Simulate pull request (to validate JSON)
-act pull_request
+act pull_request --artifact-server-path /tmp
 
 # Simulate push (to convert YAML to JSON)
 act push --artifact-server-path /tmp
