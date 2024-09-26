@@ -3,7 +3,7 @@ import os
 import sys
 import argparse
 
-from NotificationSchema import NotificationSchema
+from notifications.lib.notification_model import NotificationModel
 
 parser = argparse.ArgumentParser(description='Converts Thunderbird notifications from YAML to JSON.')
 parser.add_argument('yaml_dir', type=str, help='Directory containing notifications as YAML files')
@@ -47,7 +47,7 @@ class YAMLtoJSONConverter:
         return
 
     for yaml_file_path in yaml_file_paths:
-      schema = NotificationSchema.from_yaml(yaml_file_path)
+      schema = NotificationModel.from_yaml(yaml_file_path)
 
       json_file_name = self.generate_json_file_name(yaml_file_path)
       if not json_file_name:
@@ -71,4 +71,3 @@ def main():
 
 if __name__ == "__main__":
   main()
-
