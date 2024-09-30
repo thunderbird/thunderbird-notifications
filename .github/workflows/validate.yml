@@ -50,17 +50,9 @@ jobs:
           pip install -r requirements.txt
           pip install -e .
 
-      - name: Set up Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: ">=1.22.4"
-
-      - name: Install Go dependencies
-        run: go install github.com/santhosh-tekuri/jsonschema/cmd/jv@latest
-
       - name: Validate JSON files
         id: validate_json
-        run: python scripts/validate_json.py schema.json json
+        run: check-jsonschema --schemafile ./schema.json json/notifications.json
 
       - name: Save state
         id: save_state
