@@ -1,3 +1,4 @@
+import os
 import yaml
 import json
 from enum import Enum
@@ -81,12 +82,15 @@ class NotificationModel(RootModel):
       return None
 
   @staticmethod
-  def from_yaml(file_name):
-    """Static method to generate NotificationSchema from a yaml file"""
-    with open(file_name, "r") as fh:
-      contents = fh.read()
-      data = NotificationModel.yaml_to_data(contents)
-      return NotificationModel(data)
+  def from_yaml_dir(directory):
+    """Static method to generate a single NotificationSchema from all yaml   files in a directory"""
+    combined_contents = ""
+    for file_name in os.listdir(directory):
+      if file_name.endswith(".yaml") or file_name.endswith(".yml"):
+        with open(os.path.join(directory, file_name), "r") as fh:
+          combined_contents += fh.read() + "\n"
+    data = NotificationModel.yaml_to_data(combined_contents)
+    return NotificationModel(data)
 
   @staticmethod
   def generate_json_schema(schema_file_name):

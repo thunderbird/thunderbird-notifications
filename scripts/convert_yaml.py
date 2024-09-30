@@ -5,6 +5,8 @@ import argparse
 
 from notifications.lib.notification_model import NotificationModel
 
+JSON_FILE_NAME = 'notifications.json'
+
 parser = argparse.ArgumentParser(description='Converts Thunderbird notifications from YAML to JSON.')
 parser.add_argument('yaml_dir', type=str, help='Directory containing notifications as YAML files')
 parser.add_argument('json_dir', type=str, help='Directory to output JSON files')
@@ -21,11 +23,6 @@ class YAMLtoJSONConverter:
     if not os.path.isdir(self.json_dir):
       os.makedirs(self.json_dir)
 
-  def get_yaml_file_paths(self):
-    # Using glob's ** pattern by specifying `recursive=True`
-    yaml_file_paths = glob.glob(f'./{self.yaml_dir}/**/*.yaml', recursive=True)
-    return yaml_file_paths
-
   def generate_json_file_name(self, yaml_file_path):
     # Extract and verify the file extension
     base_name, ext = os.path.splitext(yaml_file_path)
@@ -35,31 +32,19 @@ class YAMLtoJSONConverter:
 
   def write_schema_as_json(self, schema, json_file):
     try:
-      json_file.write(schema.model_dump_json(indent=2))
+      dump = schema.model_dump_json(indent=2)
+      json_file.write(dump)
     except Exception as e:
       print(f'Error writing JSON file: {e}')
 
   def convert(self):
     """Reads, validates YAML files from a directory and writes JSON files to separate directory."""
-    yaml_file_paths = self.get_yaml_file_paths()
-    if not yaml_file_paths:
-        print("No YAML files to process.")
-        return
 
-    for yaml_file_path in yaml_file_paths:
-      schema = NotificationModel.from_yaml(yaml_file_path)
-
-      json_file_name = self.generate_json_file_name(yaml_file_path)
-      if not json_file_name:
-        continue
-
-      json_file_path = os.path.join(self.json_dir, json_file_name)
-      does_exist = os.path.exists(json_file_path)
-      should_write = args.overwrite or not does_exist
-      if should_write:
-        with open(json_file_path, "w") as f:
-          print(f'Writing {json_file_path}')
-          self.write_schema_as_json(schema, f)
+    schema = NotificationModel.from_yaml_dir(self.yaml_dir)
+    json_file_path = os.path.join(self.json_dir, JSON_FILE_NAME)
+    with open(json_file_path, "w") as f:
+      print(f'Writing JSON to: {json_file_path}')
+      self.write_schema_as_json(schema, f)
 
 def main():
   if len(sys.argv) < 3 or len(sys.argv) > 4:
