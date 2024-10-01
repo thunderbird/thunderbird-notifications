@@ -32,7 +32,8 @@ jobs:
           name: json-files
           path: json
 
-      - name: Verify working directory and list files
+      - name: Verify JSON artifacts directory
+        if: ${{ inputs.should_download }}
         run: |
           echo "Current working directory: $(pwd)"
           ls -la
