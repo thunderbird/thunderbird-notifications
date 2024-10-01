@@ -12,7 +12,7 @@ on:
         value: ${{ jobs.validate.outputs.is_valid}}
 
   pull_request:
-    branches: ["main"]
+    branches: ["*"]
 
   workflow_dispatch:
 
