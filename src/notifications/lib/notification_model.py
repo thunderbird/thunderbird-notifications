@@ -93,7 +93,7 @@ class NotificationModel(RootModel):
     return NotificationModel(data)
 
   @staticmethod
-  def generate_json_schema(schema_file_name):
+  def generate_json_schema(schema_file_name: str):
     """Static method to write a JSON schema file based on pydantic model"""
     schema = NotificationModel.model_json_schema()
     with open(schema_file_name, "w") as f:
