@@ -26,7 +26,7 @@ class JSONValidator:
             print('No JSON files to process.')
             return 0  # Exit successfully if no JSON files are found
 
-        command = ['jv', self.schema_file] + [os.path.join(self.json_dir, f) for f in json_files]
+        command = ['check-jsonschema', '--schemafile', self.schema_file] + [os.path.join(self.json_dir, f) for f in json_files]
 
         try:
             subprocess.run(

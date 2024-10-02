@@ -51,9 +51,8 @@ jobs:
           pip install -r requirements.txt
           pip install -e .
 
-      - name: Validate JSON files
-        id: validate_json
-        run: check-jsonschema --schemafile ./schema.json json/notifications.json
+      - name: Run validate_yaml.py
+        run: python scripts/validate_yaml.py ./schema.json json
 
       - name: Save state
         id: save_state
