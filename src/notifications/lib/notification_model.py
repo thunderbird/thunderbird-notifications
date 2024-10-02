@@ -95,7 +95,7 @@ class NotificationModel(RootModel):
     root: list[Notification]
 
     @staticmethod
-    def yaml_to_data(yaml_str: str) -> dict | None:
+    def yaml_to_data(yaml_str: str) -> list[dict] | None:
         """Static method to load YAML from a string and return the corresponding python object"""
         try:
             return yaml.safe_load(yaml_str)
@@ -105,14 +105,20 @@ class NotificationModel(RootModel):
 
     @staticmethod
     def from_yaml_dir(directory: str):
-        """Static method to generate a single NotificationSchema from all yaml   files in a directory"""
+        """Static method to generate a single NotificationSchema from all yaml files in a directory"""
         combined_contents = ''
         for file_name in os.listdir(directory):
             if file_name.endswith('.yaml') or file_name.endswith('.yml'):
                 with open(os.path.join(directory, file_name), 'r') as fh:
                     combined_contents += fh.read() + '\n'
         data = NotificationModel.yaml_to_data(combined_contents)
-        return NotificationModel(data)
+        if data is not None:
+            # Produce a list[Notification] from the list[dict]
+            notifications = [Notification(**item) for item in data]
+
+            # Pass in the expected list[Notification]
+            return NotificationModel(root=notifications)
+        return None
 
     @staticmethod
     def generate_json_schema(schema_file_name: str):
