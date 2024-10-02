@@ -73,7 +73,7 @@ class NotificationModel(RootModel):
   root: list[Notification]
 
   @staticmethod
-  def yaml_to_data(yaml_str):
+  def yaml_to_data(contents: str) -> dict|None:
     """Static method to load YAML from a string and return the corresponding python object"""
     try:
       return yaml.safe_load(yaml_str)
