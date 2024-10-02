@@ -82,7 +82,7 @@ class NotificationModel(RootModel):
       return None
 
   @staticmethod
-  def from_yaml_dir(directory):
+  def from_yaml_dir(directory: str) -> NotificationModel:
     """Static method to generate a single NotificationSchema from all yaml   files in a directory"""
     combined_contents = ""
     for file_name in os.listdir(directory):
