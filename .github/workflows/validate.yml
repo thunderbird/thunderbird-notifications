@@ -52,7 +52,7 @@ jobs:
           pip install -e .
 
       - name: Run validate_yaml.py
-        run: python scripts/validate_yaml.py ./schema.json json
+        run: python scripts/validate_json.py ./schema.json json
 
       - name: Save state
         id: save_state
