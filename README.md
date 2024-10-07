@@ -18,10 +18,14 @@ Here's a cheat sheet for running the commands after you've completed the install
 # Activate virtualenv
 source ./venv/bin/activate
 
-# Manually convert YAML to JSON
-python convert-yaml.py yaml json
+# Manually convert yaml/*.yaml to JSON
+# (default output is json/notifications.json)
+python convert-yaml.py yaml
 
-# Manually validate JSON
+# Manually convert YAML to JSON, specifying output file
+python convert-yaml.py yaml output.json
+
+# Manually validate JSON files in the `json` directory
 python validate-json.py schema.json json
 ```
 

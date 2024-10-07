@@ -28,7 +28,7 @@ jobs:
           pip install -e .
 
       - name: Run convert_yaml.py
-        run: python scripts/convert_yaml.py yaml json
+        run: python scripts/convert_yaml.py yaml
 
       - name: Upload JSON artifacts for validation
         uses: actions/upload-artifact@v4
