@@ -1,135 +1,289 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://notifications.thunderbird.net/schemas/1.0/schema.json",
-  "title": "Thunderbird In-App Notifications",
-  "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
-      "id": {
-        "type": "string",
-        "format": "uuid",
-        "description": "Unique ID set by the server"
-      },
-      "start_at": {
-        "type": "string",
-        "format": "date-time",
-        "description": "UTC Timestamp after which Thunderbird will show the event after startup."
-      },
-      "end_at": {
-        "type": "string",
-        "format": "date-time",
-        "description": "UTC Timestamp after which Thunderbird will never show the event, even if it has never been shown to the user."
-      },
-      "title": {
-        "type": "string",
-        "description": "Short sentence describing the event which will be displayed in the Thunderbird UI."
-      },
-      "description": {
-        "type": "string",
-        "description": "A short paragraph that can contain HTML and will be displayed in the Thunderbird UI."
-      },
-      "URL": {
-        "type": "string",
-        "format": "uri",
-        "description": "URL to open from the CTA, if any."
-      },
-      "CTA": {
-        "type": "string",
-        "description": "Link text to show for the URL."
-      },
-      "severity": {
-        "enum": [1, 2, 3, 4, 5],
-        "description": "Severity level, where 1 is the most important/urgent and 5 is the least."
-      },
-      "type": {
-        "enum": ["donation", "donation_old", "message", "security", "blog"],
-        "description": "Category of notification."
-      },
-      "targeting": {
-        "type": "object",
-        "properties": {
-          "percent_chance": {
-            "type": "number",
-            "minimum": 0,
-            "maximum": 100
-          },
-          "exclude": {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/profile"
-            }
-          },
-          "include": {
-            "type": "array",
-            "items": {
-              "$ref": "#/definitions/profile"
-            }
-          }
-        }
-      }
+  "$defs": {
+    "ChannelEnum": {
+      "enum": [
+        "default",
+        "esr",
+        "release",
+        "beta",
+        "daily"
+      ],
+      "title": "ChannelEnum",
+      "type": "string"
     },
-    "required": [
-      "id",
-      "start_at",
-      "end_at",
-      "title",
-      "description",
-      "severity",
-      "type",
-      "targeting"
-    ],
-    "dependentRequired": { "CTA": ["URL"] }
-  },
-  "definitions": {
-    "profile": {
-      "type": "object",
+    "Notification": {
       "properties": {
-        "channels": {
-          "type": "array",
-          "items": {
-            "enum": ["default", "esr", "release", "beta", "daily"],
-            "description": "The client release channel name."
-          }
+        "id": {
+          "description": "Unique ID set by the server",
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
         },
+        "start_at": {
+          "description": "UTC Timestamp after which Thunderbird will show the event after startup",
+          "format": "date-time",
+          "title": "Start At",
+          "type": "string"
+        },
+        "end_at": {
+          "description": "UTC Timestamp after which Thunderbird will never show the event, even if it has never been shown to the user.",
+          "format": "date-time",
+          "title": "End At",
+          "type": "string"
+        },
+        "title": {
+          "description": "Short sentence describing the event which will be displayed in the Thunderbird UI.",
+          "title": "Title",
+          "type": "string"
+        },
+        "description": {
+          "description": "A short paragraph that can contain HTML and will be displayed in the Thunderbird UI.",
+          "title": "Description",
+          "type": "string"
+        },
+        "URL": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "URL to open from the CTA, if any.",
+          "title": "Url"
+        },
+        "CTA": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Link text to show for the URL.",
+          "title": "Cta"
+        },
+        "severity": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/SeverityEnum"
+            }
+          ],
+          "description": "Severity level, where 1 is the most important/urgent and 5 is the least."
+        },
+        "type": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/TypeEnum"
+            }
+          ],
+          "description": "Category of notification."
+        },
+        "targeting": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/Targeting"
+            }
+          ],
+          "description": "Targeting criteria for the notification"
+        }
+      },
+      "required": [
+        "id",
+        "start_at",
+        "end_at",
+        "title",
+        "description",
+        "severity",
+        "type",
+        "targeting"
+      ],
+      "title": "Notification",
+      "type": "object"
+    },
+    "OperatingSystemEnum": {
+      "enum": [
+        "win",
+        "macosx",
+        "linux",
+        "freebsd",
+        "openbsd",
+        "netbsd",
+        "solaris",
+        "other"
+      ],
+      "title": "OperatingSystemEnum",
+      "type": "string"
+    },
+    "Profile": {
+      "properties": {
         "displayed_notifications": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "description": "An id of an event previously displayed by the client."
-          }
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "An id of an event previously displayed by the client.",
+          "title": "Displayed Notifications"
         },
         "locales": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "description": "The selected UI language of the client."
-          }
-        },
-        "operating_systems": {
-          "type": "array",
-          "items": {
-            "enum": [
-              "win",
-              "macosx",
-              "linux",
-              "freebsd",
-              "openbsd",
-              "netbsd",
-              "solaris",
-              "other"
-            ],
-            "description": "The operating system the client is running under."
-          }
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The selected UI language of the client.",
+          "title": "Locales"
         },
         "versions": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "description": "A client application version string."
-          }
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "A client application version string.",
+          "title": "Versions"
+        },
+        "channels": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/ChannelEnum"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The client release channel name.",
+          "title": "Channels"
+        },
+        "operating_systems": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/OperatingSystemEnum"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The operating system the client is running under.",
+          "title": "Operating Systems"
         }
-      }
+      },
+      "title": "Profile",
+      "type": "object"
+    },
+    "SeverityEnum": {
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "title": "SeverityEnum",
+      "type": "integer"
+    },
+    "Targeting": {
+      "properties": {
+        "percent_chance": {
+          "anyOf": [
+            {
+              "maximum": 100.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Percent Chance"
+        },
+        "exclude": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/Profile"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Exclude"
+        },
+        "include": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/Profile"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Include"
+        }
+      },
+      "title": "Targeting",
+      "type": "object"
+    },
+    "TypeEnum": {
+      "enum": [
+        "donation",
+        "donation_old",
+        "message",
+        "security",
+        "blog"
+      ],
+      "title": "TypeEnum",
+      "type": "string"
     }
-  }
+  },
+  "items": {
+    "$ref": "#/$defs/Notification"
+  },
+  "title": "NotificationModel",
+  "type": "array"
 }

@@ -1,4 +1,4 @@
-name: convert-yaml-to-json
+name: convert_yaml_to_json
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
     branches: ["*"]
 
 jobs:
-  convert-yaml:
+  convert_yaml:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,9 +25,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install -e .
 
-      - name: Run convert-yaml.py
-        run: python convert-yaml.py yaml json
+      - name: Run convert_yaml.py
+        run: python scripts/convert_yaml.py yaml
 
       - name: Upload JSON artifacts for validation
         uses: actions/upload-artifact@v4
@@ -35,22 +36,22 @@ jobs:
           name: json-files
           path: json/*.json
 
-  validate-json:
-    needs: convert-yaml
+  validate_json:
+    needs: convert_yaml
     uses: ./.github/workflows/validate.yml
     with:
       should_download: true
 
   commit-json:
     runs-on: ubuntu-latest
-    needs: validate-json
+    needs: validate_json
 
     steps:
       - uses: actions/checkout@v4
 
       - name: Check for validation success and file changes
         run: |
-          if [ "${{ needs.validate-json.outputs.is_valid }}" != "true" ]; then
+          if [ "${{ needs.validate_json.outputs.is_valid }}" != "true" ]; then
             echo "JSON is not valid. Skipping commit."
             echo "NO_COMMIT=true" >> $GITHUB_ENV
           elif git diff --quiet; then
