@@ -13,7 +13,7 @@ class ChannelEnum(str, Enum):
     esr = 'esr'
     release = 'release'
     beta = 'beta'
-    daily = 'daily'
+    daily = 'nightly'
 
 
 class OperatingSystemEnum(str, Enum):
