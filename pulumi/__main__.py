@@ -1,7 +1,9 @@
 import pulumi
 import pulumi_aws as aws
 import pulumi_cloudflare as cloudflare
+from datetime import datetime, timedelta
 from pulumi import FileAsset
+from rewrite import create_rewrite_lambda
 
 # Config
 config = pulumi.Config()
@@ -12,6 +14,15 @@ notifications_file_path = config.require("notifications_file_path")  # ../stage/
 schema_file_path = config.require("schema_file_path")
 
 name_prefix = pulumi.get_project() + "-" + pulumi.get_stack()
+
+# Define rewrite rules
+rewrite_rules = [
+    {"source": "/notifications.json", "target": "/2.0/notifications.json"},
+    {"source": "/latest/notifications.json", "target": "/2.0/notifications.json"},
+]
+
+# Create the rewrite Lambda function using the rules
+rewrite_lambda = create_rewrite_lambda(rewrite_rules)
 
 # Create an S3 bucket for hosting without ACLs
 bucket = aws.s3.Bucket(
@@ -55,9 +66,10 @@ bucket_policy = aws.s3.BucketPolicy(
 notifications_file = aws.s3.BucketObject(
     'notifications_json',
     bucket=bucket.id,
-    key='notifications.json',
+    key='2.0/notifications.json',
     source=FileAsset(notifications_file_path),
-    content_type='application/json'
+    content_type='application/json',
+    metadata={"cache-control": "max-age=21600"}  # Cache for 6 hours
 )
 
 # Upload the notifications.json file without ACLs
@@ -66,7 +78,32 @@ schema_file = aws.s3.BucketObject(
     bucket=bucket.id,
     key='schemas/1.0/schema.json',
     source=FileAsset(schema_file_path),
-    content_type='application/json'
+    content_type='application/json',
+    metadata={"cache-control": "max-age=21600"}  # Cache for 6 hours
+)
+
+# Calculate Expires header: current time + 6 hours
+expires_time = (datetime.utcnow() + timedelta(hours=6)).strftime("%a, %d %b %Y %H:%M:%S GMT")
+
+# Create a Response Headers Policy for Cache-Control and Expires
+response_headers_policy = aws.cloudfront.ResponseHeadersPolicy(
+    "cacheControlAndExpiresPolicy",
+    name="cacheControlAndExpiresPolicy",
+    comment="Set Cache-Control and Expires headers for all responses",
+    custom_headers_config={
+        "items": [
+            {
+                "header": "Cache-Control",
+                "value": "max-age=21600",  # Cache for 6 hours
+                "override": True  # Override any origin headers
+            },
+            {
+                "header": "Expires",
+                "value": expires_time,  # Static expires value
+                "override": True  # Override any origin headers
+            }
+        ]
+    }
 )
 
 # CloudFront distribution using the OAI for S3 access
@@ -93,6 +130,16 @@ cloudfront_distribution = aws.cloudfront.Distribution(
                 'forward': 'none'
             },
         },
+        'lambda_function_associations': [{
+            'event_type': 'origin-request',
+            'lambda_arn': pulumi.Output.all(
+                arn=rewrite_lambda.arn,
+                version=rewrite_lambda.version
+            ).apply(
+                lambda values: f"{values['arn']}:{values['version']}"
+            )
+        }],
+        'response_headers_policy_id': response_headers_policy.id
     },
     viewer_certificate={
         'acm_certificate_arn': certificate_arn,
