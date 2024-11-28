@@ -8,8 +8,13 @@ from datetime import datetime
 from pydantic import BaseModel, Field, HttpUrl, RootModel, model_validator
 
 class CustomBaseModel(BaseModel):
+    @classmethod
     @model_validator(mode="before")
     def replace_empty_lists_with_none(cls, values):
+        # Ensure input is a dictionary since "before" validators can be passed any type.
+        if not isinstance(values, dict):
+            raise TypeError(f"Expected a dictionary for validation, but got {type(values).__name__}")
+
         # Replace empty lists with None for all fields
         return {k: (None if isinstance(v, list) and not v else v) for k, v in values.items()}
 
