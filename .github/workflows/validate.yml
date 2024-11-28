@@ -11,9 +11,6 @@ on:
         description: "Is the JSON valid?"
         value: ${{ jobs.validate.outputs.is_valid}}
 
-  pull_request:
-    branches: ["*"]
-
   workflow_dispatch:
 
 jobs:
