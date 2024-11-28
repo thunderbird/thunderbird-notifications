@@ -7,6 +7,16 @@ from uuid import UUID
 from datetime import datetime
 from pydantic import BaseModel, Field, HttpUrl, RootModel, model_validator
 
+class CustomBaseModel(BaseModel):
+    @classmethod
+    @model_validator(mode="before")
+    def replace_empty_lists_with_none(cls, values):
+        # Ensure input is a dictionary since "before" validators can be passed any type.
+        if not isinstance(values, dict):
+            raise TypeError(f"Expected a dictionary for validation, but got {type(values).__name__}")
+
+        # Replace empty lists with None for all fields
+        return {k: (None if isinstance(v, list) and not v else v) for k, v in values.items()}
 
 class ChannelEnum(str, Enum):
     default = 'default'
@@ -27,7 +37,7 @@ class OperatingSystemEnum(str, Enum):
     other = 'other'
 
 
-class Profile(BaseModel):
+class Profile(CustomBaseModel):
     displayed_notifications: Optional[list[str]] = Field(
         default=None, description='An id of an event previously displayed by the client.'
     )
@@ -67,13 +77,13 @@ class TypeEnum(str, Enum):
     blog = 'blog'
 
 
-class Targeting(BaseModel):
+class Targeting(CustomBaseModel):
     percent_chance: Optional[float] = Field(None, ge=0, le=100)
     exclude: Optional[list[Profile]] = Field(default=None)
     include: Optional[list[Profile]] = Field(default=None)
 
 
-class Notification(BaseModel):
+class Notification(CustomBaseModel):
     id: UUID = Field(..., description='Unique ID set by the server.')
     start_at: datetime = Field(
         ..., description='UTC Timestamp after which Thunderbird will show the event after startup.'
