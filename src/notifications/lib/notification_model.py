@@ -37,6 +37,17 @@ class Profile(BaseModel):
     operating_systems: Optional[list[OperatingSystemEnum]] = Field(
         default=None, description='The operating system the client is running under.'
     )
+    pref_false: Optional[list[str]] = Field(
+        default=None, description='A list of Thunderbird desktop boolean prefs where any one is False.'
+    )
+    pref_true: Optional[list[str]] = Field(
+        default=None, description='A list of Thunderbird desktop boolean prefs where any one is True.'
+    )
+
+
+class PositionEnum(str, Enum):
+    bottom_today_pane = "bottom-today-pane"
+    bottom_spaces_toolbar = "bottom-spaces-toolbar"
 
 
 class SeverityEnum(int, Enum):
@@ -49,7 +60,8 @@ class SeverityEnum(int, Enum):
 
 class TypeEnum(str, Enum):
     donation = 'donation'
-    donation_old = 'donation_old'
+    donation_tab = 'donation_tab'
+    donation_browser = 'donation_browser'
     message = 'message'
     security = 'security'
     blog = 'blog'
@@ -62,9 +74,9 @@ class Targeting(BaseModel):
 
 
 class Notification(BaseModel):
-    id: UUID = Field(..., description='Unique ID set by the server')
+    id: UUID = Field(..., description='Unique ID set by the server.')
     start_at: datetime = Field(
-        ..., description='UTC Timestamp after which Thunderbird will show the event after startup'
+        ..., description='UTC Timestamp after which Thunderbird will show the event after startup.'
     )
     end_at: datetime = Field(
         ...,
@@ -82,7 +94,11 @@ class Notification(BaseModel):
         ..., description='Severity level, where 1 is the most important/urgent and 5 is the least.'
     )
     type: TypeEnum = Field(..., description='Category of notification.')
-    targeting: Targeting = Field(..., description='Targeting criteria for the notification')
+    position: Optional[PositionEnum] = Field(
+        default=None, description='The location where the notification is displayed in the client. ' \
+                                  'Has no effect for donation_tab or browser types.'
+        )
+    targeting: Targeting = Field(..., description='Targeting criteria for the notification.')
 
     @model_validator(mode='after')
     def cta_requires_url(self):
@@ -92,6 +108,10 @@ class Notification(BaseModel):
 
 
 class NotificationModel(RootModel):
+    class Config:
+        json_schema_extra = {
+            '$id': "https://notifications.thunderbird.net/schemas/2.0/schema.json"
+        }
     root: list[Notification]
 
     @staticmethod
