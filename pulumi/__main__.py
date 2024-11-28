@@ -1,9 +1,11 @@
+import json
 import pulumi
 import pulumi_aws as aws
 import pulumi_cloudflare as cloudflare
 from datetime import datetime, timedelta
 from pulumi import FileAsset
 from rewrite import create_rewrite_lambda
+from urllib.parse import urlparse
 
 # Config
 config = pulumi.Config()
@@ -15,10 +17,19 @@ schema_file_path = config.require("schema_file_path")
 
 name_prefix = pulumi.get_project() + "-" + pulumi.get_stack()
 
+# Get the version out of the schema.json directly.
+# This ensures we're always putting things at the correct URL.
+with open(schema_file_path, 'r') as file:
+    schema = json.load(file)
+
+schema_url_path = urlparse(schema.get('$id', '')).path
+schema_version = schema_url_path.split('/')[2]
+
 # Define rewrite rules
 rewrite_rules = [
-    {"source": "/notifications.json", "target": "/2.0/notifications.json"},
-    {"source": "/latest/notifications.json", "target": "/2.0/notifications.json"},
+    {"source": '/notifications.json', "target": f'/{schema_version}/notifications.json'},
+    {"source": '/latest/notifications.json', "target": f'/{schema_version}/notifications.json'},
+    {"source": '/schemas/latest/schema.json', "target": schema_url_path},
 ]
 
 # Create the rewrite Lambda function using the rules
@@ -66,7 +77,7 @@ bucket_policy = aws.s3.BucketPolicy(
 notifications_file = aws.s3.BucketObject(
     'notifications_json',
     bucket=bucket.id,
-    key='2.0/notifications.json',
+    key=f'{schema_version}/notifications.json',
     source=FileAsset(notifications_file_path),
     content_type='application/json',
     metadata={"cache-control": "max-age=21600"}  # Cache for 6 hours
@@ -76,7 +87,7 @@ notifications_file = aws.s3.BucketObject(
 schema_file = aws.s3.BucketObject(
     'schema_json',
     bucket=bucket.id,
-    key='schemas/1.0/schema.json',
+    key=schema_url_path,
     source=FileAsset(schema_file_path),
     content_type='application/json',
     metadata={"cache-control": "max-age=21600"}  # Cache for 6 hours
@@ -165,3 +176,4 @@ dns_record = cloudflare.Record(
 
 # Export the CloudFront distribution URL (SSL-enabled)
 pulumi.export('cloudfront_url', cloudfront_distribution.domain_name)
+pulumi.export('schema_url', 'https://' + domain_name + schema_url_path)
