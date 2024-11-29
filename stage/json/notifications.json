@@ -9,26 +9,11 @@
     "CTA": "lorem ipsum user - this needs translation",
     "severity": 5,
     "type": "donation",
+    "position": null,
     "targeting": {
       "percent_chance": 100.0,
-      "exclude": [
-        {
-          "displayed_notifications": [],
-          "locales": [],
-          "versions": [],
-          "channels": [],
-          "operating_systems": []
-        }
-      ],
-      "include": [
-        {
-          "displayed_notifications": [],
-          "locales": [],
-          "versions": [],
-          "channels": [],
-          "operating_systems": []
-        }
-      ]
+      "exclude": null,
+      "include": null
     }
   },
   {
@@ -41,26 +26,11 @@
     "CTA": "lorem ipsum user - this needs translation",
     "severity": 5,
     "type": "donation",
+    "position": null,
     "targeting": {
       "percent_chance": 10.0,
-      "exclude": [
-        {
-          "displayed_notifications": [],
-          "locales": [],
-          "versions": [],
-          "channels": [],
-          "operating_systems": []
-        }
-      ],
-      "include": [
-        {
-          "displayed_notifications": [],
-          "locales": [],
-          "versions": [],
-          "channels": [],
-          "operating_systems": []
-        }
-      ]
+      "exclude": null,
+      "include": null
     }
   }
 ]

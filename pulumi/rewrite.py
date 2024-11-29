@@ -1,7 +1,7 @@
 import pulumi
 import pulumi_aws as aws
 
-def create_rewrite_lambda(rewrite_rules):
+def create_rewrite_lambda(rewrite_rules, name_prefix):
     """
     Creates a Lambda function for handling 302 redirects with the given rules.
 
@@ -64,7 +64,8 @@ def handler(event, context):
     )
 
     # Create the Lambda function in us-east-1
-    rewrite_lambda = aws.lambda_.Function("rewriteLambda",
+    rewrite_lambda = aws.lambda_.Function("rewriteLambda-"+name_prefix,
+        description = "Rewrites for thunderbird-notifications Cloudfront.",
         role=lambda_role.arn,
         runtime="python3.12",  # Using python3.12 runtime
         handler="index.handler",

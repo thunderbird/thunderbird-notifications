@@ -10,18 +10,6 @@
   type: donation
   targeting:
     percent_chance: 100
-    exclude:
-      - locales: []
-        versions: []
-        channels: []
-        operating_systems: []
-        displayed_notifications: []
-    include:
-      - locales: []
-        versions: []
-        channels: []
-        operating_systems: []
-        displayed_notifications: []
 - id: f103c749-9932-48bb-8f61-2e8ed2beacc3
   start_at: "2024-05-03T15:49:20.331Z"
   end_at: "2024-05-03T15:49:20.331Z"
@@ -33,15 +21,3 @@
   type: donation
   targeting:
     percent_chance: 10
-    exclude:
-      - locales: []
-        versions: []
-        channels: []
-        operating_systems: []
-        displayed_notifications: []
-    include:
-      - locales: []
-        versions: []
-        channels: []
-        operating_systems: []
-        displayed_notifications: []

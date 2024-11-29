@@ -33,7 +33,7 @@ rewrite_rules = [
 ]
 
 # Create the rewrite Lambda function using the rules
-rewrite_lambda = create_rewrite_lambda(rewrite_rules)
+rewrite_lambda = create_rewrite_lambda(rewrite_rules, name_prefix)
 
 # Create an S3 bucket for hosting without ACLs
 bucket = aws.s3.Bucket(
@@ -93,24 +93,16 @@ schema_file = aws.s3.BucketObject(
     metadata={"cache-control": "max-age=21600"}  # Cache for 6 hours
 )
 
-# Calculate Expires header: current time + 6 hours
-expires_time = (datetime.utcnow() + timedelta(hours=6)).strftime("%a, %d %b %Y %H:%M:%S GMT")
-
 # Create a Response Headers Policy for Cache-Control and Expires
 response_headers_policy = aws.cloudfront.ResponseHeadersPolicy(
-    "cacheControlAndExpiresPolicy",
-    name="cacheControlAndExpiresPolicy",
-    comment="Set Cache-Control and Expires headers for all responses",
+    "cacheControl-" + name_prefix,
+    name="cacheControl-" + name_prefix,
+    comment="Set Cache-Control header for all responses",
     custom_headers_config={
         "items": [
             {
                 "header": "Cache-Control",
                 "value": "max-age=21600",  # Cache for 6 hours
-                "override": True  # Override any origin headers
-            },
-            {
-                "header": "Expires",
-                "value": expires_time,  # Static expires value
                 "override": True  # Override any origin headers
             }
         ]
