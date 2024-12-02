@@ -5,6 +5,7 @@ config:
       project: thunderbird-notifications
   cloudflare:apiToken:
     secure: AAABAHMboM0NFsjCzg5KU5pLIg6n97zoTfpiOwiAqzn6DV7L0rMR/6+ig6bV2Byoj6mG++spKBHbDyTduoDa60Syxkd+aFs7
+  cache-max-age: 21600
   thunderbird-notifications:certificate_arn: arn:aws:acm:us-east-1:768512802988:certificate/4ebbc853-6675-4f28-bc7c-12977101c275
   thunderbird-notifications:domain: notifications.thunderbird.net
   thunderbird-notifications:notifications_file_path: ../prod/json/notifications.json

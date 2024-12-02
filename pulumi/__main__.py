@@ -14,6 +14,7 @@ zone_id = config.require("zone_id")
 certificate_arn = config.require("certificate_arn")
 notifications_file_path = config.require("notifications_file_path")  # ../stage/notifications.json
 schema_file_path = config.require("schema_file_path")
+cache_max_age = config.require_int("cache-max-age")  # Cache max age in seconds
 
 name_prefix = pulumi.get_project() + "-" + pulumi.get_stack()
 
@@ -80,17 +81,17 @@ notifications_file = aws.s3.BucketObject(
     key=f'{schema_version}/notifications.json',
     source=FileAsset(notifications_file_path),
     content_type='application/json',
-    metadata={"cache-control": "max-age=21600"}  # Cache for 6 hours
+    metadata={"cache-control": f"max-age={cache_max_age}"}
 )
 
-# Upload the notifications.json file without ACLs
+# Upload the schema.json file without ACLs
 schema_file = aws.s3.BucketObject(
     'schema_json',
     bucket=bucket.id,
     key=schema_url_path,
     source=FileAsset(schema_file_path),
     content_type='application/json',
-    metadata={"cache-control": "max-age=21600"}  # Cache for 6 hours
+    metadata={"cache-control": f"max-age={cache_max_age}"}
 )
 
 # Create a Response Headers Policy for Cache-Control and Expires
@@ -102,7 +103,7 @@ response_headers_policy = aws.cloudfront.ResponseHeadersPolicy(
         "items": [
             {
                 "header": "Cache-Control",
-                "value": "max-age=21600",  # Cache for 6 hours
+                "value": f"max-age={cache_max_age}",
                 "override": True  # Override any origin headers
             }
         ]
