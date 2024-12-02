@@ -1,0 +1,149 @@
+- id: 54d2196f-5487-4e2e-8bcc-c77b5893c499
+  start_at: '2024-12-02T00:00:00.000Z'
+  end_at: '2024-12-14T00:00:00.000Z'
+  title: Introducing Notifications
+  severity: 1
+  type: blog
+  description: Welcome to Thunderbird’s new notification system! We’ll use this space
+    to share important updates, security alerts, and helpful tips to help you get
+    the most out of Thunderbird.
+  CTA: Learn more
+  URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=en_test-a
+  targeting:
+    exclude:
+    - locales:
+      - fr
+      - it
+      - de
+      - jp
+      displayed_notifications:
+      - 6bfd276a-b95b-4de2-8848-7e40a1e08cd6
+      - a1bc6a12-4bb5-4825-8b45-e4a691c38e10
+    include:
+    - channels:
+      - nightly
+      - beta
+    percent_chance: 33
+- id: 6bfd276a-b95b-4de2-8848-7e40a1e08cd6
+  start_at: '2024-12-02T00:00:00.000Z'
+  end_at: '2024-12-14T00:00:00.000Z'
+  title: Introducing Notifications
+  severity: 2
+  type: blog
+  description: Welcome to Thunderbird’s new notification system! We’ll use this space
+    to share important updates, security alerts, and helpful tips to help you get
+    the most out of Thunderbird.
+  CTA: Learn more
+  URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=en_test-b
+  targeting:
+    exclude:
+    - locales:
+      - fr
+      - it
+      - de
+      - jp
+      displayed_notifications:
+      - 54d2196f-5487-4e2e-8bcc-c77b5893c499
+      - a1bc6a12-4bb5-4825-8b45-e4a691c38e10
+    include:
+    - channels:
+      - nightly
+      - beta
+    percent_chance: 50
+- id: a1bc6a12-4bb5-4825-8b45-e4a691c38e10
+  start_at: '2024-12-02T00:00:00.000Z'
+  end_at: '2024-12-14T00:00:00.000Z'
+  title: Introducing Notifications
+  severity: 3
+  type: donation_tab
+  URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=browser_tab&utm_content=en
+  targeting:
+    exclude:
+    - locales:
+      - fr
+      - it
+      - de
+      - jp
+      displayed_notifications:
+      - 54d2196f-5487-4e2e-8bcc-c77b5893c499
+      - 6bfd276a-b95b-4de2-8848-7e40a1e08cd6
+    include:
+    - channels:
+      - nightly
+      - beta
+    percent_chance: 100
+- id: ac052c68-ebda-4f86-83f5-9d9d20f11b37
+  start_at: '2024-12-02T00:00:00.000Z'
+  end_at: '2024-12-14T00:00:00.000Z'
+  title: 'Découvrez : Notifications'
+  severity: 3
+  type: blog
+  description: Bienvenue dans le nouveau système de notifications de Thunderbird !
+    Nous utiliserons cet espace pour partager des informations importantes à propos
+    de mises à jour, alertes de sécurité, et astuces utiles pour vous aider à profiter
+    pleinement de Thunderbird.
+  CTA: En savoir plus
+  URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=fr
+  targeting:
+    include:
+    - locales:
+      - fr
+      channels:
+      - nightly
+      - beta
+    percent_chance: 100
+- id: a564aa3a-f151-4de0-a7ae-4892b83ebf3d
+  start_at: '2024-12-02T00:00:00.000Z'
+  end_at: '2024-12-14T00:00:00.000Z'
+  title: 'Wir stellen vor: Benachrichtigungen'
+  severity: 3
+  type: blog
+  description: Willkommen im neuen Benachrichtigungssystem von Thunderbird. Hier halten
+    wir dich über wichtige Updates, Sicherheitswarnungen und praktische Tipps auf
+    dem Laufenden, damit du das Beste aus Thunderbird herausholen kannst.
+  CTA: Mehr erfahren
+  URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=de
+  targeting:
+    include:
+    - locales:
+      - de
+      channels:
+      - nightly
+      - beta
+    percent_chance: 100
+- id: 00d29833-659c-4050-8cc3-e60f74dd3545
+  start_at: '2024-12-02T00:00:00.000Z'
+  end_at: '2024-12-14T00:00:00.000Z'
+  title: Introduzione alle Notifiche
+  severity: 3
+  type: blog
+  description: Benvenuti nel nuovo sistema di notifiche di Thunderbird. Questo spazio
+    sarà utilizzato per condividere aggiornamenti importanti, avvisi di sicurezza,
+    e consigli utili per aiutarti a sfruttare al meglio Thunderbird.
+  CTA: Ulteriori informazioni
+  URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=it
+  targeting:
+    include:
+    - locales:
+      - it
+      channels:
+      - nightly
+      - beta
+    percent_chance: 100
+- id: f4ea345e-085c-46d8-b4fa-a31e62a9bdfd
+  start_at: '2024-12-02T00:00:00.000Z'
+  end_at: '2024-12-14T00:00:00.000Z'
+  title: 通知のご紹介
+  severity: 3
+  type: blog
+  description: Thunderbirdの新しい通知システムへようこそ。ここでは、重要なアップデートや、セキュリティの警告、当社を最大限に活用していただけるお役立ち情報などをお届けします。
+  CTA: もっと詳しく
+  URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=jp
+  targeting:
+    include:
+    - locales:
+      - jp
+      channels:
+      - nightly
+      - beta
+    percent_chance: 100
