@@ -96,7 +96,7 @@ class Notification(CustomBaseModel):
         ..., description='Short sentence describing the event which will be displayed in the Thunderbird UI.'
     )
     description: str = Field(
-        ..., description='A short paragraph that can contain HTML and will be displayed in the Thunderbird UI.'
+        default=None, description='A short paragraph that can contain HTML and will be displayed in the Thunderbird UI.'
     )
     URL: Optional[HttpUrl] = Field(default=None, description='URL to open from the CTA, if any.')
     CTA: Optional[str] = Field(default=None, description='Link text to show for the URL.')
