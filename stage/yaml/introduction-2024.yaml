@@ -9,20 +9,13 @@
     the most out of Thunderbird.
   CTA: Learn more
   URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=en_test-a
-  targeting:
-    exclude:
-    - locales:
-      - fr
-      - it
-      - de
-      - jp
-      displayed_notifications:
-      - 6bfd276a-b95b-4de2-8848-7e40a1e08cd6
-      - a1bc6a12-4bb5-4825-8b45-e4a691c38e10
-    include:
-    - channels:
-      - nightly
-      - beta
+  targeting: 
+    exclude: 
+      - { locales: [fr, it, de, ja] }
+      - { displayed_notifications: [6bfd276a-b95b-4de2-8848-7e40a1e08cd6] }
+      - { displayed_notifications: [a1bc6a12-4bb5-4825-8b45-e4a691c38e10] }
+    include: 
+      - { channels: [nightly, beta] }
     percent_chance: 33
 - id: 6bfd276a-b95b-4de2-8848-7e40a1e08cd6
   start_at: '2024-12-02T00:00:00.000Z'
@@ -35,20 +28,13 @@
     the most out of Thunderbird.
   CTA: Learn more
   URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=en_test-b
-  targeting:
-    exclude:
-    - locales:
-      - fr
-      - it
-      - de
-      - jp
-      displayed_notifications:
-      - 54d2196f-5487-4e2e-8bcc-c77b5893c499
-      - a1bc6a12-4bb5-4825-8b45-e4a691c38e10
-    include:
-    - channels:
-      - nightly
-      - beta
+  targeting: 
+    exclude: 
+      - { locales: [fr, it, de, ja] }
+      - { displayed_notifications: [54d2196f-5487-4e2e-8bcc-c77b5893c499] }
+      - { displayed_notifications: [a1bc6a12-4bb5-4825-8b45-e4a691c38e10] }
+    include: 
+      - { channels: [nightly, beta] }
     percent_chance: 50
 - id: a1bc6a12-4bb5-4825-8b45-e4a691c38e10
   start_at: '2024-12-02T00:00:00.000Z'
@@ -57,20 +43,13 @@
   severity: 3
   type: donation_tab
   URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=browser_tab&utm_content=en
-  targeting:
-    exclude:
-    - locales:
-      - fr
-      - it
-      - de
-      - jp
-      displayed_notifications:
-      - 54d2196f-5487-4e2e-8bcc-c77b5893c499
-      - 6bfd276a-b95b-4de2-8848-7e40a1e08cd6
-    include:
-    - channels:
-      - nightly
-      - beta
+  targeting: 
+    exclude: 
+      - { locales: [fr, it, de, ja] }
+      - { displayed_notifications: [6bfd276a-b95b-4de2-8848-7e40a1e08cd6] }
+      - { displayed_notifications: [54d2196f-5487-4e2e-8bcc-c77b5893c499] }
+    include: 
+      - { channels: [nightly, beta] }
     percent_chance: 100
 - id: ac052c68-ebda-4f86-83f5-9d9d20f11b37
   start_at: '2024-12-02T00:00:00.000Z'
@@ -86,11 +65,7 @@
   URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=fr
   targeting:
     include:
-    - locales:
-      - fr
-      channels:
-      - nightly
-      - beta
+      - { locales: [fr], channels: [nightly, beta] }
     percent_chance: 100
 - id: a564aa3a-f151-4de0-a7ae-4892b83ebf3d
   start_at: '2024-12-02T00:00:00.000Z'
@@ -105,11 +80,7 @@
   URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=de
   targeting:
     include:
-    - locales:
-      - de
-      channels:
-      - nightly
-      - beta
+      - { locales: [de], channels: [nightly, beta] }
     percent_chance: 100
 - id: 00d29833-659c-4050-8cc3-e60f74dd3545
   start_at: '2024-12-02T00:00:00.000Z'
@@ -124,11 +95,7 @@
   URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=it
   targeting:
     include:
-    - locales:
-      - it
-      channels:
-      - nightly
-      - beta
+      - { locales: [it], channels: [nightly, beta] }
     percent_chance: 100
 - id: f4ea345e-085c-46d8-b4fa-a31e62a9bdfd
   start_at: '2024-12-02T00:00:00.000Z'
@@ -138,12 +105,8 @@
   type: blog
   description: Thunderbirdの新しい通知システムへようこそ。ここでは、重要なアップデートや、セキュリティの警告、当社を最大限に活用していただけるお役立ち情報などをお届けします。
   CTA: もっと詳しく
-  URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=jp
+  URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=ja
   targeting:
     include:
-    - locales:
-      - jp
-      channels:
-      - nightly
-      - beta
+      - { locales: [ja], channels: [nightly, beta] }
     percent_chance: 100
