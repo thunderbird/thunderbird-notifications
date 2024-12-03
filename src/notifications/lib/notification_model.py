@@ -8,15 +8,14 @@ from datetime import datetime
 from pydantic import BaseModel, Field, HttpUrl, RootModel, model_validator
 
 class CustomBaseModel(BaseModel):
-    @model_validator(mode="before")
-    @classmethod
-    def replace_empty_lists_with_none(cls, values):
-        # Ensure input is a dictionary since "before" validators can be passed any type.
-        if not isinstance(values, dict):
-            raise TypeError(f"Expected a dictionary for validation, but got {type(values).__name__}")
+    @model_validator(mode="after")
+    def remove_empty_values(cls, values):
+        # Iterate over model fields and remove those with None or empty lists.
+        for field_name, value in values:
+            if value is None or (isinstance(value, list) and len(value) == 0):
+                delattr(values, field_name)
+        return values
 
-        # Replace empty lists with None for all fields
-        return {k: (None if isinstance(v, list) and not v else v) for k, v in values.items()}
 
 class ChannelEnum(str, Enum):
     default = 'default'
@@ -112,7 +111,7 @@ class Notification(CustomBaseModel):
 
     @model_validator(mode='after')
     def cta_requires_url(self):
-        if self.CTA and not self.URL:
+        if hasattr(self, 'CTA') and self.CTA and not self.URL:
             raise ValueError("if 'CTA' is present, 'URL' must be present too")
         return self
 
