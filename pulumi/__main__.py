@@ -15,6 +15,7 @@ certificate_arn = config.require("certificate_arn")
 notifications_file_path = config.require("notifications_file_path")  # ../stage/notifications.json
 schema_file_path = config.require("schema_file_path")
 cache_max_age = config.require_int("cache-max-age")  # Cache max age in seconds
+cf_proxy = config.require_bool("cloudflare_proxy") # Whether proxy is enabled
 
 name_prefix = pulumi.get_project() + "-" + pulumi.get_stack()
 
@@ -165,6 +166,7 @@ dns_record = cloudflare.Record(
     name=domain_name,
     type='CNAME',
     content=cloudfront_distribution.domain_name,
+    proxied=cf_proxy
 )
 
 # Export the CloudFront distribution URL (SSL-enabled)
