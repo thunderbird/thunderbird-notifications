@@ -9,39 +9,29 @@
     "CTA": "Download now",
     "severity": 3,
     "type": "blog",
-    "position": null,
     "targeting": {
       "percent_chance": 50.0,
       "exclude": [
         {
-          "displayed_notifications": [
-            "8b181d6d-9736-4563-a1f0-8172afa7648f"
-          ],
           "locales": [
             "fr",
             "it",
             "de",
-            "jp"
-          ],
-          "versions": null,
-          "channels": null,
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+            "ja"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "8b181d6d-9736-4563-a1f0-8172afa7648f"
+          ]
         }
       ],
       "include": [
         {
-          "displayed_notifications": null,
-          "locales": null,
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
@@ -51,44 +41,32 @@
     "start_at": "2024-12-09T00:00:00Z",
     "end_at": "2024-12-30T00:00:00Z",
     "title": "Thunderbird for Android",
-    "description": null,
     "URL": "https://play.google.com/store/apps/details?id=net.thunderbird.android&referrer=utm_campaign%3Ddec24_tfa_en%26utm_source%3Dbrowser_tab%26utm_content%3Dlink",
-    "CTA": null,
     "severity": 4,
     "type": "donation_tab",
-    "position": null,
     "targeting": {
       "percent_chance": 100.0,
       "exclude": [
         {
-          "displayed_notifications": [
-            "71a54b76-688e-43bf-bc8c-97e0c181ff56"
-          ],
           "locales": [
             "fr",
             "it",
             "de",
-            "jp"
-          ],
-          "versions": null,
-          "channels": null,
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+            "ja"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "71a54b76-688e-43bf-bc8c-97e0c181ff56"
+          ]
         }
       ],
       "include": [
         {
-          "displayed_notifications": null,
-          "locales": null,
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
@@ -103,24 +81,17 @@
     "CTA": "Téléchargez maintenant",
     "severity": 3,
     "type": "blog",
-    "position": null,
     "targeting": {
       "percent_chance": 100.0,
-      "exclude": null,
       "include": [
         {
-          "displayed_notifications": null,
           "locales": [
             "fr"
           ],
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
@@ -135,24 +106,17 @@
     "CTA": "Jetzt herunterladen",
     "severity": 3,
     "type": "blog",
-    "position": null,
     "targeting": {
       "percent_chance": 100.0,
-      "exclude": null,
       "include": [
         {
-          "displayed_notifications": null,
           "locales": [
             "de"
           ],
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
@@ -167,24 +131,17 @@
     "CTA": "Scarica adesso",
     "severity": 3,
     "type": "blog",
-    "position": null,
     "targeting": {
       "percent_chance": 100.0,
-      "exclude": null,
       "include": [
         {
-          "displayed_notifications": null,
           "locales": [
             "it"
           ],
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
@@ -195,28 +152,21 @@
     "end_at": "2024-12-30T00:00:00Z",
     "title": "Android向けThunderbird",
     "description": "ThunderbirdがAndroidでもご利用いただけるようになりました！Emailをどこにいてもご確認いただけます。モバイル端末でもプライバシーは保護されます。",
-    "URL": "https://play.google.com/store/apps/details?id=net.thunderbird.android&referrer=utm_campaign%3Ddec24_tfa_jp%26utm_source%3Din-app%26utm_content%3Dlink",
+    "URL": "https://play.google.com/store/apps/details?id=net.thunderbird.android&referrer=utm_campaign%3Ddec24_tfa_ja%26utm_source%3Din-app%26utm_content%3Dlink",
     "CTA": "今すぐダウンロード",
     "severity": 3,
     "type": "blog",
-    "position": null,
     "targeting": {
       "percent_chance": 100.0,
-      "exclude": null,
       "include": [
         {
-          "displayed_notifications": null,
           "locales": [
-            "jp"
+            "ja"
           ],
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
@@ -231,40 +181,34 @@
     "CTA": "Learn more",
     "severity": 1,
     "type": "blog",
-    "position": null,
     "targeting": {
       "percent_chance": 33.0,
       "exclude": [
         {
-          "displayed_notifications": [
-            "6bfd276a-b95b-4de2-8848-7e40a1e08cd6",
-            "a1bc6a12-4bb5-4825-8b45-e4a691c38e10"
-          ],
           "locales": [
             "fr",
             "it",
             "de",
-            "jp"
-          ],
-          "versions": null,
-          "channels": null,
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+            "ja"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "6bfd276a-b95b-4de2-8848-7e40a1e08cd6"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "a1bc6a12-4bb5-4825-8b45-e4a691c38e10"
+          ]
         }
       ],
       "include": [
         {
-          "displayed_notifications": null,
-          "locales": null,
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
@@ -279,40 +223,34 @@
     "CTA": "Learn more",
     "severity": 2,
     "type": "blog",
-    "position": null,
     "targeting": {
       "percent_chance": 50.0,
       "exclude": [
         {
-          "displayed_notifications": [
-            "54d2196f-5487-4e2e-8bcc-c77b5893c499",
-            "a1bc6a12-4bb5-4825-8b45-e4a691c38e10"
-          ],
           "locales": [
             "fr",
             "it",
             "de",
-            "jp"
-          ],
-          "versions": null,
-          "channels": null,
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+            "ja"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "54d2196f-5487-4e2e-8bcc-c77b5893c499"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "a1bc6a12-4bb5-4825-8b45-e4a691c38e10"
+          ]
         }
       ],
       "include": [
         {
-          "displayed_notifications": null,
-          "locales": null,
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
@@ -322,45 +260,37 @@
     "start_at": "2024-12-02T00:00:00Z",
     "end_at": "2024-12-14T00:00:00Z",
     "title": "Introducing Notifications",
-    "description": null,
     "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=browser_tab&utm_content=en",
-    "CTA": null,
     "severity": 3,
     "type": "donation_tab",
-    "position": null,
     "targeting": {
       "percent_chance": 100.0,
       "exclude": [
         {
-          "displayed_notifications": [
-            "54d2196f-5487-4e2e-8bcc-c77b5893c499",
-            "6bfd276a-b95b-4de2-8848-7e40a1e08cd6"
-          ],
           "locales": [
             "fr",
             "it",
             "de",
-            "jp"
-          ],
-          "versions": null,
-          "channels": null,
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+            "ja"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "6bfd276a-b95b-4de2-8848-7e40a1e08cd6"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "54d2196f-5487-4e2e-8bcc-c77b5893c499"
+          ]
         }
       ],
       "include": [
         {
-          "displayed_notifications": null,
-          "locales": null,
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
@@ -375,24 +305,17 @@
     "CTA": "En savoir plus",
     "severity": 3,
     "type": "blog",
-    "position": null,
     "targeting": {
       "percent_chance": 100.0,
-      "exclude": null,
       "include": [
         {
-          "displayed_notifications": null,
           "locales": [
             "fr"
           ],
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
@@ -407,24 +330,17 @@
     "CTA": "Mehr erfahren",
     "severity": 3,
     "type": "blog",
-    "position": null,
     "targeting": {
       "percent_chance": 100.0,
-      "exclude": null,
       "include": [
         {
-          "displayed_notifications": null,
           "locales": [
             "de"
           ],
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
@@ -439,24 +355,17 @@
     "CTA": "Ulteriori informazioni",
     "severity": 3,
     "type": "blog",
-    "position": null,
     "targeting": {
       "percent_chance": 100.0,
-      "exclude": null,
       "include": [
         {
-          "displayed_notifications": null,
           "locales": [
             "it"
           ],
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
@@ -467,28 +376,21 @@
     "end_at": "2024-12-14T00:00:00Z",
     "title": "通知のご紹介",
     "description": "Thunderbirdの新しい通知システムへようこそ。ここでは、重要なアップデートや、セキュリティの警告、当社を最大限に活用していただけるお役立ち情報などをお届けします。",
-    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=jp",
+    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=ja",
     "CTA": "もっと詳しく",
     "severity": 3,
     "type": "blog",
-    "position": null,
     "targeting": {
       "percent_chance": 100.0,
-      "exclude": null,
       "include": [
         {
-          "displayed_notifications": null,
           "locales": [
-            "jp"
+            "ja"
           ],
-          "versions": null,
           "channels": [
             "nightly",
             "beta"
-          ],
-          "operating_systems": null,
-          "pref_false": null,
-          "pref_true": null
+          ]
         }
       ]
     }
