@@ -21,7 +21,7 @@
   title: Thunderbird for Android
   severity: 4
   type: donation_tab
-  URL: https://play.google.com/store/apps/details?id=net.thunderbird.android&referrer=utm_campaign%3Ddec24_tfa_en%26utm_source%3Dbrowser_tab%26utm_content%3Dlink
+  URL: https://www.thunderbird.net/mobile/&referrer=utm_campaign%3Ddec24_tfa_en%26utm_source%3Dbrowser_tab%26utm_content%3Dlink
   targeting:
     exclude:
       - { locales: [fr, it, de, ja] }
