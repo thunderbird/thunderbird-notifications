@@ -41,7 +41,7 @@
     "start_at": "2024-12-09T00:00:00Z",
     "end_at": "2024-12-30T00:00:00Z",
     "title": "Thunderbird for Android",
-    "URL": "https://www.thunderbird.net/mobile/&referrer=utm_campaign%3Ddec24_tfa_en%26utm_source%3Dbrowser_tab%26utm_content%3Dlink",
+    "URL": "https://www.thunderbird.net/mobile/?referrer=utm_campaign%3Ddec24_tfa_en%26utm_source%3Dbrowser_tab%26utm_content%3Dlink",
     "severity": 4,
     "type": "donation_tab",
     "targeting": {
