@@ -53,5 +53,5 @@ jobs:
 
       - name: Save state
         id: save_state
-        if: steps.validate_json.conclusion == 'success'
+        if: ${{ success() }}
         run: echo "is_valid=true" >> $GITHUB_OUTPUT
