@@ -1,7 +1,4 @@
-annotated-types==0.7.0
-pydantic==2.7.3
-pydantic_core==2.18.4
-PyYAML==6.0.1
-typing_extensions==4.12.1
-check-jsonschema==0.29.3
-ruff==0.6.8
+pydantic==2.10.3
+PyYAML==6.0.2
+check-jsonschema==0.30.0
+ruff==0.8.3
