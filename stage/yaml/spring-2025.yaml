@@ -1,11 +1,11 @@
 - id: Spring25-Welcome-EN
   start_at: 2024-04-01T00:00:00.000Z
   end_at: 2024-04-15T00:00:00.000Z
-  title: Introducing Notifications
+  title: "Introducing Notifications"
   severity: 1
   type: message
-  description: Welcome to Thunderbird’s new notification system! We’ll use this space to share important updates, security alerts, and helpful tips to help you get the most out of Thunderbird.
-  CTA: Learn more
+  description: "Welcome to Thunderbird’s new notification system! We’ll use this space to share important updates, security alerts, and helpful tips to help you get the most out of Thunderbird."
+  CTA: "Learn more"
   URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=Spring25_welcome&utm_medium=desktop&utm_source=in_app&utm_content=en
   targeting:
     include:
@@ -16,11 +16,11 @@
 - id: Spring25-Welcome-DE
   start_at: 2024-04-01T00:00:00.000Z
   end_at: 2024-04-15T00:00:00.000Z
-  title: Wir stellen vor: Benachrichtigungen
+  title: "Wir stellen vor: Benachrichtigungen"
   severity: 1
   type: message
-  description: Willkommen im neuen Benachrichtigungssystem von Thunderbird. Hier halten wir dich über wichtige Updates, Sicherheitswarnungen und praktische Tipps auf dem Laufenden, damit du das Beste aus Thunderbird herausholen kannst.
-  CTA: Mehr erfahren
+  description: "Willkommen im neuen Benachrichtigungssystem von Thunderbird. Hier halten wir dich über wichtige Updates, Sicherheitswarnungen und praktische Tipps auf dem Laufenden, damit du das Beste aus Thunderbird herausholen kannst."
+  CTA: "Mehr erfahren"
   URL: https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=Spring25_welcome&utm_medium=desktop&utm_source=in_app&utm_content=de
   targeting:
     include:
@@ -31,11 +31,11 @@
 - id: Spring25-Test-EN
   start_at: 2024-04-15T00:00:00.000Z
   end_at: 2024-04-30T00:00:00.000Z
-  title: Help Keep Thunderbird Alive
+  title: "Help Keep Thunderbird Alive"
   severity: 3
   type: donation
-  description: If you get value from using Thunderbird, please help support it. All of the work we do is funded by less than 3% of our users. We can’t do this without you.
-  CTA: Click here to donate
+  description: "If you get value from using Thunderbird, please help support it. All of the work we do is funded by less than 3% of our users. We can’t do this without you."
+  CTA: "Click here to donate"
   URL: https://updates.thunderbird.net/thunderbird/128.0/apr25/donate/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=en
   targeting:
     include:
@@ -46,11 +46,11 @@
 - id: Spring25-Test-DE
   start_at: 2024-04-15T00:00:00.000Z
   end_at: 2024-04-30T00:00:00.000Z
-  title: Helfen Sie mit, Thunderbird am Leben zu erhalten
+  title: "Helfen Sie mit, Thunderbird am Leben zu erhalten"
   severity: 3
   type: donation
-  description: Wenn du einen persönlichen Nutzen aus Thunderbird ziehst, freuen wir uns über deine Unterstützung. Weniger als 3 % unserer NutzerInnen tragen die Kosten für das Projekt. Auch dein Beitrag macht einen Unterschied.
-  CTA: Klicke hier, um zu spenden
+  description: "Wenn du einen persönlichen Nutzen aus Thunderbird ziehst, freuen wir uns über deine Unterstützung. Weniger als 3 % unserer NutzerInnen tragen die Kosten für das Projekt. Auch dein Beitrag macht einen Unterschied."
+  CTA: "Klicke hier, um zu spenden"
   URL: https://updates.thunderbird.net/thunderbird/128.0/apr25/donate/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=de
   targeting:
     include:
@@ -61,10 +61,11 @@
 - id: Spring25
   start_at: 2024-04-01T00:00:00.000Z
   end_at: 2024-04-30T00:00:00.000Z
-  title:
+  title: ""
   severity: 3
   type: donation_tab
-  description:
+  description: ""
+  CTA: ""
   URL: https://updates.thunderbird.net/thunderbird/128.0/apr25/donate/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=new-tab&utm_content=%LOCALE%
   targeting:
     exclude:
