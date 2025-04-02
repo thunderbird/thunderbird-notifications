@@ -83,7 +83,7 @@ class Targeting(CustomBaseModel):
 
 
 class Notification(CustomBaseModel):
-    id: UUID = Field(..., description='Unique ID set by the server.')
+    id: str = Field(..., description='Unique ID set by the server.')
     start_at: datetime = Field(
         ..., description='UTC Timestamp after which Thunderbird will show the event after startup.'
     )

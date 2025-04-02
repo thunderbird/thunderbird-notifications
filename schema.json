@@ -15,7 +15,6 @@
       "properties": {
         "id": {
           "description": "Unique ID set by the server.",
-          "format": "uuid",
           "title": "Id",
           "type": "string"
         },
@@ -37,6 +36,7 @@
           "type": "string"
         },
         "description": {
+          "default": null,
           "description": "A short paragraph that can contain HTML and will be displayed in the Thunderbird UI.",
           "title": "Description",
           "type": "string"
@@ -112,7 +112,6 @@
         "start_at",
         "end_at",
         "title",
-        "description",
         "severity",
         "type",
         "targeting"
