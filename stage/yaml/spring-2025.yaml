@@ -40,7 +40,7 @@
   targeting:
     include:
       - {
-          locales: [en],
+          locales: [en-CA, en-GB, en-US],
           channels: [esr, release],
           displayed_notifications: [Spring25-Welcome-EN],
         }
