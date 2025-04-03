@@ -1,6 +1,6 @@
 - id: Spring25-Welcome-EN
-  start_at: 2024-04-01T00:00:00.000Z
-  end_at: 2024-04-15T00:00:00.000Z
+  start_at: 2025-04-01T00:00:00.000Z
+  end_at: 2025-04-15T00:00:00.000Z
   title: "Introducing Notifications"
   severity: 1
   type: message
@@ -14,8 +14,8 @@
       - { displayed_notifications: [PREBAKED-Spring25] }
     percent_chance: 2
 - id: Spring25-Welcome-DE
-  start_at: 2024-04-01T00:00:00.000Z
-  end_at: 2024-04-15T00:00:00.000Z
+  start_at: 2025-04-01T00:00:00.000Z
+  end_at: 2025-04-15T00:00:00.000Z
   title: "Wir stellen vor: Benachrichtigungen"
   severity: 1
   type: message
@@ -29,8 +29,8 @@
       - { displayed_notifications: [PREBAKED-Spring25] }
     percent_chance: 2
 - id: Spring25-Test-EN
-  start_at: 2024-04-15T00:00:00.000Z
-  end_at: 2024-04-30T00:00:00.000Z
+  start_at: 2025-04-15T00:00:00.000Z
+  end_at: 2025-04-30T00:00:00.000Z
   title: "Help Keep Thunderbird Alive"
   severity: 3
   type: donation
@@ -48,8 +48,8 @@
       - { displayed_notifications: [PREBAKED-Spring25] }
     percent_chance: 100
 - id: Spring25-Test-DE
-  start_at: 2024-04-15T00:00:00.000Z
-  end_at: 2024-04-30T00:00:00.000Z
+  start_at: 2025-04-15T00:00:00.000Z
+  end_at: 2025-04-30T00:00:00.000Z
   title: "Helfen Sie mit, Thunderbird am Leben zu erhalten"
   severity: 3
   type: donation
@@ -67,7 +67,7 @@
       - { displayed_notifications: [PREBAKED-Spring25] }
     percent_chance: 100
 - id: Spring25
-  start_at: 2024-04-01T00:00:00.000Z
+  start_at: 2025-04-01T00:00:00.000Z
   end_at: 2025-06-30T23:59:59.000Z
   title: ""
   severity: 3
