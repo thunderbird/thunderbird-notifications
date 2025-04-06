@@ -36,7 +36,7 @@
   type: donation
   description: "If you get value from using Thunderbird, please help support it. All of the work we do is funded by less than 3% of our users. We can’t do this without you."
   CTA: "Click here to donate"
-  URL: https://updates.thunderbird.net/thunderbird/128.0/apr25/donate/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=en
+  URL: https://updates.thunderbird.net/thunderbird/128.0/apr25/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=en
   targeting:
     include:
       - {
@@ -55,7 +55,7 @@
   type: donation
   description: "Wenn du einen persönlichen Nutzen aus Thunderbird ziehst, freuen wir uns über deine Unterstützung. Weniger als 3 % unserer NutzerInnen tragen die Kosten für das Projekt. Auch dein Beitrag macht einen Unterschied."
   CTA: "Klicke hier, um zu spenden"
-  URL: https://updates.thunderbird.net/thunderbird/128.0/apr25/donate/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=de
+  URL: https://updates.thunderbird.net/thunderbird/128.0/apr25/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=de
   targeting:
     include:
       - {
@@ -74,7 +74,7 @@
   type: donation_tab
   description: ""
   CTA: ""
-  URL: https://updates.thunderbird.net/thunderbird/128.0/apr25/donate/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=new-tab&utm_content=%LOCALE%
+  URL: https://updates.thunderbird.net/thunderbird/128.0/apr25/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=new-tab&utm_content=%LOCALE%
   targeting:
     exclude:
       - {
