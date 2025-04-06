@@ -1,395 +1,160 @@
 [
   {
-    "id": "71a54b76-688e-43bf-bc8c-97e0c181ff56",
-    "start_at": "2024-12-09T00:00:00Z",
-    "end_at": "2024-12-30T00:00:00Z",
-    "title": "Thunderbird for Android",
-    "description": "Thunderbird is now available for Android! Stay connected on the go and bring the same privacy focused email experience to your mobile device.",
-    "URL": "https://play.google.com/store/apps/details?id=net.thunderbird.android&referrer=utm_campaign%3Ddec24_tfa_en%26utm_source%3Din-app%26utm_content%3Dlink",
-    "CTA": "Download now",
-    "severity": 3,
-    "type": "blog",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
-          "locales": [
-            "fr",
-            "it",
-            "de",
-            "ja"
-          ]
-        },
-        {
-          "displayed_notifications": [
-            "8b181d6d-9736-4563-a1f0-8172afa7648f"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "channels": [
-            "nightly",
-            "beta"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "8b181d6d-9736-4563-a1f0-8172afa7648f",
-    "start_at": "2024-12-09T00:00:00Z",
-    "end_at": "2024-12-30T00:00:00Z",
-    "title": "Thunderbird for Android",
-    "URL": "https://www.thunderbird.net/mobile/?referrer=utm_campaign%3Ddec24_tfa_en%26utm_source%3Dbrowser_tab%26utm_content%3Dlink",
-    "severity": 4,
-    "type": "donation_tab",
-    "targeting": {
-      "percent_chance": 100.0,
-      "exclude": [
-        {
-          "locales": [
-            "fr",
-            "it",
-            "de",
-            "ja"
-          ]
-        },
-        {
-          "displayed_notifications": [
-            "71a54b76-688e-43bf-bc8c-97e0c181ff56"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "channels": [
-            "nightly",
-            "beta"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "b4e14260-2753-472a-b21e-e669ada17e81",
-    "start_at": "2024-12-09T00:00:00Z",
-    "end_at": "2024-12-30T00:00:00Z",
-    "title": "Thunderbird pour Android",
-    "description": "Thunderbird est maintenant disponible sur Android ! Restez connecté où que vous soyez, et profitez de la même expérience email privée et sécurisée sur votre appareil mobile.",
-    "URL": "https://play.google.com/store/apps/details?id=net.thunderbird.android&referrer=utm_campaign%3Ddec24_tfa_fr%26utm_source%3Din-app%26utm_content%3Dlink",
-    "CTA": "Téléchargez maintenant",
-    "severity": 3,
-    "type": "blog",
-    "targeting": {
-      "percent_chance": 100.0,
-      "include": [
-        {
-          "locales": [
-            "fr"
-          ],
-          "channels": [
-            "nightly",
-            "beta"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "ae225d95-27b2-4494-83d6-98ece9fbdba8",
-    "start_at": "2024-12-09T00:00:00Z",
-    "end_at": "2024-12-30T00:00:00Z",
-    "title": "Thunderbird für Android",
-    "description": "Thunderbird ist jetzt auf Android verfügbar! Bleibe unterwegs verbunden und behalte deine Privatsphäre im Griff.",
-    "URL": "https://play.google.com/store/apps/details?id=net.thunderbird.android&referrer=utm_campaign%3Ddec24_tfa_de%26utm_source%3Din-app%26utm_content%3Dlink",
-    "CTA": "Jetzt herunterladen",
-    "severity": 3,
-    "type": "blog",
-    "targeting": {
-      "percent_chance": 100.0,
-      "include": [
-        {
-          "locales": [
-            "de"
-          ],
-          "channels": [
-            "nightly",
-            "beta"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "7e6d8442-5670-4bf9-9d6c-095dca418f35",
-    "start_at": "2024-12-09T00:00:00Z",
-    "end_at": "2024-12-30T00:00:00Z",
-    "title": "Thunderbird per Android",
-    "description": "Thunderbird è finalmente disponibile per Android! Accedi ai tuoi messaggi di posta elettronica ovunque ti trovi e mantieni la stessa esperienza incentrata sulla privacy sul tuo dispositivo mobile.",
-    "URL": "https://play.google.com/store/apps/details?id=net.thunderbird.android&referrer=utm_campaign%3Ddec24_tfa_it%26utm_source%3Din-app%26utm_content%3Dlink",
-    "CTA": "Scarica adesso",
-    "severity": 3,
-    "type": "blog",
-    "targeting": {
-      "percent_chance": 100.0,
-      "include": [
-        {
-          "locales": [
-            "it"
-          ],
-          "channels": [
-            "nightly",
-            "beta"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "63ccad9f-4012-4aaa-9f6b-0e5ba1c99d2e",
-    "start_at": "2024-12-09T00:00:00Z",
-    "end_at": "2024-12-30T00:00:00Z",
-    "title": "Android向けThunderbird",
-    "description": "ThunderbirdがAndroidでもご利用いただけるようになりました！Emailをどこにいてもご確認いただけます。モバイル端末でもプライバシーは保護されます。",
-    "URL": "https://play.google.com/store/apps/details?id=net.thunderbird.android&referrer=utm_campaign%3Ddec24_tfa_ja%26utm_source%3Din-app%26utm_content%3Dlink",
-    "CTA": "今すぐダウンロード",
-    "severity": 3,
-    "type": "blog",
-    "targeting": {
-      "percent_chance": 100.0,
-      "include": [
-        {
-          "locales": [
-            "ja"
-          ],
-          "channels": [
-            "nightly",
-            "beta"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "54d2196f-5487-4e2e-8bcc-c77b5893c499",
-    "start_at": "2024-12-02T00:00:00Z",
-    "end_at": "2024-12-14T00:00:00Z",
+    "id": "Spring25-Welcome-EN",
+    "start_at": "2025-04-01T00:00:00Z",
+    "end_at": "2025-04-15T00:00:00Z",
     "title": "Introducing Notifications",
     "description": "Welcome to Thunderbird’s new notification system! We’ll use this space to share important updates, security alerts, and helpful tips to help you get the most out of Thunderbird.",
-    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=en_test-a",
+    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=Spring25_welcome&utm_medium=desktop&utm_source=in_app&utm_content=en",
     "CTA": "Learn more",
     "severity": 1,
-    "type": "blog",
+    "type": "message",
     "targeting": {
-      "percent_chance": 33.0,
+      "percent_chance": 2.0,
       "exclude": [
         {
-          "locales": [
-            "fr",
-            "it",
-            "de",
-            "ja"
-          ]
-        },
-        {
           "displayed_notifications": [
-            "6bfd276a-b95b-4de2-8848-7e40a1e08cd6"
-          ]
-        },
-        {
-          "displayed_notifications": [
-            "a1bc6a12-4bb5-4825-8b45-e4a691c38e10"
+            "PREBAKED-Spring25"
           ]
         }
       ],
       "include": [
         {
-          "channels": [
-            "nightly",
-            "beta"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "6bfd276a-b95b-4de2-8848-7e40a1e08cd6",
-    "start_at": "2024-12-02T00:00:00Z",
-    "end_at": "2024-12-14T00:00:00Z",
-    "title": "Introducing Notifications",
-    "description": "Welcome to Thunderbird’s new notification system! We’ll use this space to share important updates, security alerts, and helpful tips to help you get the most out of Thunderbird.",
-    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=en_test-b",
-    "CTA": "Learn more",
-    "severity": 2,
-    "type": "blog",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
           "locales": [
-            "fr",
-            "it",
-            "de",
-            "ja"
-          ]
-        },
-        {
-          "displayed_notifications": [
-            "54d2196f-5487-4e2e-8bcc-c77b5893c499"
-          ]
-        },
-        {
-          "displayed_notifications": [
-            "a1bc6a12-4bb5-4825-8b45-e4a691c38e10"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "channels": [
-            "nightly",
-            "beta"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "a1bc6a12-4bb5-4825-8b45-e4a691c38e10",
-    "start_at": "2024-12-02T00:00:00Z",
-    "end_at": "2024-12-14T00:00:00Z",
-    "title": "Introducing Notifications",
-    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=browser_tab&utm_content=en",
-    "severity": 3,
-    "type": "donation_tab",
-    "targeting": {
-      "percent_chance": 100.0,
-      "exclude": [
-        {
-          "locales": [
-            "fr",
-            "it",
-            "de",
-            "ja"
-          ]
-        },
-        {
-          "displayed_notifications": [
-            "6bfd276a-b95b-4de2-8848-7e40a1e08cd6"
-          ]
-        },
-        {
-          "displayed_notifications": [
-            "54d2196f-5487-4e2e-8bcc-c77b5893c499"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "channels": [
-            "nightly",
-            "beta"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "ac052c68-ebda-4f86-83f5-9d9d20f11b37",
-    "start_at": "2024-12-02T00:00:00Z",
-    "end_at": "2024-12-14T00:00:00Z",
-    "title": "Découvrez : Notifications",
-    "description": "Bienvenue dans le nouveau système de notifications de Thunderbird ! Nous utiliserons cet espace pour partager des informations importantes à propos de mises à jour, alertes de sécurité, et astuces utiles pour vous aider à profiter pleinement de Thunderbird.",
-    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=fr",
-    "CTA": "En savoir plus",
-    "severity": 3,
-    "type": "blog",
-    "targeting": {
-      "percent_chance": 100.0,
-      "include": [
-        {
-          "locales": [
-            "fr"
+            "en-CA",
+            "en-GB",
+            "en-US"
           ],
           "channels": [
-            "nightly",
-            "beta"
+            "esr",
+            "release"
           ]
         }
       ]
     }
   },
   {
-    "id": "a564aa3a-f151-4de0-a7ae-4892b83ebf3d",
-    "start_at": "2024-12-02T00:00:00Z",
-    "end_at": "2024-12-14T00:00:00Z",
+    "id": "Spring25-Welcome-DE",
+    "start_at": "2025-04-01T00:00:00Z",
+    "end_at": "2025-04-15T00:00:00Z",
     "title": "Wir stellen vor: Benachrichtigungen",
     "description": "Willkommen im neuen Benachrichtigungssystem von Thunderbird. Hier halten wir dich über wichtige Updates, Sicherheitswarnungen und praktische Tipps auf dem Laufenden, damit du das Beste aus Thunderbird herausholen kannst.",
-    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=de",
+    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=Spring25_welcome&utm_medium=desktop&utm_source=in_app&utm_content=de",
     "CTA": "Mehr erfahren",
-    "severity": 3,
-    "type": "blog",
+    "severity": 1,
+    "type": "message",
     "targeting": {
-      "percent_chance": 100.0,
+      "percent_chance": 2.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "PREBAKED-Spring25"
+          ]
+        }
+      ],
       "include": [
         {
           "locales": [
             "de"
           ],
           "channels": [
-            "nightly",
-            "beta"
+            "esr",
+            "release"
           ]
         }
       ]
     }
   },
   {
-    "id": "00d29833-659c-4050-8cc3-e60f74dd3545",
-    "start_at": "2024-12-02T00:00:00Z",
-    "end_at": "2024-12-14T00:00:00Z",
-    "title": "Introduzione alle Notifiche",
-    "description": "Benvenuti nel nuovo sistema di notifiche di Thunderbird. Questo spazio sarà utilizzato per condividere aggiornamenti importanti, avvisi di sicurezza, e consigli utili per aiutarti a sfruttare al meglio Thunderbird.",
-    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=it",
-    "CTA": "Ulteriori informazioni",
+    "id": "Spring25-Test-EN",
+    "start_at": "2025-04-15T00:00:00Z",
+    "end_at": "2025-04-30T00:00:00Z",
+    "title": "Help Keep Thunderbird Alive",
+    "description": "If you get value from using Thunderbird, please help support it. All of the work we do is funded by less than 3% of our users. We can’t do this without you.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/apr25/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=en",
+    "CTA": "Click here to donate",
     "severity": 3,
-    "type": "blog",
+    "type": "donation",
     "targeting": {
       "percent_chance": 100.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "PREBAKED-Spring25"
+          ]
+        }
+      ],
       "include": [
         {
+          "displayed_notifications": [
+            "Spring25-Welcome-EN"
+          ],
           "locales": [
-            "it"
+            "en-CA",
+            "en-GB",
+            "en-US"
           ],
           "channels": [
-            "nightly",
-            "beta"
+            "esr",
+            "release"
           ]
         }
       ]
     }
   },
   {
-    "id": "f4ea345e-085c-46d8-b4fa-a31e62a9bdfd",
-    "start_at": "2024-12-02T00:00:00Z",
-    "end_at": "2024-12-14T00:00:00Z",
-    "title": "通知のご紹介",
-    "description": "Thunderbirdの新しい通知システムへようこそ。ここでは、重要なアップデートや、セキュリティの警告、当社を最大限に活用していただけるお役立ち情報などをお届けします。",
-    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=nov24_welcome&utm_medium=desktop&utm_source=in_app&utm_content=ja",
-    "CTA": "もっと詳しく",
+    "id": "Spring25-Test-DE",
+    "start_at": "2025-04-15T00:00:00Z",
+    "end_at": "2025-04-30T00:00:00Z",
+    "title": "Helfen Sie mit, Thunderbird am Leben zu erhalten",
+    "description": "Wenn du einen persönlichen Nutzen aus Thunderbird ziehst, freuen wir uns über deine Unterstützung. Weniger als 3 % unserer NutzerInnen tragen die Kosten für das Projekt. Auch dein Beitrag macht einen Unterschied.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/apr25/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=de",
+    "CTA": "Klicke hier, um zu spenden",
     "severity": 3,
-    "type": "blog",
+    "type": "donation",
     "targeting": {
       "percent_chance": 100.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "PREBAKED-Spring25"
+          ]
+        }
+      ],
       "include": [
         {
+          "displayed_notifications": [
+            "Spring25-Welcome-DE"
+          ],
           "locales": [
-            "ja"
+            "de"
           ],
           "channels": [
-            "nightly",
-            "beta"
+            "esr",
+            "release"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Spring25",
+    "start_at": "2025-04-01T00:00:00Z",
+    "end_at": "2025-06-30T23:59:59Z",
+    "title": "",
+    "description": "",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/apr25/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=new-tab&utm_content=%LOCALE%",
+    "CTA": "",
+    "severity": 3,
+    "type": "donation_tab",
+    "targeting": {
+      "percent_chance": 100.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "PREBAKED-Spring25",
+            "Spring25-Welcome-EN",
+            "Spring25-Welcome-DE"
           ]
         }
       ]
