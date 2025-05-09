@@ -160,13 +160,15 @@ cloudfront_distribution = aws.cloudfront.Distribution(
 )
 
 # Create a Cloudflare DNS entry pointing to the CloudFront distribution
+# Docs: https://www.pulumi.com/registry/packages/cloudflare/api-docs/record/
 dns_record = cloudflare.Record(
     'notifications_dns_record',
     zone_id=zone_id,
     name=domain_name,
     type='CNAME',
     content=cloudfront_distribution.domain_name,
-    proxied=cf_proxy
+    proxied=cf_proxy,
+    ttl=1  # 1 == automatic according to documentation
 )
 
 # Export the CloudFront distribution URL (SSL-enabled)
