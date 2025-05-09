@@ -1,7 +1,7 @@
 [
   {
     "id": "Monthly-Release-May25-EN",
-    "start_at": "2025-05-15T00:00:00Z",
+    "start_at": "2025-05-09T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Upgrade to Thunderbird Release",
     "description": "Get monthly updates with new features and improvements in the new Thunderbird Release.",
@@ -44,7 +44,7 @@
   },
   {
     "id": "Monthly-Release-May25-DE",
-    "start_at": "2025-05-15T00:00:00Z",
+    "start_at": "2025-05-09T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Upgrade auf Thunderbird Release",
     "description": "Mit Thunderbird Release gibt es monatlich neue Funktionen und Verbesserungen.",
@@ -85,7 +85,7 @@
   },
   {
     "id": "Monthly-Release-May25-IT",
-    "start_at": "2025-05-15T00:00:00Z",
+    "start_at": "2025-05-09T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Passa a Thunderbird Release",
     "description": "Con Thunderbird Release ricevi ogni mese nuove funzionalità e miglioramenti.",
@@ -126,7 +126,7 @@
   },
   {
     "id": "Monthly-Release-May25-JP",
-    "start_at": "2025-05-15T00:00:00Z",
+    "start_at": "2025-05-09T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Thunderbird Release にアップグレード",
     "description": "Thunderbird Release では毎月、新機能や改善が提供されます。",
@@ -167,7 +167,7 @@
   },
   {
     "id": "Monthly-Release-May25-FR",
-    "start_at": "2025-05-15T00:00:00Z",
+    "start_at": "2025-05-09T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Passez à Thunderbird Release",
     "description": "Recevez chaque mois de nouvelles fonctionnalités et améliorations avec Thunderbird Release.",
@@ -208,7 +208,7 @@
   },
   {
     "id": "Monthly-Release-May25-PL",
-    "start_at": "2025-05-15T00:00:00Z",
+    "start_at": "2025-05-09T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Przejdź na Thunderbird Release",
     "description": "Z Thunderbird Release co miesiąc otrzymujesz nowe funkcje i ulepszenia.",
@@ -249,7 +249,7 @@
   },
   {
     "id": "Monthly-Release-May25-PT-BR",
-    "start_at": "2025-05-15T00:00:00Z",
+    "start_at": "2025-05-09T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Atualize para o Thunderbird Release",
     "description": "Com o Thunderbird Release, você recebe novos recursos e melhorias todo mês.",
@@ -290,7 +290,7 @@
   },
   {
     "id": "Monthly-Release-May25-ES",
-    "start_at": "2025-05-15T00:00:00Z",
+    "start_at": "2025-05-09T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Actualiza a Thunderbird Release",
     "description": "Con Thunderbird Release, recibirás nuevas funciones y mejoras cada mes.",
@@ -331,7 +331,7 @@
   },
   {
     "id": "Monthly-Release-May25-NL",
-    "start_at": "2025-05-15T00:00:00Z",
+    "start_at": "2025-05-09T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Upgrade naar Thunderbird Release",
     "description": "Met Thunderbird Release ontvang je elke maand nieuwe functies en verbeteringen.",
@@ -372,7 +372,7 @@
   },
   {
     "id": "Monthly-Release-May25-RU",
-    "start_at": "2025-05-15T00:00:00Z",
+    "start_at": "2025-05-09T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Обновитесь до Thunderbird Release",
     "description": "С Thunderbird Release вы получаете новые функции и улучшения каждый месяц.",
