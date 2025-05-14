@@ -5,7 +5,7 @@
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Upgrade to Thunderbird Release",
     "description": "Get monthly updates with new features and improvements in the new Thunderbird Release.",
-    "URL": "https://support.mozilla.org/kb/choosing-thunderbird-release-channel",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
     "CTA": "Learn more",
     "severity": 3,
     "type": "message",
@@ -48,7 +48,7 @@
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Upgrade auf Thunderbird Release",
     "description": "Mit Thunderbird Release gibt es monatlich neue Funktionen und Verbesserungen.",
-    "URL": "https://support.mozilla.org/kb/choosing-thunderbird-release-channel",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
     "CTA": "Mehr erfahren",
     "severity": 3,
     "type": "message",
@@ -89,7 +89,7 @@
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Passa a Thunderbird Release",
     "description": "Con Thunderbird Release ricevi ogni mese nuove funzionalità e miglioramenti.",
-    "URL": "https://support.mozilla.org/kb/choosing-thunderbird-release-channel",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
     "CTA": "Scopri di più",
     "severity": 3,
     "type": "message",
@@ -125,12 +125,12 @@
     }
   },
   {
-    "id": "Monthly-Release-May25-JP",
+    "id": "Monthly-Release-May25-JA",
     "start_at": "2025-05-09T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Thunderbird Release にアップグレード",
     "description": "Thunderbird Release では毎月、新機能や改善が提供されます。",
-    "URL": "https://support.mozilla.org/kb/choosing-thunderbird-release-channel",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
     "CTA": "詳細はこちら",
     "severity": 3,
     "type": "message",
@@ -146,7 +146,8 @@
       "include": [
         {
           "locales": [
-            "jp"
+            "ja",
+            "ja-JP-mac"
           ],
           "versions": [
             "128.10.1",
@@ -171,7 +172,7 @@
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Passez à Thunderbird Release",
     "description": "Recevez chaque mois de nouvelles fonctionnalités et améliorations avec Thunderbird Release.",
-    "URL": "https://support.mozilla.org/kb/choosing-thunderbird-release-channel",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
     "CTA": "En savoir plus",
     "severity": 3,
     "type": "message",
@@ -212,7 +213,7 @@
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Przejdź na Thunderbird Release",
     "description": "Z Thunderbird Release co miesiąc otrzymujesz nowe funkcje i ulepszenia.",
-    "URL": "https://support.mozilla.org/kb/choosing-thunderbird-release-channel",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
     "CTA": "Dowiedz się więcej",
     "severity": 3,
     "type": "message",
@@ -253,7 +254,7 @@
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Atualize para o Thunderbird Release",
     "description": "Com o Thunderbird Release, você recebe novos recursos e melhorias todo mês.",
-    "URL": "https://support.mozilla.org/kb/choosing-thunderbird-release-channel",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
     "CTA": "Saiba mais",
     "severity": 3,
     "type": "message",
@@ -294,7 +295,7 @@
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Actualiza a Thunderbird Release",
     "description": "Con Thunderbird Release, recibirás nuevas funciones y mejoras cada mes.",
-    "URL": "https://support.mozilla.org/kb/choosing-thunderbird-release-channel",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
     "CTA": "Más información",
     "severity": 3,
     "type": "message",
@@ -310,7 +311,9 @@
       "include": [
         {
           "locales": [
-            "es"
+            "es-AR",
+            "es-ES",
+            "es-MX"
           ],
           "versions": [
             "128.10.1",
@@ -335,7 +338,7 @@
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Upgrade naar Thunderbird Release",
     "description": "Met Thunderbird Release ontvang je elke maand nieuwe functies en verbeteringen.",
-    "URL": "https://support.mozilla.org/kb/choosing-thunderbird-release-channel",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
     "CTA": "Meer informatie",
     "severity": 3,
     "type": "message",
@@ -376,7 +379,7 @@
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Обновитесь до Thunderbird Release",
     "description": "С Thunderbird Release вы получаете новые функции и улучшения каждый месяц.",
-    "URL": "https://support.mozilla.org/kb/choosing-thunderbird-release-channel",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
     "CTA": "Узнать больше",
     "severity": 3,
     "type": "message",
