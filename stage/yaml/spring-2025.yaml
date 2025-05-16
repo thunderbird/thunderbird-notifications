@@ -77,8 +77,7 @@
   URL: https://updates.thunderbird.net/thunderbird/128.0/apr25/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=new-tab&utm_content=%LOCALE%
   targeting:
     exclude:
-      - {
-          displayed_notifications:
-            [PREBAKED-Spring25, Spring25-Welcome-EN, Spring25-Welcome-DE],
-        }
+      - { displayed_notifications: [PREBAKED-Spring25] }
+      - { displayed_notifications: [Spring25-Welcome-EN] }
+      - { displayed_notifications: [Spring25-Welcome-DE] }
     percent_chance: 100
