@@ -1,5 +1,5 @@
 - id: Monthly-Release-May25-EN
-  start_at: 2025-05-20T00:00:00.000Z
+  start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
   title: "Upgrade to Thunderbird Release"
   severity: 3
@@ -19,7 +19,7 @@
       - { pref_true: [browser.policies.applied] }
     percent_chance: 25
 - id: Monthly-Release-May25-DE
-  start_at: 2025-05-20T00:00:00.000Z
+  start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
   title: "Upgrade auf Thunderbird Release"
   severity: 3
@@ -39,7 +39,7 @@
       - { pref_true: [browser.policies.applied] }
     percent_chance: 25
 - id: Monthly-Release-May25-IT
-  start_at: 2025-05-20T00:00:00.000Z
+  start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
   title: "Passa a Thunderbird Release"
   severity: 3
@@ -59,7 +59,7 @@
       - { pref_true: [browser.policies.applied] }
     percent_chance: 25
 - id: Monthly-Release-May25-JA
-  start_at: 2025-05-20T00:00:00.000Z
+  start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
   title: "Thunderbird Release にアップグレード"
   severity: 3
@@ -79,7 +79,7 @@
       - { pref_true: [browser.policies.applied] }
     percent_chance: 25
 - id: Monthly-Release-May25-FR
-  start_at: 2025-05-20T00:00:00.000Z
+  start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
   title: "Passez à Thunderbird Release"
   severity: 3
@@ -99,7 +99,7 @@
       - { pref_true: [browser.policies.applied] }
     percent_chance: 25
 - id: Monthly-Release-May25-PL
-  start_at: 2025-05-20T00:00:00.000Z
+  start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
   title: "Przejdź na Thunderbird Release"
   severity: 3
@@ -119,7 +119,7 @@
       - { pref_true: [browser.policies.applied] }
     percent_chance: 25
 - id: Monthly-Release-May25-PT-BR
-  start_at: 2025-05-20T00:00:00.000Z
+  start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
   title: "Atualize para o Thunderbird Release"
   severity: 3
@@ -139,7 +139,7 @@
       - { pref_true: [browser.policies.applied] }
     percent_chance: 25
 - id: Monthly-Release-May25-ES
-  start_at: 2025-05-20T00:00:00.000Z
+  start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
   title: "Actualiza a Thunderbird Release"
   severity: 3
@@ -159,7 +159,7 @@
       - { pref_true: [browser.policies.applied] }
     percent_chance: 25
 - id: Monthly-Release-May25-NL
-  start_at: 2025-05-20T00:00:00.000Z
+  start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
   title: "Upgrade naar Thunderbird Release"
   severity: 3
@@ -179,7 +179,7 @@
       - { pref_true: [browser.policies.applied] }
     percent_chance: 25
 - id: Monthly-Release-May25-RU
-  start_at: 2025-05-20T00:00:00.000Z
+  start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
   title: "Обновитесь до Thunderbird Release"
   severity: 3
