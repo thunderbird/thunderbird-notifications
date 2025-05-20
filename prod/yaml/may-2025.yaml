@@ -17,7 +17,7 @@
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-DE
   start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -37,7 +37,7 @@
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-IT
   start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -57,7 +57,7 @@
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-JA
   start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -77,7 +77,7 @@
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-FR
   start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -97,7 +97,7 @@
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-PL
   start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -117,7 +117,7 @@
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-PT-BR
   start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -137,7 +137,7 @@
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-ES
   start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -157,7 +157,7 @@
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-NL
   start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -177,7 +177,7 @@
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-RU
   start_at: 2025-05-21T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -197,4 +197,4 @@
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
