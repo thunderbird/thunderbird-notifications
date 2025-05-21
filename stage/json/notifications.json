@@ -567,8 +567,16 @@
       "exclude": [
         {
           "displayed_notifications": [
-            "PREBAKED-Spring25",
-            "Spring25-Welcome-EN",
+            "PREBAKED-Spring25"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "Spring25-Welcome-EN"
+          ]
+        },
+        {
+          "displayed_notifications": [
             "Spring25-Welcome-DE"
           ]
         }
