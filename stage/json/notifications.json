@@ -10,7 +10,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 25.0,
+      "percent_chance": 50.0,
       "exclude": [
         {
           "pref_true": [
@@ -27,6 +27,7 @@
           ],
           "versions": [
             "128.10.1",
+            "128.10.2",
             "128.11.0",
             "128.11.1",
             "128.12.0",
@@ -53,7 +54,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 25.0,
+      "percent_chance": 50.0,
       "exclude": [
         {
           "pref_true": [
@@ -68,6 +69,7 @@
           ],
           "versions": [
             "128.10.1",
+            "128.10.2",
             "128.11.0",
             "128.11.1",
             "128.12.0",
@@ -94,7 +96,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 25.0,
+      "percent_chance": 50.0,
       "exclude": [
         {
           "pref_true": [
@@ -109,6 +111,7 @@
           ],
           "versions": [
             "128.10.1",
+            "128.10.2",
             "128.11.0",
             "128.11.1",
             "128.12.0",
@@ -135,7 +138,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 25.0,
+      "percent_chance": 50.0,
       "exclude": [
         {
           "pref_true": [
@@ -151,6 +154,7 @@
           ],
           "versions": [
             "128.10.1",
+            "128.10.2",
             "128.11.0",
             "128.11.1",
             "128.12.0",
@@ -177,7 +181,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 25.0,
+      "percent_chance": 50.0,
       "exclude": [
         {
           "pref_true": [
@@ -192,6 +196,7 @@
           ],
           "versions": [
             "128.10.1",
+            "128.10.2",
             "128.11.0",
             "128.11.1",
             "128.12.0",
@@ -218,7 +223,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 25.0,
+      "percent_chance": 50.0,
       "exclude": [
         {
           "pref_true": [
@@ -233,6 +238,7 @@
           ],
           "versions": [
             "128.10.1",
+            "128.10.2",
             "128.11.0",
             "128.11.1",
             "128.12.0",
@@ -259,7 +265,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 25.0,
+      "percent_chance": 50.0,
       "exclude": [
         {
           "pref_true": [
@@ -274,6 +280,7 @@
           ],
           "versions": [
             "128.10.1",
+            "128.10.2",
             "128.11.0",
             "128.11.1",
             "128.12.0",
@@ -300,7 +307,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 25.0,
+      "percent_chance": 50.0,
       "exclude": [
         {
           "pref_true": [
@@ -317,6 +324,7 @@
           ],
           "versions": [
             "128.10.1",
+            "128.10.2",
             "128.11.0",
             "128.11.1",
             "128.12.0",
@@ -343,7 +351,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 25.0,
+      "percent_chance": 50.0,
       "exclude": [
         {
           "pref_true": [
@@ -358,6 +366,7 @@
           ],
           "versions": [
             "128.10.1",
+            "128.10.2",
             "128.11.0",
             "128.11.1",
             "128.12.0",
@@ -384,7 +393,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 25.0,
+      "percent_chance": 50.0,
       "exclude": [
         {
           "pref_true": [
@@ -399,6 +408,7 @@
           ],
           "versions": [
             "128.10.1",
+            "128.10.2",
             "128.11.0",
             "128.11.1",
             "128.12.0",
