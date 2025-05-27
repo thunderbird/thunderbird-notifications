@@ -11,13 +11,14 @@
     include:
       - {
           locales: [en-CA, en-GB, en-US],
-          versions: [128.10.1, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
+          versions:
+            [128.10.1, 128.10.2, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
           channels: [esr],
           pref_false: [extensions.hasExperimentsInstalled],
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-DE
   start_at: 2025-05-09T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -31,13 +32,14 @@
     include:
       - {
           locales: [de],
-          versions: [128.10.1, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
+          versions:
+            [128.10.1, 128.10.2, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
           channels: [esr],
           pref_false: [extensions.hasExperimentsInstalled],
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-IT
   start_at: 2025-05-09T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -51,13 +53,14 @@
     include:
       - {
           locales: [it],
-          versions: [128.10.1, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
+          versions:
+            [128.10.1, 128.10.2, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
           channels: [esr],
           pref_false: [extensions.hasExperimentsInstalled],
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-JA
   start_at: 2025-05-09T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -71,13 +74,14 @@
     include:
       - {
           locales: [ja, ja-JP-mac],
-          versions: [128.10.1, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
+          versions:
+            [128.10.1, 128.10.2, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
           channels: [esr],
           pref_false: [extensions.hasExperimentsInstalled],
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-FR
   start_at: 2025-05-09T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -91,13 +95,14 @@
     include:
       - {
           locales: [fr],
-          versions: [128.10.1, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
+          versions:
+            [128.10.1, 128.10.2, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
           channels: [esr],
           pref_false: [extensions.hasExperimentsInstalled],
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-PL
   start_at: 2025-05-09T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -111,13 +116,14 @@
     include:
       - {
           locales: [pl],
-          versions: [128.10.1, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
+          versions:
+            [128.10.1, 128.10.2, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
           channels: [esr],
           pref_false: [extensions.hasExperimentsInstalled],
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-PT-BR
   start_at: 2025-05-09T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -131,13 +137,14 @@
     include:
       - {
           locales: [pt-BR],
-          versions: [128.10.1, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
+          versions:
+            [128.10.1, 128.10.2, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
           channels: [esr],
           pref_false: [extensions.hasExperimentsInstalled],
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-ES
   start_at: 2025-05-09T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -151,13 +158,14 @@
     include:
       - {
           locales: [es-AR, es-ES, es-MX],
-          versions: [128.10.1, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
+          versions:
+            [128.10.1, 128.10.2, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
           channels: [esr],
           pref_false: [extensions.hasExperimentsInstalled],
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-NL
   start_at: 2025-05-09T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -171,13 +179,14 @@
     include:
       - {
           locales: [nl],
-          versions: [128.10.1, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
+          versions:
+            [128.10.1, 128.10.2, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
           channels: [esr],
           pref_false: [extensions.hasExperimentsInstalled],
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
 - id: Monthly-Release-May25-RU
   start_at: 2025-05-09T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -191,10 +200,11 @@
     include:
       - {
           locales: [ru],
-          versions: [128.10.1, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
+          versions:
+            [128.10.1, 128.10.2, 128.11.0, 128.11.1, 128.12.0, 128.12.1],
           channels: [esr],
           pref_false: [extensions.hasExperimentsInstalled],
         }
     exclude:
       - { pref_true: [browser.policies.applied] }
-    percent_chance: 25
+    percent_chance: 50
