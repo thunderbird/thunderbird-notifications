@@ -6,7 +6,7 @@
   type: message
   description: "Get monthly updates with new features and improvements in the new Thunderbird Release."
   CTA: "Learn more"
-  URL: https://updates-stage.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
   targeting:
     include:
       - {
@@ -42,7 +42,7 @@
   type: message
   description: "Mit Thunderbird Release gibt es monatlich neue Funktionen und Verbesserungen."
   CTA: "Mehr erfahren"
-  URL: https://updates-stage.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
   targeting:
     include:
       - {
@@ -80,7 +80,7 @@
   type: message
   description: "Con Thunderbird Release ricevi ogni mese nuove funzionalità e miglioramenti."
   CTA: "Scopri di più"
-  URL: https://updates-stage.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
   targeting:
     include:
       - {
@@ -116,7 +116,7 @@
   type: message
   description: "Thunderbird Release では毎月、新機能や改善が提供されます。"
   CTA: "詳細はこちら"
-  URL: https://updates-stage.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
   targeting:
     include:
       - {
@@ -152,7 +152,7 @@
   type: message
   description: "Recevez chaque mois de nouvelles fonctionnalités et améliorations avec Thunderbird Release."
   CTA: "En savoir plus"
-  URL: https://updates-stage.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
   targeting:
     include:
       - {
@@ -188,7 +188,7 @@
   type: message
   description: "Z Thunderbird Release co miesiąc otrzymujesz nowe funkcje i ulepszenia."
   CTA: "Dowiedz się więcej"
-  URL: https://updates-stage.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
   targeting:
     include:
       - {
@@ -224,7 +224,7 @@
   type: message
   description: "Com o Thunderbird Release, você recebe novos recursos e melhorias todo mês."
   CTA: "Saiba mais"
-  URL: https://updates-stage.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
   targeting:
     include:
       - {
@@ -260,7 +260,7 @@
   type: message
   description: "Con Thunderbird Release, recibirás nuevas funciones y mejoras cada mes."
   CTA: "Más información"
-  URL: https://updates-stage.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
   targeting:
     include:
       - {
@@ -296,7 +296,7 @@
   type: message
   description: "Met Thunderbird Release ontvang je elke maand nieuwe functies en verbeteringen."
   CTA: "Meer informatie"
-  URL: https://updates-stage.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
   targeting:
     include:
       - {
@@ -332,7 +332,7 @@
   type: message
   description: "С Thunderbird Release вы получаете новые функции и улучшения каждый месяц."
   CTA: "Узнать больше"
-  URL: https://updates-stage.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
   targeting:
     include:
       - {
