@@ -1,0 +1,362 @@
+- id: Monthly-Release-June25-EN
+  start_at: 2025-06-12T00:00:00.000Z
+  end_at: 2025-08-01T00:00:00.000Z
+  title: "Upgrade to Thunderbird Release"
+  severity: 3
+  type: message
+  description: "Get monthly updates with new features and improvements in the new Thunderbird Release."
+  CTA: "Learn more"
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  targeting:
+    include:
+      - {
+          locales: [en-CA, en-GB, en-US],
+          versions:
+            [
+              128.10.1,
+              128.10.2,
+              128.11.0,
+              128.11.1,
+              128.11.2,
+              128.12.0,
+              128.12.1,
+              128.12.2,
+              128.13.0,
+              128.13.1,
+              128.13.2,
+            ],
+          channels: [esr],
+          pref_false: [extensions.hasExperimentsInstalled],
+        }
+    exclude:
+      - {
+          pref_true: [browser.policies.applied],
+          displayed_notifications: [Monthly-Release-May25-EN],
+        }
+    percent_chance: 50
+- id: Monthly-Release-June25-DE
+  start_at: 2025-06-12T00:00:00.000Z
+  end_at: 2025-08-01T00:00:00.000Z
+  title: "Upgrade auf Thunderbird Release"
+  severity: 3
+  type: message
+  description: "Mit Thunderbird Release gibt es monatlich neue Funktionen und Verbesserungen."
+  CTA: "Mehr erfahren"
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  targeting:
+    include:
+      - {
+          locales: [de],
+          versions:
+            [
+              128.10.1,
+              128.10.2,
+              128.11.0,
+              128.11.1,
+              128.11.2,
+              128.12.0,
+              128.12.1,
+              128.12.2,
+              128.13.0,
+              128.13.1,
+              128.13.2,
+              128.13.0,
+              128.13.1,
+            ],
+          channels: [esr],
+          pref_false: [extensions.hasExperimentsInstalled],
+        }
+    exclude:
+      - {
+          pref_true: [browser.policies.applied],
+          displayed_notifications: [Monthly-Release-May25-DE],
+        }
+    percent_chance: 50
+- id: Monthly-Release-June25-IT
+  start_at: 2025-06-12T00:00:00.000Z
+  end_at: 2025-08-01T00:00:00.000Z
+  title: "Passa a Thunderbird Release"
+  severity: 3
+  type: message
+  description: "Con Thunderbird Release ricevi ogni mese nuove funzionalità e miglioramenti."
+  CTA: "Scopri di più"
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  targeting:
+    include:
+      - {
+          locales: [it],
+          versions:
+            [
+              128.10.1,
+              128.10.2,
+              128.11.0,
+              128.11.1,
+              128.11.2,
+              128.12.0,
+              128.12.1,
+              128.12.2,
+              128.13.0,
+              128.13.1,
+              128.13.2,
+            ],
+          channels: [esr],
+          pref_false: [extensions.hasExperimentsInstalled],
+        }
+    exclude:
+      - {
+          pref_true: [browser.policies.applied],
+          displayed_notifications: [Monthly-Release-May25-IT],
+        }
+    percent_chance: 50
+- id: Monthly-Release-June25-JA
+  start_at: 2025-06-12T00:00:00.000Z
+  end_at: 2025-08-01T00:00:00.000Z
+  title: "Thunderbird Release にアップグレード"
+  severity: 3
+  type: message
+  description: "Thunderbird Release では毎月、新機能や改善が提供されます。"
+  CTA: "詳細はこちら"
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  targeting:
+    include:
+      - {
+          locales: [ja, ja-JP-mac],
+          versions:
+            [
+              128.10.1,
+              128.10.2,
+              128.11.0,
+              128.11.1,
+              128.11.2,
+              128.12.0,
+              128.12.1,
+              128.12.2,
+              128.13.0,
+              128.13.1,
+              128.13.2,
+            ],
+          channels: [esr],
+          pref_false: [extensions.hasExperimentsInstalled],
+        }
+    exclude:
+      - {
+          pref_true: [browser.policies.applied],
+          displayed_notifications: [Monthly-Release-May25-JA],
+        }
+    percent_chance: 50
+- id: Monthly-Release-June25-FR
+  start_at: 2025-06-12T00:00:00.000Z
+  end_at: 2025-08-01T00:00:00.000Z
+  title: "Passez à Thunderbird Release"
+  severity: 3
+  type: message
+  description: "Recevez chaque mois de nouvelles fonctionnalités et améliorations avec Thunderbird Release."
+  CTA: "En savoir plus"
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  targeting:
+    include:
+      - {
+          locales: [fr],
+          versions:
+            [
+              128.10.1,
+              128.10.2,
+              128.11.0,
+              128.11.1,
+              128.11.2,
+              128.12.0,
+              128.12.1,
+              128.12.2,
+              128.13.0,
+              128.13.1,
+              128.13.2,
+            ],
+          channels: [esr],
+          pref_false: [extensions.hasExperimentsInstalled],
+        }
+    exclude:
+      - {
+          pref_true: [browser.policies.applied],
+          displayed_notifications: [Monthly-Release-May25-FR],
+        }
+    percent_chance: 50
+- id: Monthly-Release-June25-PL
+  start_at: 2025-06-12T00:00:00.000Z
+  end_at: 2025-08-01T00:00:00.000Z
+  title: "Przejdź na Thunderbird Release"
+  severity: 3
+  type: message
+  description: "Z Thunderbird Release co miesiąc otrzymujesz nowe funkcje i ulepszenia."
+  CTA: "Dowiedz się więcej"
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  targeting:
+    include:
+      - {
+          locales: [pl],
+          versions:
+            [
+              128.10.1,
+              128.10.2,
+              128.11.0,
+              128.11.1,
+              128.11.2,
+              128.12.0,
+              128.12.1,
+              128.12.2,
+              128.13.0,
+              128.13.1,
+              128.13.2,
+            ],
+          channels: [esr],
+          pref_false: [extensions.hasExperimentsInstalled],
+        }
+    exclude:
+      - {
+          pref_true: [browser.policies.applied],
+          displayed_notifications: [Monthly-Release-May25-PL],
+        }
+    percent_chance: 50
+- id: Monthly-Release-June25-PT-BR
+  start_at: 2025-06-12T00:00:00.000Z
+  end_at: 2025-08-01T00:00:00.000Z
+  title: "Atualize para o Thunderbird Release"
+  severity: 3
+  type: message
+  description: "Com o Thunderbird Release, você recebe novos recursos e melhorias todo mês."
+  CTA: "Saiba mais"
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  targeting:
+    include:
+      - {
+          locales: [pt-BR],
+          versions:
+            [
+              128.10.1,
+              128.10.2,
+              128.11.0,
+              128.11.1,
+              128.11.2,
+              128.12.0,
+              128.12.1,
+              128.12.2,
+              128.13.0,
+              128.13.1,
+              128.13.2,
+            ],
+          channels: [esr],
+          pref_false: [extensions.hasExperimentsInstalled],
+        }
+    exclude:
+      - {
+          pref_true: [browser.policies.applied],
+          displayed_notifications: [Monthly-Release-May25-PT-BR],
+        }
+    percent_chance: 50
+- id: Monthly-Release-June25-ES
+  start_at: 2025-06-12T00:00:00.000Z
+  end_at: 2025-08-01T00:00:00.000Z
+  title: "Actualiza a Thunderbird Release"
+  severity: 3
+  type: message
+  description: "Con Thunderbird Release, recibirás nuevas funciones y mejoras cada mes."
+  CTA: "Más información"
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  targeting:
+    include:
+      - {
+          locales: [es-AR, es-ES, es-MX],
+          versions:
+            [
+              128.10.1,
+              128.10.2,
+              128.11.0,
+              128.11.1,
+              128.11.2,
+              128.12.0,
+              128.12.1,
+              128.12.2,
+              128.13.0,
+              128.13.1,
+              128.13.2,
+            ],
+          channels: [esr],
+          pref_false: [extensions.hasExperimentsInstalled],
+        }
+    exclude:
+      - {
+          pref_true: [browser.policies.applied],
+          displayed_notifications: [Monthly-Release-May25-ES],
+        }
+    percent_chance: 50
+- id: Monthly-Release-June25-NL
+  start_at: 2025-06-12T00:00:00.000Z
+  end_at: 2025-08-01T00:00:00.000Z
+  title: "Upgrade naar Thunderbird Release"
+  severity: 3
+  type: message
+  description: "Met Thunderbird Release ontvang je elke maand nieuwe functies en verbeteringen."
+  CTA: "Meer informatie"
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  targeting:
+    include:
+      - {
+          locales: [nl],
+          versions:
+            [
+              128.10.1,
+              128.10.2,
+              128.11.0,
+              128.11.1,
+              128.11.2,
+              128.12.0,
+              128.12.1,
+              128.12.2,
+              128.13.0,
+              128.13.1,
+              128.13.2,
+            ],
+          channels: [esr],
+          pref_false: [extensions.hasExperimentsInstalled],
+        }
+    exclude:
+      - {
+          pref_true: [browser.policies.applied],
+          displayed_notifications: [Monthly-Release-May25-NL],
+        }
+    percent_chance: 50
+- id: Monthly-Release-June25-RU
+  start_at: 2025-06-12T00:00:00.000Z
+  end_at: 2025-08-01T00:00:00.000Z
+  title: "Обновитесь до Thunderbird Release"
+  severity: 3
+  type: message
+  description: "С Thunderbird Release вы получаете новые функции и улучшения каждый месяц."
+  CTA: "Узнать больше"
+  URL: https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more
+  targeting:
+    include:
+      - {
+          locales: [ru],
+          versions:
+            [
+              128.10.1,
+              128.10.2,
+              128.11.0,
+              128.11.1,
+              128.11.2,
+              128.12.0,
+              128.12.1,
+              128.12.2,
+              128.13.0,
+              128.13.1,
+              128.13.2,
+            ],
+          channels: [esr],
+          pref_false: [extensions.hasExperimentsInstalled],
+        }
+    exclude:
+      - {
+          pref_true: [browser.policies.applied],
+          displayed_notifications: [Monthly-Release-May25-RU],
+        }
+    percent_chance: 50
