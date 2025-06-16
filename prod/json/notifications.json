@@ -10,7 +10,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 0.0,
       "exclude": [
         {
           "pref_true": [
@@ -36,6 +36,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -54,7 +58,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 0.0,
       "exclude": [
         {
           "pref_true": [
@@ -78,6 +82,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -96,7 +104,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 0.0,
       "exclude": [
         {
           "pref_true": [
@@ -120,6 +128,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -138,7 +150,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 0.0,
       "exclude": [
         {
           "pref_true": [
@@ -163,6 +175,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -181,7 +197,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 0.0,
       "exclude": [
         {
           "pref_true": [
@@ -205,6 +221,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -223,7 +243,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 0.0,
       "exclude": [
         {
           "pref_true": [
@@ -247,6 +267,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -265,7 +289,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 0.0,
       "exclude": [
         {
           "pref_true": [
@@ -289,6 +313,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -307,7 +335,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 0.0,
       "exclude": [
         {
           "pref_true": [
@@ -333,6 +361,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -351,7 +383,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 0.0,
       "exclude": [
         {
           "pref_true": [
@@ -375,6 +407,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -393,7 +429,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 0.0,
       "exclude": [
         {
           "pref_true": [
@@ -413,6 +449,517 @@
             "128.11.1",
             "128.12.0",
             "128.12.1"
+          ],
+          "channels": [
+            "esr"
+          ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
+          "pref_false": [
+            "extensions.hasExperimentsInstalled"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Monthly-Release-June25-EN",
+    "start_at": "2025-06-16T00:00:00Z",
+    "end_at": "2025-08-01T00:00:00Z",
+    "title": "Upgrade to Thunderbird Release",
+    "description": "Get monthly updates with new features and improvements in the new Thunderbird Release.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more",
+    "CTA": "Learn more",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 50.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "Monthly-Release-May25-EN"
+          ],
+          "pref_true": [
+            "browser.policies.applied"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "locales": [
+            "en-CA",
+            "en-GB",
+            "en-US"
+          ],
+          "versions": [
+            "128.10.1",
+            "128.10.2",
+            "128.11.0",
+            "128.11.1",
+            "128.11.2",
+            "128.12.0",
+            "128.12.1",
+            "128.12.2",
+            "128.13.0",
+            "128.13.1",
+            "128.13.2"
+          ],
+          "channels": [
+            "esr"
+          ],
+          "pref_false": [
+            "extensions.hasExperimentsInstalled"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Monthly-Release-June25-DE",
+    "start_at": "2025-06-16T00:00:00Z",
+    "end_at": "2025-08-01T00:00:00Z",
+    "title": "Upgrade auf Thunderbird Release",
+    "description": "Mit Thunderbird Release gibt es monatlich neue Funktionen und Verbesserungen.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more",
+    "CTA": "Mehr erfahren",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 50.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "Monthly-Release-May25-DE"
+          ],
+          "pref_true": [
+            "browser.policies.applied"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "locales": [
+            "de"
+          ],
+          "versions": [
+            "128.10.1",
+            "128.10.2",
+            "128.11.0",
+            "128.11.1",
+            "128.11.2",
+            "128.12.0",
+            "128.12.1",
+            "128.12.2",
+            "128.13.0",
+            "128.13.1",
+            "128.13.2",
+            "128.13.0",
+            "128.13.1"
+          ],
+          "channels": [
+            "esr"
+          ],
+          "pref_false": [
+            "extensions.hasExperimentsInstalled"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Monthly-Release-June25-IT",
+    "start_at": "2025-06-16T00:00:00Z",
+    "end_at": "2025-08-01T00:00:00Z",
+    "title": "Passa a Thunderbird Release",
+    "description": "Con Thunderbird Release ricevi ogni mese nuove funzionalità e miglioramenti.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more",
+    "CTA": "Scopri di più",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 50.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "Monthly-Release-May25-IT"
+          ],
+          "pref_true": [
+            "browser.policies.applied"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "locales": [
+            "it"
+          ],
+          "versions": [
+            "128.10.1",
+            "128.10.2",
+            "128.11.0",
+            "128.11.1",
+            "128.11.2",
+            "128.12.0",
+            "128.12.1",
+            "128.12.2",
+            "128.13.0",
+            "128.13.1",
+            "128.13.2"
+          ],
+          "channels": [
+            "esr"
+          ],
+          "pref_false": [
+            "extensions.hasExperimentsInstalled"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Monthly-Release-June25-JA",
+    "start_at": "2025-06-16T00:00:00Z",
+    "end_at": "2025-08-01T00:00:00Z",
+    "title": "Thunderbird Release にアップグレード",
+    "description": "Thunderbird Release では毎月、新機能や改善が提供されます。",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more",
+    "CTA": "詳細はこちら",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 50.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "Monthly-Release-May25-JA"
+          ],
+          "pref_true": [
+            "browser.policies.applied"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "locales": [
+            "ja",
+            "ja-JP-mac"
+          ],
+          "versions": [
+            "128.10.1",
+            "128.10.2",
+            "128.11.0",
+            "128.11.1",
+            "128.11.2",
+            "128.12.0",
+            "128.12.1",
+            "128.12.2",
+            "128.13.0",
+            "128.13.1",
+            "128.13.2"
+          ],
+          "channels": [
+            "esr"
+          ],
+          "pref_false": [
+            "extensions.hasExperimentsInstalled"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Monthly-Release-June25-FR",
+    "start_at": "2025-06-16T00:00:00Z",
+    "end_at": "2025-08-01T00:00:00Z",
+    "title": "Passez à Thunderbird Release",
+    "description": "Recevez chaque mois de nouvelles fonctionnalités et améliorations avec Thunderbird Release.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more",
+    "CTA": "En savoir plus",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 50.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "Monthly-Release-May25-FR"
+          ],
+          "pref_true": [
+            "browser.policies.applied"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "locales": [
+            "fr"
+          ],
+          "versions": [
+            "128.10.1",
+            "128.10.2",
+            "128.11.0",
+            "128.11.1",
+            "128.11.2",
+            "128.12.0",
+            "128.12.1",
+            "128.12.2",
+            "128.13.0",
+            "128.13.1",
+            "128.13.2"
+          ],
+          "channels": [
+            "esr"
+          ],
+          "pref_false": [
+            "extensions.hasExperimentsInstalled"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Monthly-Release-June25-PL",
+    "start_at": "2025-06-16T00:00:00Z",
+    "end_at": "2025-08-01T00:00:00Z",
+    "title": "Przejdź na Thunderbird Release",
+    "description": "Z Thunderbird Release co miesiąc otrzymujesz nowe funkcje i ulepszenia.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more",
+    "CTA": "Dowiedz się więcej",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 50.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "Monthly-Release-May25-PL"
+          ],
+          "pref_true": [
+            "browser.policies.applied"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "locales": [
+            "pl"
+          ],
+          "versions": [
+            "128.10.1",
+            "128.10.2",
+            "128.11.0",
+            "128.11.1",
+            "128.11.2",
+            "128.12.0",
+            "128.12.1",
+            "128.12.2",
+            "128.13.0",
+            "128.13.1",
+            "128.13.2"
+          ],
+          "channels": [
+            "esr"
+          ],
+          "pref_false": [
+            "extensions.hasExperimentsInstalled"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Monthly-Release-June25-PT-BR",
+    "start_at": "2025-06-16T00:00:00Z",
+    "end_at": "2025-08-01T00:00:00Z",
+    "title": "Atualize para o Thunderbird Release",
+    "description": "Com o Thunderbird Release, você recebe novos recursos e melhorias todo mês.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more",
+    "CTA": "Saiba mais",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 50.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "Monthly-Release-May25-PT-BR"
+          ],
+          "pref_true": [
+            "browser.policies.applied"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "locales": [
+            "pt-BR"
+          ],
+          "versions": [
+            "128.10.1",
+            "128.10.2",
+            "128.11.0",
+            "128.11.1",
+            "128.11.2",
+            "128.12.0",
+            "128.12.1",
+            "128.12.2",
+            "128.13.0",
+            "128.13.1",
+            "128.13.2"
+          ],
+          "channels": [
+            "esr"
+          ],
+          "pref_false": [
+            "extensions.hasExperimentsInstalled"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Monthly-Release-June25-ES",
+    "start_at": "2025-06-16T00:00:00Z",
+    "end_at": "2025-08-01T00:00:00Z",
+    "title": "Actualiza a Thunderbird Release",
+    "description": "Con Thunderbird Release, recibirás nuevas funciones y mejoras cada mes.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more",
+    "CTA": "Más información",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 50.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "Monthly-Release-May25-ES"
+          ],
+          "pref_true": [
+            "browser.policies.applied"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "locales": [
+            "es-AR",
+            "es-ES",
+            "es-MX"
+          ],
+          "versions": [
+            "128.10.1",
+            "128.10.2",
+            "128.11.0",
+            "128.11.1",
+            "128.11.2",
+            "128.12.0",
+            "128.12.1",
+            "128.12.2",
+            "128.13.0",
+            "128.13.1",
+            "128.13.2"
+          ],
+          "channels": [
+            "esr"
+          ],
+          "pref_false": [
+            "extensions.hasExperimentsInstalled"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Monthly-Release-June25-NL",
+    "start_at": "2025-06-16T00:00:00Z",
+    "end_at": "2025-08-01T00:00:00Z",
+    "title": "Upgrade naar Thunderbird Release",
+    "description": "Met Thunderbird Release ontvang je elke maand nieuwe functies en verbeteringen.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more",
+    "CTA": "Meer informatie",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 50.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "Monthly-Release-May25-NL"
+          ],
+          "pref_true": [
+            "browser.policies.applied"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "locales": [
+            "nl"
+          ],
+          "versions": [
+            "128.10.1",
+            "128.10.2",
+            "128.11.0",
+            "128.11.1",
+            "128.11.2",
+            "128.12.0",
+            "128.12.1",
+            "128.12.2",
+            "128.13.0",
+            "128.13.1",
+            "128.13.2"
+          ],
+          "channels": [
+            "esr"
+          ],
+          "pref_false": [
+            "extensions.hasExperimentsInstalled"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Monthly-Release-June25-RU",
+    "start_at": "2025-06-16T00:00:00Z",
+    "end_at": "2025-08-01T00:00:00Z",
+    "title": "Обновитесь до Thunderbird Release",
+    "description": "С Thunderbird Release вы получаете новые функции и улучшения каждый месяц.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/monthly/?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more?utm_campaign=jun25_esr-release&utm_medium=desktop&utm_source=in_app&utm_content=cta_learn-more",
+    "CTA": "Узнать больше",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 50.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "Monthly-Release-May25-RU"
+          ],
+          "pref_true": [
+            "browser.policies.applied"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "locales": [
+            "ru"
+          ],
+          "versions": [
+            "128.10.1",
+            "128.10.2",
+            "128.11.0",
+            "128.11.1",
+            "128.11.2",
+            "128.12.0",
+            "128.12.1",
+            "128.12.2",
+            "128.13.0",
+            "128.13.1",
+            "128.13.2"
           ],
           "channels": [
             "esr"
