@@ -150,7 +150,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -206,7 +206,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -262,7 +262,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -316,7 +316,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -371,7 +371,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -425,7 +425,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -479,7 +479,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -533,7 +533,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -589,7 +589,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -643,7 +643,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
