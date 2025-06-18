@@ -1,432 +1,7 @@
 [
   {
-    "id": "Monthly-Release-May25-EN",
-    "start_at": "2025-05-09T00:00:00Z",
-    "end_at": "2025-08-01T00:00:00Z",
-    "title": "Upgrade to Thunderbird Release",
-    "description": "Get monthly updates with new features and improvements in the new Thunderbird Release.",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Learn more",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
-          "pref_true": [
-            "browser.policies.applied"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "locales": [
-            "en-CA",
-            "en-GB",
-            "en-US"
-          ],
-          "versions": [
-            "128.10.1",
-            "128.10.2",
-            "128.11.0",
-            "128.11.1",
-            "128.12.0",
-            "128.12.1"
-          ],
-          "channels": [
-            "esr"
-          ],
-          "pref_false": [
-            "extensions.hasExperimentsInstalled"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-DE",
-    "start_at": "2025-05-09T00:00:00Z",
-    "end_at": "2025-08-01T00:00:00Z",
-    "title": "Upgrade auf Thunderbird Release",
-    "description": "Mit Thunderbird Release gibt es monatlich neue Funktionen und Verbesserungen.",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Mehr erfahren",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
-          "pref_true": [
-            "browser.policies.applied"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "locales": [
-            "de"
-          ],
-          "versions": [
-            "128.10.1",
-            "128.10.2",
-            "128.11.0",
-            "128.11.1",
-            "128.12.0",
-            "128.12.1"
-          ],
-          "channels": [
-            "esr"
-          ],
-          "pref_false": [
-            "extensions.hasExperimentsInstalled"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-IT",
-    "start_at": "2025-05-09T00:00:00Z",
-    "end_at": "2025-08-01T00:00:00Z",
-    "title": "Passa a Thunderbird Release",
-    "description": "Con Thunderbird Release ricevi ogni mese nuove funzionalità e miglioramenti.",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Scopri di più",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
-          "pref_true": [
-            "browser.policies.applied"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "locales": [
-            "it"
-          ],
-          "versions": [
-            "128.10.1",
-            "128.10.2",
-            "128.11.0",
-            "128.11.1",
-            "128.12.0",
-            "128.12.1"
-          ],
-          "channels": [
-            "esr"
-          ],
-          "pref_false": [
-            "extensions.hasExperimentsInstalled"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-JA",
-    "start_at": "2025-05-09T00:00:00Z",
-    "end_at": "2025-08-01T00:00:00Z",
-    "title": "Thunderbird Release にアップグレード",
-    "description": "Thunderbird Release では毎月、新機能や改善が提供されます。",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "詳細はこちら",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
-          "pref_true": [
-            "browser.policies.applied"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "locales": [
-            "ja",
-            "ja-JP-mac"
-          ],
-          "versions": [
-            "128.10.1",
-            "128.10.2",
-            "128.11.0",
-            "128.11.1",
-            "128.12.0",
-            "128.12.1"
-          ],
-          "channels": [
-            "esr"
-          ],
-          "pref_false": [
-            "extensions.hasExperimentsInstalled"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-FR",
-    "start_at": "2025-05-09T00:00:00Z",
-    "end_at": "2025-08-01T00:00:00Z",
-    "title": "Passez à Thunderbird Release",
-    "description": "Recevez chaque mois de nouvelles fonctionnalités et améliorations avec Thunderbird Release.",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "En savoir plus",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
-          "pref_true": [
-            "browser.policies.applied"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "locales": [
-            "fr"
-          ],
-          "versions": [
-            "128.10.1",
-            "128.10.2",
-            "128.11.0",
-            "128.11.1",
-            "128.12.0",
-            "128.12.1"
-          ],
-          "channels": [
-            "esr"
-          ],
-          "pref_false": [
-            "extensions.hasExperimentsInstalled"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-PL",
-    "start_at": "2025-05-09T00:00:00Z",
-    "end_at": "2025-08-01T00:00:00Z",
-    "title": "Przejdź na Thunderbird Release",
-    "description": "Z Thunderbird Release co miesiąc otrzymujesz nowe funkcje i ulepszenia.",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Dowiedz się więcej",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
-          "pref_true": [
-            "browser.policies.applied"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "locales": [
-            "pl"
-          ],
-          "versions": [
-            "128.10.1",
-            "128.10.2",
-            "128.11.0",
-            "128.11.1",
-            "128.12.0",
-            "128.12.1"
-          ],
-          "channels": [
-            "esr"
-          ],
-          "pref_false": [
-            "extensions.hasExperimentsInstalled"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-PT-BR",
-    "start_at": "2025-05-09T00:00:00Z",
-    "end_at": "2025-08-01T00:00:00Z",
-    "title": "Atualize para o Thunderbird Release",
-    "description": "Com o Thunderbird Release, você recebe novos recursos e melhorias todo mês.",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Saiba mais",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
-          "pref_true": [
-            "browser.policies.applied"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "locales": [
-            "pt-BR"
-          ],
-          "versions": [
-            "128.10.1",
-            "128.10.2",
-            "128.11.0",
-            "128.11.1",
-            "128.12.0",
-            "128.12.1"
-          ],
-          "channels": [
-            "esr"
-          ],
-          "pref_false": [
-            "extensions.hasExperimentsInstalled"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-ES",
-    "start_at": "2025-05-09T00:00:00Z",
-    "end_at": "2025-08-01T00:00:00Z",
-    "title": "Actualiza a Thunderbird Release",
-    "description": "Con Thunderbird Release, recibirás nuevas funciones y mejoras cada mes.",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Más información",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
-          "pref_true": [
-            "browser.policies.applied"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "locales": [
-            "es-AR",
-            "es-ES",
-            "es-MX"
-          ],
-          "versions": [
-            "128.10.1",
-            "128.10.2",
-            "128.11.0",
-            "128.11.1",
-            "128.12.0",
-            "128.12.1"
-          ],
-          "channels": [
-            "esr"
-          ],
-          "pref_false": [
-            "extensions.hasExperimentsInstalled"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-NL",
-    "start_at": "2025-05-09T00:00:00Z",
-    "end_at": "2025-08-01T00:00:00Z",
-    "title": "Upgrade naar Thunderbird Release",
-    "description": "Met Thunderbird Release ontvang je elke maand nieuwe functies en verbeteringen.",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Meer informatie",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
-          "pref_true": [
-            "browser.policies.applied"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "locales": [
-            "nl"
-          ],
-          "versions": [
-            "128.10.1",
-            "128.10.2",
-            "128.11.0",
-            "128.11.1",
-            "128.12.0",
-            "128.12.1"
-          ],
-          "channels": [
-            "esr"
-          ],
-          "pref_false": [
-            "extensions.hasExperimentsInstalled"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-RU",
-    "start_at": "2025-05-09T00:00:00Z",
-    "end_at": "2025-08-01T00:00:00Z",
-    "title": "Обновитесь до Thunderbird Release",
-    "description": "С Thunderbird Release вы получаете новые функции и улучшения каждый месяц.",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Узнать больше",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
-          "pref_true": [
-            "browser.policies.applied"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "locales": [
-            "ru"
-          ],
-          "versions": [
-            "128.10.1",
-            "128.10.2",
-            "128.11.0",
-            "128.11.1",
-            "128.12.0",
-            "128.12.1"
-          ],
-          "channels": [
-            "esr"
-          ],
-          "pref_false": [
-            "extensions.hasExperimentsInstalled"
-          ]
-        }
-      ]
-    }
-  },
-  {
     "id": "Monthly-Release-June25-EN",
-    "start_at": "2025-06-12T00:00:00Z",
+    "start_at": "2025-06-16T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Upgrade to Thunderbird Release",
     "description": "Get monthly updates with new features and improvements in the new Thunderbird Release.",
@@ -435,7 +10,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -469,6 +44,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -478,7 +57,7 @@
   },
   {
     "id": "Monthly-Release-June25-DE",
-    "start_at": "2025-06-12T00:00:00Z",
+    "start_at": "2025-06-16T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Upgrade auf Thunderbird Release",
     "description": "Mit Thunderbird Release gibt es monatlich neue Funktionen und Verbesserungen.",
@@ -487,7 +66,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -521,6 +100,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -530,7 +113,7 @@
   },
   {
     "id": "Monthly-Release-June25-IT",
-    "start_at": "2025-06-12T00:00:00Z",
+    "start_at": "2025-06-16T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Passa a Thunderbird Release",
     "description": "Con Thunderbird Release ricevi ogni mese nuove funzionalità e miglioramenti.",
@@ -539,7 +122,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -571,6 +154,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -580,7 +167,7 @@
   },
   {
     "id": "Monthly-Release-June25-JA",
-    "start_at": "2025-06-12T00:00:00Z",
+    "start_at": "2025-06-16T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Thunderbird Release にアップグレード",
     "description": "Thunderbird Release では毎月、新機能や改善が提供されます。",
@@ -589,7 +176,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -622,6 +209,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -631,7 +222,7 @@
   },
   {
     "id": "Monthly-Release-June25-FR",
-    "start_at": "2025-06-12T00:00:00Z",
+    "start_at": "2025-06-16T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Passez à Thunderbird Release",
     "description": "Recevez chaque mois de nouvelles fonctionnalités et améliorations avec Thunderbird Release.",
@@ -640,7 +231,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -672,6 +263,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -681,7 +276,7 @@
   },
   {
     "id": "Monthly-Release-June25-PL",
-    "start_at": "2025-06-12T00:00:00Z",
+    "start_at": "2025-06-16T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Przejdź na Thunderbird Release",
     "description": "Z Thunderbird Release co miesiąc otrzymujesz nowe funkcje i ulepszenia.",
@@ -690,7 +285,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -722,6 +317,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -731,7 +330,7 @@
   },
   {
     "id": "Monthly-Release-June25-PT-BR",
-    "start_at": "2025-06-12T00:00:00Z",
+    "start_at": "2025-06-16T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Atualize para o Thunderbird Release",
     "description": "Com o Thunderbird Release, você recebe novos recursos e melhorias todo mês.",
@@ -740,7 +339,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -772,6 +371,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -781,7 +384,7 @@
   },
   {
     "id": "Monthly-Release-June25-ES",
-    "start_at": "2025-06-12T00:00:00Z",
+    "start_at": "2025-06-16T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Actualiza a Thunderbird Release",
     "description": "Con Thunderbird Release, recibirás nuevas funciones y mejoras cada mes.",
@@ -790,7 +393,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -824,6 +427,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -833,7 +440,7 @@
   },
   {
     "id": "Monthly-Release-June25-NL",
-    "start_at": "2025-06-12T00:00:00Z",
+    "start_at": "2025-06-16T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Upgrade naar Thunderbird Release",
     "description": "Met Thunderbird Release ontvang je elke maand nieuwe functies en verbeteringen.",
@@ -842,7 +449,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -874,6 +481,10 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
@@ -883,7 +494,7 @@
   },
   {
     "id": "Monthly-Release-June25-RU",
-    "start_at": "2025-06-12T00:00:00Z",
+    "start_at": "2025-06-16T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
     "title": "Обновитесь до Thunderbird Release",
     "description": "С Thunderbird Release вы получаете новые функции и улучшения каждый месяц.",
@@ -892,7 +503,7 @@
     "severity": 3,
     "type": "message",
     "targeting": {
-      "percent_chance": 50.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
@@ -924,11 +535,155 @@
           "channels": [
             "esr"
           ],
+          "operating_systems": [
+            "win",
+            "macosx"
+          ],
           "pref_false": [
             "extensions.hasExperimentsInstalled"
           ]
         }
       ]
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-EN",
+    "start_at": "2025-05-21T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Upgrade to Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Learn more",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-DE",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Upgrade auf Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Mehr erfahren",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-IT",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Passa a Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Scopri di più",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-JA",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Thunderbird Release にアップグレード",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "詳細はこちら",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-FR",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Passez à Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "En savoir plus",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-PL",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Przejdź na Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Dowiedz się więcej",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-PT-BR",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Atualize para o Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Saiba mais",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-ES",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Actualiza a Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Más información",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-NL",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Upgrade naar Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Meer informatie",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-RU",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Обновитесь до Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Узнать больше",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
     }
   },
   {
