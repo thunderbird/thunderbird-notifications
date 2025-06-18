@@ -34,7 +34,7 @@
           pref_true: [browser.policies.applied],
           displayed_notifications: [Monthly-Release-May25-EN],
         }
-    percent_chance: 50
+    percent_chance: 100
 - id: Monthly-Release-June25-DE
   start_at: 2025-06-16T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -73,7 +73,7 @@
           pref_true: [browser.policies.applied],
           displayed_notifications: [Monthly-Release-May25-DE],
         }
-    percent_chance: 50
+    percent_chance: 100
 - id: Monthly-Release-June25-IT
   start_at: 2025-06-16T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -110,7 +110,7 @@
           pref_true: [browser.policies.applied],
           displayed_notifications: [Monthly-Release-May25-IT],
         }
-    percent_chance: 50
+    percent_chance: 100
 - id: Monthly-Release-June25-JA
   start_at: 2025-06-16T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -147,7 +147,7 @@
           pref_true: [browser.policies.applied],
           displayed_notifications: [Monthly-Release-May25-JA],
         }
-    percent_chance: 50
+    percent_chance: 100
 - id: Monthly-Release-June25-FR
   start_at: 2025-06-16T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -184,7 +184,7 @@
           pref_true: [browser.policies.applied],
           displayed_notifications: [Monthly-Release-May25-FR],
         }
-    percent_chance: 50
+    percent_chance: 100
 - id: Monthly-Release-June25-PL
   start_at: 2025-06-16T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -221,7 +221,7 @@
           pref_true: [browser.policies.applied],
           displayed_notifications: [Monthly-Release-May25-PL],
         }
-    percent_chance: 50
+    percent_chance: 100
 - id: Monthly-Release-June25-PT-BR
   start_at: 2025-06-16T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -258,7 +258,7 @@
           pref_true: [browser.policies.applied],
           displayed_notifications: [Monthly-Release-May25-PT-BR],
         }
-    percent_chance: 50
+    percent_chance: 100
 - id: Monthly-Release-June25-ES
   start_at: 2025-06-16T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -295,7 +295,7 @@
           pref_true: [browser.policies.applied],
           displayed_notifications: [Monthly-Release-May25-ES],
         }
-    percent_chance: 50
+    percent_chance: 100
 - id: Monthly-Release-June25-NL
   start_at: 2025-06-16T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -332,7 +332,7 @@
           pref_true: [browser.policies.applied],
           displayed_notifications: [Monthly-Release-May25-NL],
         }
-    percent_chance: 50
+    percent_chance: 100
 - id: Monthly-Release-June25-RU
   start_at: 2025-06-16T00:00:00.000Z
   end_at: 2025-08-01T00:00:00.000Z
@@ -369,4 +369,4 @@
           pref_true: [browser.policies.applied],
           displayed_notifications: [Monthly-Release-May25-RU],
         }
-    percent_chance: 50
+    percent_chance: 100
