@@ -10,7 +10,7 @@
       - {
           versions:
             [
-              140.0.0,
+              140.0,
               140.0.1,
               140.0.2,
               140.0.3,
@@ -26,12 +26,14 @@
             ],
           channels: [esr],
         }
+    exclude:
+      - { displayed_notifications: [ESR140-B] }
     percent_chance: 50
 - id: ESR140-B
   start_at: 2025-06-19T00:00:00.000Z
   end_at: 2025-11-02T00:00:00.000Z
   title: "ESR140-B"
-  severity: 1
+  severity: 2
   type: donation_tab
   URL: https://updates.thunderbird.net/thunderbird/140.0/jun25b/?utm_campaign=jun25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=cta_b
   targeting:
@@ -39,7 +41,7 @@
       - {
           versions:
             [
-              140.0.0,
+              140.0,
               140.0.1,
               140.0.2,
               140.0.3,
