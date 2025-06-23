@@ -1,5 +1,5 @@
 - id: ESR140-A
-  start_at: 2025-06-24T00:00:00.000Z
+  start_at: 2025-06-30T00:00:00.000Z
   end_at: 2025-11-02T00:00:00.000Z
   title: "ESR140-A"
   severity: 1
@@ -30,7 +30,7 @@
       - { displayed_notifications: [ESR140-B] }
     percent_chance: 50
 - id: ESR140-B
-  start_at: 2025-06-24T00:00:00.000Z
+  start_at: 2025-06-30T00:00:00.000Z
   end_at: 2025-11-02T00:00:00.000Z
   title: "ESR140-B"
   severity: 2
