@@ -80,4 +80,6 @@
       - { displayed_notifications: [PREBAKED-Spring25] }
       - { displayed_notifications: [Spring25-Welcome-EN] }
       - { displayed_notifications: [Spring25-Welcome-DE] }
+      - { displayed_notifications: [ESR140-A] }
+      - { displayed_notifications: [ESR140-B] }
     percent_chance: 100
