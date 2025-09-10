@@ -1,0 +1,14 @@
+- id: Release-sep25-appeal
+  start_at: 2025-09-12T00:00:00.000Z
+  end_at: 2025-11-02T00:00:00.000Z
+  title: "Release-sep25-appeal"
+  severity: 1
+  type: donation_tab
+  URL: https://updates.thunderbird.net/thunderbird/release/sep25r/?utm_campaign=sep25r_appeal&utm_medium=desktop&utm_source=in_app&utm_content=cta_b
+  targeting:
+    include:
+      - { channels: [release] }
+    exclude:
+      - { displayed_notifications: [ESR140-A] }
+      - { displayed_notifications: [ESR140-B] }
+    percent_chance: 100
