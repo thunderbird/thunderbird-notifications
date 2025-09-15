@@ -972,6 +972,8 @@
       "include": [
         {
           "channels": [
+            "beta",
+            "nightly",
             "release"
           ]
         }
