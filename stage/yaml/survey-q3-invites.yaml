@@ -1,0 +1,125 @@
+- id: Survey-Q325-en-US-CA
+  start_at: 2025-09-11T00:00:00.000Z
+  end_at: 2025-11-11T00:00:00.000Z
+  title: "Help Us Improve"
+  description: "Please take a quick survey to share your experience using Thunderbird."
+  CTA: "Take Survey"
+  URL: https://www.surveymonkey.com/r/689T8KJ
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr], locales: [en-US, en-CA] }
+    percent_chance: 1
+
+- id: Survey-Q325-en_GB
+  start_at: 2025-09-11T00:00:00.000Z
+  end_at: 2025-11-11T00:00:00.000Z
+  title: "Help Us Improve"
+  description: "Please take a quick survey to share your experience using Thunderbird."
+  CTA: "Take Survey"
+  URL: https://www.surveymonkey.com/r/M23ZRWV?lang=en_GB
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr], locales: [en-GB] }
+    percent_chance: 7
+
+- id: Survey-Q325-de
+  start_at: 2025-09-11T00:00:00.000Z
+  end_at: 2025-11-11T00:00:00.000Z
+  title: "Helfen Sie mit"
+  description: "Machen Sie bei einer kurzen Umfrage zu Ihrer Thunderbird-Nutzung mit."
+  CTA: "Umfrage starten"
+  URL: https://www.surveymonkey.com/r/M2YF2SR?lang=de
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr], locales: [de] }
+    percent_chance: 1
+
+- id: Survey-Q325-fr
+  start_at: 2025-09-11T00:00:00.000Z
+  end_at: 2025-11-11T00:00:00.000Z
+  title: "Aidez-nous à améliorer"
+  description: "Participez à une courte enquête sur votre expérience avec Thunderbird."
+  CTA: "Répondre au sondage"
+  URL: https://www.surveymonkey.com/r/MC9THS7?lang=fr
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr], locales: [fr] }
+    percent_chance: 3
+
+- id: Survey-Q325-it
+  start_at: 2025-09-11T00:00:00.000Z
+  end_at: 2025-11-11T00:00:00.000Z
+  title: "Aiutaci a migliorare"
+  description: "Partecipa a un breve sondaggio sulla tua esperienza con Thunderbird."
+  CTA: "Inizia il sondaggio"
+  URL: https://www.surveymonkey.com/r/MCD8Y7C?lang=it
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr], locales: [it] }
+    percent_chance: 4
+
+- id: Survey-Q325-ja
+  start_at: 2025-09-11T00:00:00.000Z
+  end_at: 2025-11-11T00:00:00.000Z
+  title: "ご意見をお聞かせください"
+  description: "Thunderbird の体験について短いアンケートにご協力ください。"
+  CTA: "アンケートに回答する"
+  URL: https://www.surveymonkey.com/r/MC728NK?lang=ja
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr], locales: [ja] }
+    percent_chance: 3
+
+- id: Survey-Q325-pl
+  start_at: 2025-09-11T00:00:00.000Z
+  end_at: 2025-11-11T00:00:00.000Z
+  title: "Pomóż nam ulepszyć"
+  description: "Weź udział w krótkiej ankiecie o swoich doświadczeniach z Thunderbirdem."
+  CTA: "Rozpocznij ankietę"
+  URL: https://www.surveymonkey.com/r/MSD5YML?lang=pl
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr], locales: [pl] }
+    percent_chance: 3
+
+- id: Survey-Q325-pt_BR
+  start_at: 2025-09-11T00:00:00.000Z
+  end_at: 2025-11-11T00:00:00.000Z
+  title: "Ajude a melhorar"
+  description: "Participe de uma pesquisa rápida sobre sua experiência com o Thunderbird."
+  CTA: "Iniciar pesquisa"
+  URL: https://www.surveymonkey.com/r/MSVGHKD?lang=pt
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr], locales: [pt-BR] }
+    percent_chance: 8
+
+- id: Survey-Q325-es
+  start_at: 2025-09-11T00:00:00.000Z
+  end_at: 2025-11-11T00:00:00.000Z
+  title: "Ayúdanos a mejorar"
+  description: "Participa en una breve encuesta sobre tu experiencia con Thunderbird."
+  CTA: "Iniciar encuesta"
+  URL: https://www.surveymonkey.com/r/MSDCJNR?lang=es
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr], locales: [es] }
+    percent_chance: 3
