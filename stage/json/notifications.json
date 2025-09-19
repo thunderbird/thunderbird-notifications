@@ -1,5 +1,406 @@
 [
   {
+    "id": "ESR140-A",
+    "start_at": "2025-06-19T00:00:00Z",
+    "end_at": "2025-11-02T00:00:00Z",
+    "title": "ESR140-A",
+    "URL": "https://updates.thunderbird.net/thunderbird/140.0/jun25a/?utm_campaign=jun25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=cta_a",
+    "severity": 1,
+    "type": "donation_tab",
+    "targeting": {
+      "percent_chance": 50.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "ESR140-B"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "versions": [
+            "140.0",
+            "140.0.1",
+            "140.0.2",
+            "140.0.3",
+            "140.1.0",
+            "140.1.1",
+            "140.1.2",
+            "140.2.0",
+            "140.2.1",
+            "140.2.2",
+            "140.3.0",
+            "140.3.1",
+            "140.3.2"
+          ],
+          "channels": [
+            "esr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "ESR140-B",
+    "start_at": "2025-06-19T00:00:00Z",
+    "end_at": "2025-11-02T00:00:00Z",
+    "title": "ESR140-B",
+    "URL": "https://updates.thunderbird.net/thunderbird/140.0/jun25b/?utm_campaign=jun25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=cta_b",
+    "severity": 2,
+    "type": "donation_tab",
+    "targeting": {
+      "percent_chance": 100.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "ESR140-A"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "versions": [
+            "140.0",
+            "140.0.1",
+            "140.0.2",
+            "140.0.3",
+            "140.1.0",
+            "140.1.1",
+            "140.1.2",
+            "140.2.0",
+            "140.2.1",
+            "140.2.2",
+            "140.3.0",
+            "140.3.1",
+            "140.3.2"
+          ],
+          "channels": [
+            "esr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-EN",
+    "start_at": "2025-05-21T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Upgrade to Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Learn more",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-DE",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Upgrade auf Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Mehr erfahren",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-IT",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Passa a Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Scopri di più",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-JA",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Thunderbird Release にアップグレード",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "詳細はこちら",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-FR",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Passez à Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "En savoir plus",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-PL",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Przejdź na Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Dowiedz się więcej",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-PT-BR",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Atualize para o Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Saiba mais",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-ES",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Actualiza a Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Más información",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-NL",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Upgrade naar Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Meer informatie",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Monthly-Release-May25-RU",
+    "start_at": "2025-05-26T00:00:00Z",
+    "end_at": "2025-06-15T00:00:00Z",
+    "title": "Обновитесь до Thunderbird Release",
+    "description": "[DISABLED]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-release",
+    "CTA": "Узнать больше",
+    "severity": 3,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 0.0
+    }
+  },
+  {
+    "id": "Spring25-Welcome-EN",
+    "start_at": "2025-04-01T00:00:00Z",
+    "end_at": "2025-04-15T00:00:00Z",
+    "title": "Introducing Notifications",
+    "description": "Welcome to Thunderbird’s new notification system! We’ll use this space to share important updates, security alerts, and helpful tips to help you get the most out of Thunderbird.",
+    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=Spring25_welcome&utm_medium=desktop&utm_source=in_app&utm_content=en",
+    "CTA": "Learn more",
+    "severity": 1,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 2.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "PREBAKED-Spring25"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "locales": [
+            "en-CA",
+            "en-GB",
+            "en-US"
+          ],
+          "channels": [
+            "esr",
+            "release"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Spring25-Welcome-DE",
+    "start_at": "2025-04-01T00:00:00Z",
+    "end_at": "2025-04-15T00:00:00Z",
+    "title": "Wir stellen vor: Benachrichtigungen",
+    "description": "Willkommen im neuen Benachrichtigungssystem von Thunderbird. Hier halten wir dich über wichtige Updates, Sicherheitswarnungen und praktische Tipps auf dem Laufenden, damit du das Beste aus Thunderbird herausholen kannst.",
+    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=Spring25_welcome&utm_medium=desktop&utm_source=in_app&utm_content=de",
+    "CTA": "Mehr erfahren",
+    "severity": 1,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 2.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "PREBAKED-Spring25"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "locales": [
+            "de"
+          ],
+          "channels": [
+            "esr",
+            "release"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Spring25-Test-EN",
+    "start_at": "2025-04-15T00:00:00Z",
+    "end_at": "2025-04-30T00:00:00Z",
+    "title": "Help Keep Thunderbird Alive",
+    "description": "If you get value from using Thunderbird, please help support it. All of the work we do is funded by less than 3% of our users. We can’t do this without you.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/apr25/donate/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=en",
+    "CTA": "Click here to donate",
+    "severity": 3,
+    "type": "donation",
+    "targeting": {
+      "percent_chance": 100.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "PREBAKED-Spring25"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "displayed_notifications": [
+            "Spring25-Welcome-EN"
+          ],
+          "locales": [
+            "en-CA",
+            "en-GB",
+            "en-US"
+          ],
+          "channels": [
+            "esr",
+            "release"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Spring25-Test-DE",
+    "start_at": "2025-04-15T00:00:00Z",
+    "end_at": "2025-04-30T00:00:00Z",
+    "title": "Helfen Sie mit, Thunderbird am Leben zu erhalten",
+    "description": "Wenn du einen persönlichen Nutzen aus Thunderbird ziehst, freuen wir uns über deine Unterstützung. Weniger als 3 % unserer NutzerInnen tragen die Kosten für das Projekt. Auch dein Beitrag macht einen Unterschied.",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/apr25/donate/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=de",
+    "CTA": "Klicke hier, um zu spenden",
+    "severity": 3,
+    "type": "donation",
+    "targeting": {
+      "percent_chance": 100.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "PREBAKED-Spring25"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "displayed_notifications": [
+            "Spring25-Welcome-DE"
+          ],
+          "locales": [
+            "de"
+          ],
+          "channels": [
+            "esr",
+            "release"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Spring25",
+    "start_at": "2025-04-01T00:00:00Z",
+    "end_at": "2025-06-30T23:59:59Z",
+    "title": "",
+    "description": "",
+    "URL": "https://updates.thunderbird.net/thunderbird/128.0/apr25/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=new-tab&utm_content=%LOCALE%",
+    "CTA": "",
+    "severity": 3,
+    "type": "donation_tab",
+    "targeting": {
+      "percent_chance": 100.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "PREBAKED-Spring25"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "Spring25-Welcome-EN"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "Spring25-Welcome-DE"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "ESR140-A"
+          ]
+        },
+        {
+          "displayed_notifications": [
+            "ESR140-B"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "Monthly-Release-June25-EN",
     "start_at": "2025-06-16T00:00:00Z",
     "end_at": "2025-08-01T00:00:00Z",
@@ -547,407 +948,6 @@
     }
   },
   {
-    "id": "Monthly-Release-May25-EN",
-    "start_at": "2025-05-21T00:00:00Z",
-    "end_at": "2025-06-15T00:00:00Z",
-    "title": "Upgrade to Thunderbird Release",
-    "description": "[DISABLED]",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Learn more",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 0.0
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-DE",
-    "start_at": "2025-05-26T00:00:00Z",
-    "end_at": "2025-06-15T00:00:00Z",
-    "title": "Upgrade auf Thunderbird Release",
-    "description": "[DISABLED]",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Mehr erfahren",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 0.0
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-IT",
-    "start_at": "2025-05-26T00:00:00Z",
-    "end_at": "2025-06-15T00:00:00Z",
-    "title": "Passa a Thunderbird Release",
-    "description": "[DISABLED]",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Scopri di più",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 0.0
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-JA",
-    "start_at": "2025-05-26T00:00:00Z",
-    "end_at": "2025-06-15T00:00:00Z",
-    "title": "Thunderbird Release にアップグレード",
-    "description": "[DISABLED]",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "詳細はこちら",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 0.0
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-FR",
-    "start_at": "2025-05-26T00:00:00Z",
-    "end_at": "2025-06-15T00:00:00Z",
-    "title": "Passez à Thunderbird Release",
-    "description": "[DISABLED]",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "En savoir plus",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 0.0
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-PL",
-    "start_at": "2025-05-26T00:00:00Z",
-    "end_at": "2025-06-15T00:00:00Z",
-    "title": "Przejdź na Thunderbird Release",
-    "description": "[DISABLED]",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Dowiedz się więcej",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 0.0
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-PT-BR",
-    "start_at": "2025-05-26T00:00:00Z",
-    "end_at": "2025-06-15T00:00:00Z",
-    "title": "Atualize para o Thunderbird Release",
-    "description": "[DISABLED]",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Saiba mais",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 0.0
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-ES",
-    "start_at": "2025-05-26T00:00:00Z",
-    "end_at": "2025-06-15T00:00:00Z",
-    "title": "Actualiza a Thunderbird Release",
-    "description": "[DISABLED]",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Más información",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 0.0
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-NL",
-    "start_at": "2025-05-26T00:00:00Z",
-    "end_at": "2025-06-15T00:00:00Z",
-    "title": "Upgrade naar Thunderbird Release",
-    "description": "[DISABLED]",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Meer informatie",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 0.0
-    }
-  },
-  {
-    "id": "Monthly-Release-May25-RU",
-    "start_at": "2025-05-26T00:00:00Z",
-    "end_at": "2025-06-15T00:00:00Z",
-    "title": "Обновитесь до Thunderbird Release",
-    "description": "[DISABLED]",
-    "URL": "https://support.mozilla.org/kb/thunderbird-release",
-    "CTA": "Узнать больше",
-    "severity": 3,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 0.0
-    }
-  },
-  {
-    "id": "ESR140-A",
-    "start_at": "2025-06-19T00:00:00Z",
-    "end_at": "2025-11-02T00:00:00Z",
-    "title": "ESR140-A",
-    "URL": "https://updates.thunderbird.net/thunderbird/140.0/jun25a/?utm_campaign=jun25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=cta_a",
-    "severity": 1,
-    "type": "donation_tab",
-    "targeting": {
-      "percent_chance": 50.0,
-      "exclude": [
-        {
-          "displayed_notifications": [
-            "ESR140-B"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "versions": [
-            "140.0",
-            "140.0.1",
-            "140.0.2",
-            "140.0.3",
-            "140.1.0",
-            "140.1.1",
-            "140.1.2",
-            "140.2.0",
-            "140.2.1",
-            "140.2.2",
-            "140.3.0",
-            "140.3.1",
-            "140.3.2"
-          ],
-          "channels": [
-            "esr"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "ESR140-B",
-    "start_at": "2025-06-19T00:00:00Z",
-    "end_at": "2025-11-02T00:00:00Z",
-    "title": "ESR140-B",
-    "URL": "https://updates.thunderbird.net/thunderbird/140.0/jun25b/?utm_campaign=jun25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=cta_b",
-    "severity": 2,
-    "type": "donation_tab",
-    "targeting": {
-      "percent_chance": 100.0,
-      "exclude": [
-        {
-          "displayed_notifications": [
-            "ESR140-A"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "versions": [
-            "140.0",
-            "140.0.1",
-            "140.0.2",
-            "140.0.3",
-            "140.1.0",
-            "140.1.1",
-            "140.1.2",
-            "140.2.0",
-            "140.2.1",
-            "140.2.2",
-            "140.3.0",
-            "140.3.1",
-            "140.3.2"
-          ],
-          "channels": [
-            "esr"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Spring25-Welcome-EN",
-    "start_at": "2025-04-01T00:00:00Z",
-    "end_at": "2025-04-15T00:00:00Z",
-    "title": "Introducing Notifications",
-    "description": "Welcome to Thunderbird’s new notification system! We’ll use this space to share important updates, security alerts, and helpful tips to help you get the most out of Thunderbird.",
-    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=Spring25_welcome&utm_medium=desktop&utm_source=in_app&utm_content=en",
-    "CTA": "Learn more",
-    "severity": 1,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 2.0,
-      "exclude": [
-        {
-          "displayed_notifications": [
-            "PREBAKED-Spring25"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "locales": [
-            "en-CA",
-            "en-GB",
-            "en-US"
-          ],
-          "channels": [
-            "esr",
-            "release"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Spring25-Welcome-DE",
-    "start_at": "2025-04-01T00:00:00Z",
-    "end_at": "2025-04-15T00:00:00Z",
-    "title": "Wir stellen vor: Benachrichtigungen",
-    "description": "Willkommen im neuen Benachrichtigungssystem von Thunderbird. Hier halten wir dich über wichtige Updates, Sicherheitswarnungen und praktische Tipps auf dem Laufenden, damit du das Beste aus Thunderbird herausholen kannst.",
-    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=Spring25_welcome&utm_medium=desktop&utm_source=in_app&utm_content=de",
-    "CTA": "Mehr erfahren",
-    "severity": 1,
-    "type": "message",
-    "targeting": {
-      "percent_chance": 2.0,
-      "exclude": [
-        {
-          "displayed_notifications": [
-            "PREBAKED-Spring25"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "locales": [
-            "de"
-          ],
-          "channels": [
-            "esr",
-            "release"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Spring25-Test-EN",
-    "start_at": "2025-04-15T00:00:00Z",
-    "end_at": "2025-04-30T00:00:00Z",
-    "title": "Help Keep Thunderbird Alive",
-    "description": "If you get value from using Thunderbird, please help support it. All of the work we do is funded by less than 3% of our users. We can’t do this without you.",
-    "URL": "https://updates.thunderbird.net/thunderbird/128.0/apr25/donate/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=en",
-    "CTA": "Click here to donate",
-    "severity": 3,
-    "type": "donation",
-    "targeting": {
-      "percent_chance": 100.0,
-      "exclude": [
-        {
-          "displayed_notifications": [
-            "PREBAKED-Spring25"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "displayed_notifications": [
-            "Spring25-Welcome-EN"
-          ],
-          "locales": [
-            "en-CA",
-            "en-GB",
-            "en-US"
-          ],
-          "channels": [
-            "esr",
-            "release"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Spring25-Test-DE",
-    "start_at": "2025-04-15T00:00:00Z",
-    "end_at": "2025-04-30T00:00:00Z",
-    "title": "Helfen Sie mit, Thunderbird am Leben zu erhalten",
-    "description": "Wenn du einen persönlichen Nutzen aus Thunderbird ziehst, freuen wir uns über deine Unterstützung. Weniger als 3 % unserer NutzerInnen tragen die Kosten für das Projekt. Auch dein Beitrag macht einen Unterschied.",
-    "URL": "https://updates.thunderbird.net/thunderbird/128.0/apr25/donate/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=de",
-    "CTA": "Klicke hier, um zu spenden",
-    "severity": 3,
-    "type": "donation",
-    "targeting": {
-      "percent_chance": 100.0,
-      "exclude": [
-        {
-          "displayed_notifications": [
-            "PREBAKED-Spring25"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "displayed_notifications": [
-            "Spring25-Welcome-DE"
-          ],
-          "locales": [
-            "de"
-          ],
-          "channels": [
-            "esr",
-            "release"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "Spring25",
-    "start_at": "2025-04-01T00:00:00Z",
-    "end_at": "2025-06-30T23:59:59Z",
-    "title": "",
-    "description": "",
-    "URL": "https://updates.thunderbird.net/thunderbird/128.0/apr25/?utm_campaign=apr25_appeal&utm_medium=desktop&utm_source=new-tab&utm_content=%LOCALE%",
-    "CTA": "",
-    "severity": 3,
-    "type": "donation_tab",
-    "targeting": {
-      "percent_chance": 100.0,
-      "exclude": [
-        {
-          "displayed_notifications": [
-            "PREBAKED-Spring25"
-          ]
-        },
-        {
-          "displayed_notifications": [
-            "Spring25-Welcome-EN"
-          ]
-        },
-        {
-          "displayed_notifications": [
-            "Spring25-Welcome-DE"
-          ]
-        },
-        {
-          "displayed_notifications": [
-            "ESR140-A"
-          ]
-        },
-        {
-          "displayed_notifications": [
-            "ESR140-B"
-          ]
-        }
-      ]
-    }
-  },
-  {
     "id": "Release-sep25-appeal",
     "start_at": "2025-09-09T00:00:00Z",
     "end_at": "2025-11-02T00:00:00Z",
@@ -975,6 +975,223 @@
             "beta",
             "nightly",
             "release"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Survey-Q325-en-US-CA",
+    "start_at": "2025-09-11T00:00:00Z",
+    "end_at": "2025-11-11T00:00:00Z",
+    "title": "Help Us Improve",
+    "description": "Please take a quick survey to share your experience using Thunderbird.",
+    "URL": "https://www.surveymonkey.com/r/689T8KJ",
+    "CTA": "Take Survey",
+    "severity": 3,
+    "type": "blog",
+    "targeting": {
+      "percent_chance": 1.0,
+      "include": [
+        {
+          "locales": [
+            "en-US",
+            "en-CA"
+          ],
+          "channels": [
+            "esr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Survey-Q325-en_GB",
+    "start_at": "2025-09-11T00:00:00Z",
+    "end_at": "2025-11-11T00:00:00Z",
+    "title": "Help Us Improve",
+    "description": "Please take a quick survey to share your experience using Thunderbird.",
+    "URL": "https://www.surveymonkey.com/r/M23ZRWV?lang=en_GB",
+    "CTA": "Take Survey",
+    "severity": 3,
+    "type": "blog",
+    "targeting": {
+      "percent_chance": 7.0,
+      "include": [
+        {
+          "locales": [
+            "en-GB"
+          ],
+          "channels": [
+            "esr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Survey-Q325-de",
+    "start_at": "2025-09-11T00:00:00Z",
+    "end_at": "2025-11-11T00:00:00Z",
+    "title": "Helfen Sie mit",
+    "description": "Machen Sie bei einer kurzen Umfrage zu Ihrer Thunderbird-Nutzung mit.",
+    "URL": "https://www.surveymonkey.com/r/M2YF2SR?lang=de",
+    "CTA": "Umfrage starten",
+    "severity": 3,
+    "type": "blog",
+    "targeting": {
+      "percent_chance": 1.0,
+      "include": [
+        {
+          "locales": [
+            "de"
+          ],
+          "channels": [
+            "esr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Survey-Q325-fr",
+    "start_at": "2025-09-11T00:00:00Z",
+    "end_at": "2025-11-11T00:00:00Z",
+    "title": "Aidez-nous à améliorer",
+    "description": "Participez à une courte enquête sur votre expérience avec Thunderbird.",
+    "URL": "https://www.surveymonkey.com/r/MC9THS7?lang=fr",
+    "CTA": "Répondre au sondage",
+    "severity": 3,
+    "type": "blog",
+    "targeting": {
+      "percent_chance": 3.0,
+      "include": [
+        {
+          "locales": [
+            "fr"
+          ],
+          "channels": [
+            "esr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Survey-Q325-it",
+    "start_at": "2025-09-11T00:00:00Z",
+    "end_at": "2025-11-11T00:00:00Z",
+    "title": "Aiutaci a migliorare",
+    "description": "Partecipa a un breve sondaggio sulla tua esperienza con Thunderbird.",
+    "URL": "https://www.surveymonkey.com/r/MCD8Y7C?lang=it",
+    "CTA": "Inizia il sondaggio",
+    "severity": 3,
+    "type": "blog",
+    "targeting": {
+      "percent_chance": 4.0,
+      "include": [
+        {
+          "locales": [
+            "it"
+          ],
+          "channels": [
+            "esr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Survey-Q325-ja",
+    "start_at": "2025-09-11T00:00:00Z",
+    "end_at": "2025-11-11T00:00:00Z",
+    "title": "ご意見をお聞かせください",
+    "description": "Thunderbird の体験について短いアンケートにご協力ください。",
+    "URL": "https://www.surveymonkey.com/r/MC728NK?lang=ja",
+    "CTA": "アンケートに回答する",
+    "severity": 3,
+    "type": "blog",
+    "targeting": {
+      "percent_chance": 3.0,
+      "include": [
+        {
+          "locales": [
+            "ja"
+          ],
+          "channels": [
+            "esr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Survey-Q325-pl",
+    "start_at": "2025-09-11T00:00:00Z",
+    "end_at": "2025-11-11T00:00:00Z",
+    "title": "Pomóż nam ulepszyć",
+    "description": "Weź udział w krótkiej ankiecie o swoich doświadczeniach z Thunderbirdem.",
+    "URL": "https://www.surveymonkey.com/r/MSD5YML?lang=pl",
+    "CTA": "Rozpocznij ankietę",
+    "severity": 3,
+    "type": "blog",
+    "targeting": {
+      "percent_chance": 3.0,
+      "include": [
+        {
+          "locales": [
+            "pl"
+          ],
+          "channels": [
+            "esr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Survey-Q325-pt_BR",
+    "start_at": "2025-09-11T00:00:00Z",
+    "end_at": "2025-11-11T00:00:00Z",
+    "title": "Ajude a melhorar",
+    "description": "Participe de uma pesquisa rápida sobre sua experiência com o Thunderbird.",
+    "URL": "https://www.surveymonkey.com/r/MSVGHKD?lang=pt",
+    "CTA": "Iniciar pesquisa",
+    "severity": 3,
+    "type": "blog",
+    "targeting": {
+      "percent_chance": 8.0,
+      "include": [
+        {
+          "locales": [
+            "pt-BR"
+          ],
+          "channels": [
+            "esr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Survey-Q325-es",
+    "start_at": "2025-09-11T00:00:00Z",
+    "end_at": "2025-11-11T00:00:00Z",
+    "title": "Ayúdanos a mejorar",
+    "description": "Participa en una breve encuesta sobre tu experiencia con Thunderbird.",
+    "URL": "https://www.surveymonkey.com/r/MSDCJNR?lang=es",
+    "CTA": "Iniciar encuesta",
+    "severity": 3,
+    "type": "blog",
+    "targeting": {
+      "percent_chance": 3.0,
+      "include": [
+        {
+          "locales": [
+            "es"
+          ],
+          "channels": [
+            "esr"
           ]
         }
       ]
