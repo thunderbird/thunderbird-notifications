@@ -1188,7 +1188,7 @@
       "include": [
         {
           "locales": [
-            "es"
+            "es-ES"
           ],
           "channels": [
             "esr"

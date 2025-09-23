@@ -121,5 +121,5 @@
   type: blog
   targeting:
     include:
-      - { channels: [esr], locales: [es] }
+      - { channels: [esr], locales: [es-ES] }
     percent_chance: 3
