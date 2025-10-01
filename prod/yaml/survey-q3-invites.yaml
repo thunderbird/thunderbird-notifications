@@ -10,7 +10,7 @@
   targeting:
     include:
       - { channels: [esr], locales: [en-US, en-CA] }
-    percent_chance: 1
+    percent_chance: 2
 
 - id: Survey-Q325-en_GB
   start_at: 2025-09-11T00:00:00.000Z
@@ -94,7 +94,7 @@
   targeting:
     include:
       - { channels: [esr], locales: [pl] }
-    percent_chance: 3
+    percent_chance: 8
 
 - id: Survey-Q325-pt_BR
   start_at: 2025-09-11T00:00:00.000Z
@@ -108,7 +108,7 @@
   targeting:
     include:
       - { channels: [esr], locales: [pt-BR] }
-    percent_chance: 8
+    percent_chance: 12
 
 - id: Survey-Q325-es
   start_at: 2025-09-11T00:00:00.000Z
@@ -122,4 +122,4 @@
   targeting:
     include:
       - { channels: [esr], locales: [es-ES] }
-    percent_chance: 3
+    percent_chance: 10

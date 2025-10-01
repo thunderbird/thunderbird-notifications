@@ -991,7 +991,7 @@
     "severity": 3,
     "type": "blog",
     "targeting": {
-      "percent_chance": 1.0,
+      "percent_chance": 2.0,
       "include": [
         {
           "locales": [
@@ -1136,7 +1136,7 @@
     "severity": 3,
     "type": "blog",
     "targeting": {
-      "percent_chance": 3.0,
+      "percent_chance": 8.0,
       "include": [
         {
           "locales": [
@@ -1160,7 +1160,7 @@
     "severity": 3,
     "type": "blog",
     "targeting": {
-      "percent_chance": 8.0,
+      "percent_chance": 12.0,
       "include": [
         {
           "locales": [
@@ -1184,7 +1184,7 @@
     "severity": 3,
     "type": "blog",
     "targeting": {
-      "percent_chance": 3.0,
+      "percent_chance": 10.0,
       "include": [
         {
           "locales": [
