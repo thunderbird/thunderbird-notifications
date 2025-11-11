@@ -1,5 +1,49 @@
 [
   {
+    "id": "EOY-Nov-2025-A",
+    "start_at": "2025-11-10T00:00:00Z",
+    "end_at": "2025-12-03T00:00:00Z",
+    "title": "EOY-Nov-2025-A",
+    "URL": "https://updates.thunderbird.net/thunderbird/140.0/nov25a/?utm_campaign=nov25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=cta_a",
+    "severity": 1,
+    "type": "donation_tab",
+    "targeting": {
+      "percent_chance": 90.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "EOY-Nov-2025-B"
+          ]
+        }
+      ],
+      "include": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": "EOY-Nov-2025-B",
+    "start_at": "2025-11-10T00:00:00Z",
+    "end_at": "2025-12-03T00:00:00Z",
+    "title": "EOY-Nov-2025-B",
+    "URL": "https://updates.thunderbird.net/thunderbird/140.0/nov25b/?utm_campaign=nov25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=cta_b",
+    "severity": 2,
+    "type": "donation_tab",
+    "targeting": {
+      "percent_chance": 100.0,
+      "exclude": [
+        {
+          "displayed_notifications": [
+            "EOY-Nov-2025-A"
+          ]
+        }
+      ],
+      "include": [
+        {}
+      ]
+    }
+  },
+  {
     "id": "ESR140-A",
     "start_at": "2025-06-19T00:00:00Z",
     "end_at": "2025-11-02T00:00:00Z",
