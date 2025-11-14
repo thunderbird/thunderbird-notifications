@@ -1,0 +1,179 @@
+- id: AOLYahooOauth-en
+  start_at: 2025-12-01T00:00:00.000Z
+  end_at: 2025-12-08T00:00:00.000Z
+  title: "Upcoming Account Change"
+  description: "Lorem ipsum"
+  CTA: "Learn More"
+  URL: https://
+  severity: 2
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [nightly],
+          locales: [en-CA, en-GB, en-US],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-de
+  start_at: 2025-12-01T00:00:00.000Z
+  end_at: 2025-12-08T00:00:00.000Z
+  title: "Upcoming Account Change"
+  description: "Lorem ipsum"
+  CTA: "Learn More"
+  URL: https://
+  severity: 2
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [nightly],
+          locales: [de],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-fr
+  start_at: 2025-12-01T00:00:00.000Z
+  end_at: 2025-12-08T00:00:00.000Z
+  title: "Upcoming Account Change"
+  description: "Lorem ipsum"
+  CTA: "Learn More"
+  URL: https://
+  severity: 2
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [nightly],
+          locales: [fr],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-it
+  start_at: 2025-12-01T00:00:00.000Z
+  end_at: 2025-12-08T00:00:00.000Z
+  title: "Upcoming Account Change"
+  description: "Lorem ipsum"
+  CTA: "Learn More"
+  URL: https://
+  severity: 2
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [nightly],
+          locales: [it],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-ja
+  start_at: 2025-12-01T00:00:00.000Z
+  end_at: 2025-12-08T00:00:00.000Z
+  title: "Upcoming Account Change"
+  description: "Lorem ipsum"
+  CTA: "Learn More"
+  URL: https://
+  severity: 2
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [nightly],
+          locales: [ja],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-pl
+  start_at: 2025-12-01T00:00:00.000Z
+  end_at: 2025-12-08T00:00:00.000Z
+  title: "Upcoming Account Change"
+  description: "Lorem ipsum"
+  CTA: "Learn More"
+  URL: https://
+  severity: 2
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [nightly],
+          locales: [pl],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-pt_BR
+  start_at: 2025-12-01T00:00:00.000Z
+  end_at: 2025-12-08T00:00:00.000Z
+  title: "Upcoming Account Change"
+  description: "Lorem ipsum"
+  CTA: "Learn More"
+  URL: https://
+  severity: 2
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [nightly],
+          locales: [pt-BR],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-es
+  start_at: 2025-12-01T00:00:00.000Z
+  end_at: 2025-12-08T00:00:00.000Z
+  title: "Upcoming Account Change"
+  description: "Lorem ipsum"
+  CTA: "Learn More"
+  URL: https://
+  severity: 2
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [nightly],
+          locales: [es-ES],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-nl
+  start_at: 2025-12-01T00:00:00.000Z
+  end_at: 2025-12-08T00:00:00.000Z
+  title: "Upcoming Account Change"
+  description: "Lorem ipsum"
+  CTA: "Learn More"
+  URL: https://
+  severity: 2
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [nightly],
+          locales: [nl],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-ru
+  start_at: 2025-12-01T00:00:00.000Z
+  end_at: 2025-12-08T00:00:00.000Z
+  title: "Upcoming Account Change"
+  description: "Lorem ipsum"
+  CTA: "Learn More"
+  URL: https://
+  severity: 2
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [nightly],
+          locales: [ru],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
