@@ -28,7 +28,7 @@
       - { displayed_notifications: [EOY-Dec1-2025-A] }
       - { displayed_notifications: [EOY-Dec1-2025-C] }
       - { displayed_notifications: [EOY-Nov-2025-C] }
-    percent_chance: 6
+    percent_chance: 3
 
 - id: EOY-Dec1-2025-C
   start_at: 2025-11-25T00:00:00.000Z
@@ -44,4 +44,4 @@
       - { displayed_notifications: [EOY-Dec1-2025-A] }
       - { displayed_notifications: [EOY-Dec1-2025-B] }
       - { displayed_notifications: [EOY-Nov-2025-C] }
-    percent_chance: 9
+    percent_chance: 3
