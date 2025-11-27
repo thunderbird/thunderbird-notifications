@@ -1,6 +1,6 @@
 - id: EOY-Nov-2025-A
   start_at: 2025-11-10T00:00:00.000Z
-  end_at: 2025-12-03T00:00:00.000Z
+  end_at: 2025-11-20T00:00:00.000Z
   title: "EOY-Nov-2025-A"
   severity: 1
   type: donation_tab
@@ -25,4 +25,20 @@
       - { }
     exclude:
       - { displayed_notifications: [EOY-Nov-2025-A] }
+      - { displayed_notifications: [EOY-Nov-2025-C] }
     percent_chance: 100
+
+- id: EOY-Nov-2025-C
+  start_at: 2025-11-21T00:00:00.000Z
+  end_at: 2025-12-03T00:00:00.000Z
+  title: "EOY-Nov-2025-C"
+  severity: 1
+  type: donation_tab
+  URL: https://updates.thunderbird.net/thunderbird/140.0/nov25c/?utm_campaign=nov25_appeal&utm_medium=desktop&utm_source=in_app&utm_content=cta_c
+
+  targeting:
+    include:
+      - { }
+    exclude:
+      - { displayed_notifications: [EOY-Nov-2025-B] }
+    percent_chance: 6
