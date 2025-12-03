@@ -79,7 +79,7 @@
     "severity": 1,
     "type": "donation_tab",
     "targeting": {
-      "percent_chance": 3.0,
+      "percent_chance": 100.0,
       "exclude": [
         {
           "displayed_notifications": [
