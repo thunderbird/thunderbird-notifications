@@ -45,3 +45,18 @@
       - { displayed_notifications: [EOY-Dec1-2025-B] }
       - { displayed_notifications: [EOY-Nov-2025-C] }
     percent_chance: 3
+
+- id: EOY-Dec1-2025-6C
+  start_at: 2025-11-25T00:00:00.000Z
+  end_at: 2025-12-15T00:00:00.000Z
+  title: "EOY-Dec1-2025-6C"
+  severity: 4
+  type: donation_tab
+  URL: https://updates.thunderbird.net/thunderbird/140.0/dec25-1a6C/?utm_campaign=dec25_appeal-1&utm_medium=desktop&utm_source=in_app&utm_content=cta_6c
+  targeting:
+    include:
+      - { displayed_notifications: [EOY-Nov-2025-C] }
+    exclude:
+      - { displayed_notifications: [EOY-Dec1-2025-A] }
+      - { displayed_notifications: [EOY-Dec1-2025-B] }
+    percent_chance: 100
