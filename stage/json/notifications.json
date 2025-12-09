@@ -292,5 +292,277 @@
         {}
       ]
     }
+  },
+  {
+    "id": "AOLYahooOauth-en",
+    "start_at": "2025-12-01T00:00:00Z",
+    "end_at": "2025-12-19T00:00:00Z",
+    "title": "Upcoming Account Change",
+    "description": "We're switching to a more secure login system for one or more of your email accounts.",
+    "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
+    "CTA": "Learn More",
+    "severity": 1,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100.0,
+      "include": [
+        {
+          "locales": [
+            "en-CA",
+            "en-GB",
+            "en-US"
+          ],
+          "channels": [
+            "nightly"
+          ],
+          "pref_true": [
+            "mail.inappnotifications.pkceUpgradeForYahooAol"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "AOLYahooOauth-de",
+    "start_at": "2025-12-01T00:00:00Z",
+    "end_at": "2025-12-19T00:00:00Z",
+    "title": "Bevorstehende Änderung beim Kontozugang",
+    "description": "Wir stellen eines oder mehrere E-Mail Konten auf ein sichereres Anmeldeverfahren um.",
+    "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
+    "CTA": "Weitere Informationen",
+    "severity": 1,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100.0,
+      "include": [
+        {
+          "locales": [
+            "de"
+          ],
+          "channels": [
+            "nightly"
+          ],
+          "pref_true": [
+            "mail.inappnotifications.pkceUpgradeForYahooAol"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "AOLYahooOauth-fr",
+    "start_at": "2025-12-01T00:00:00Z",
+    "end_at": "2025-12-19T00:00:00Z",
+    "title": "Changement relatif à votre compte e-mail",
+    "description": "Nous passons à une méthode d'authentification plus sécurisée pour un ou plusieurs de vos comptes e-mail.",
+    "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
+    "CTA": "En savoir plus",
+    "severity": 1,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100.0,
+      "include": [
+        {
+          "locales": [
+            "fr"
+          ],
+          "channels": [
+            "nightly"
+          ],
+          "pref_true": [
+            "mail.inappnotifications.pkceUpgradeForYahooAol"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "AOLYahooOauth-it",
+    "start_at": "2025-12-01T00:00:00Z",
+    "end_at": "2025-12-19T00:00:00Z",
+    "title": "Modifica della configurazione degli account ",
+    "description": "Stiamo aggiornando il sistema di autenticazione per aumentare la sicurezza di alcuni dei tuoi account. ",
+    "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
+    "CTA": "Scopri di più",
+    "severity": 1,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100.0,
+      "include": [
+        {
+          "locales": [
+            "it"
+          ],
+          "channels": [
+            "nightly"
+          ],
+          "pref_true": [
+            "mail.inappnotifications.pkceUpgradeForYahooAol"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "AOLYahooOauth-ja",
+    "start_at": "2025-12-01T00:00:00Z",
+    "end_at": "2025-12-19T00:00:00Z",
+    "title": "アカウント変更について",
+    "description": "お客さまの1つ以上のメールアカウントについてより安全なログインシステムへ移行いたします。",
+    "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
+    "CTA": "詳しくはこちら",
+    "severity": 1,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100.0,
+      "include": [
+        {
+          "locales": [
+            "ja"
+          ],
+          "channels": [
+            "nightly"
+          ],
+          "pref_true": [
+            "mail.inappnotifications.pkceUpgradeForYahooAol"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "AOLYahooOauth-pl",
+    "start_at": "2025-12-01T00:00:00Z",
+    "end_at": "2025-12-19T00:00:00Z",
+    "title": "Zmiana logowania",
+    "description": "Wprowadzamy bezpieczniejszą metodę logowania dla jednego lub kilku Twoich kont e mail.",
+    "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
+    "CTA": "Dowiedz się więcej",
+    "severity": 1,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100.0,
+      "include": [
+        {
+          "locales": [
+            "pl"
+          ],
+          "channels": [
+            "nightly"
+          ],
+          "pref_true": [
+            "mail.inappnotifications.pkceUpgradeForYahooAol"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "AOLYahooOauth-pt_BR",
+    "start_at": "2025-12-01T00:00:00Z",
+    "end_at": "2025-12-19T00:00:00Z",
+    "title": "Mudança no acesso à conta",
+    "description": "Estamos migrando para um método de login mais seguro para uma ou mais de suas contas de e mail.",
+    "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
+    "CTA": "Saiba mais",
+    "severity": 1,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100.0,
+      "include": [
+        {
+          "locales": [
+            "pt-BR"
+          ],
+          "channels": [
+            "nightly"
+          ],
+          "pref_true": [
+            "mail.inappnotifications.pkceUpgradeForYahooAol"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "AOLYahooOauth-es",
+    "start_at": "2025-12-01T00:00:00Z",
+    "end_at": "2025-12-19T00:00:00Z",
+    "title": "Cambio en el acceso a la cuenta",
+    "description": "Estamos adoptando un método de inicio de sesión más seguro para una o varias de tus cuentas de correo.",
+    "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
+    "CTA": "Más información",
+    "severity": 1,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100.0,
+      "include": [
+        {
+          "locales": [
+            "es-ES"
+          ],
+          "channels": [
+            "nightly"
+          ],
+          "pref_true": [
+            "mail.inappnotifications.pkceUpgradeForYahooAol"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "AOLYahooOauth-nl",
+    "start_at": "2025-12-01T00:00:00Z",
+    "end_at": "2025-12-19T00:00:00Z",
+    "title": "Wijziging in accounttoegang",
+    "description": "We schakelen over op een veiliger aanmeldmethode voor een of meer van uw e mailaccounts.",
+    "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
+    "CTA": "Meer informatie",
+    "severity": 1,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100.0,
+      "include": [
+        {
+          "locales": [
+            "nl"
+          ],
+          "channels": [
+            "nightly"
+          ],
+          "pref_true": [
+            "mail.inappnotifications.pkceUpgradeForYahooAol"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "AOLYahooOauth-ru",
+    "start_at": "2025-12-01T00:00:00Z",
+    "end_at": "2025-12-19T00:00:00Z",
+    "title": "Изменение входа в учетную запись",
+    "description": "Мы переходим на более безопасный способ входа в один или несколько ваших почтовых аккаунтов.",
+    "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
+    "CTA": "Узнать больше",
+    "severity": 1,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100.0,
+      "include": [
+        {
+          "locales": [
+            "ru"
+          ],
+          "channels": [
+            "nightly"
+          ],
+          "pref_true": [
+            "mail.inappnotifications.pkceUpgradeForYahooAol"
+          ]
+        }
+      ]
+    }
   }
 ]
