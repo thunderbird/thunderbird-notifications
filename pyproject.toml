@@ -4,11 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "thunderbird-notifications"
-version = "0.0.1"
+version = "1.0.0"
 description = "Thunderbird Notifications conversion and validation tools"
 requires-python = "==3.12.*"
 dynamic = ["dependencies"]
 
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
 
 # Ruff
 [tool.ruff]
