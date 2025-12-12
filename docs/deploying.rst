@@ -2,6 +2,8 @@
 Deploying changes
 =================
 
+**Important:** before you proceed with deploying changes, make sure you've actually merged in the hand-written yaml changes to the notifications json file. You can find instructions on the `project's readme. <../README.md>`_
+
 Ensure you're setup by following the setup instructions available `here. <https://thunderbird.github.io/pulumi/getting-started.html>`_
 
 Additionally you'll also need a login token from pulumi cloud. The pulumi cloud account is located in the Services 1password account. Alternatively you can log-in through pulumi cloud via ``pulumi login``.
