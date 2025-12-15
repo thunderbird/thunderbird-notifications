@@ -11,7 +11,9 @@
     exclude:
       - { displayed_notifications: [EOY-Dec2-2025-B] }
       - { displayed_notifications: [EOY-Dec2-2025-C] }
+      - { displayed_notifications: [EOY-Dec2-2025-D] }
       - { displayed_notifications: [EOY-Nov-2025-C] }
+
     percent_chance: 3
 
 - id: EOY-Dec2-2025-B
@@ -27,6 +29,7 @@
     exclude:
       - { displayed_notifications: [EOY-Dec2-2025-A] }
       - { displayed_notifications: [EOY-Dec2-2025-C] }
+      - { displayed_notifications: [EOY-Dec2-2025-D] }
       - { displayed_notifications: [EOY-Nov-2025-C] }
     percent_chance: 3
 
@@ -43,6 +46,24 @@
     exclude:
       - { displayed_notifications: [EOY-Dec2-2025-A] }
       - { displayed_notifications: [EOY-Dec2-2025-B] }
+      - { displayed_notifications: [EOY-Dec2-2025-D] }
       - { displayed_notifications: [EOY-Nov-2025-C] }
-    percent_chance: 3
+    percent_chance: 25
+
+  - id: EOY-Dec2-2025-D
+  start_at: 2025-12-09T00:00:00.000Z
+  end_at: 2026-03-01T00:00:00.000Z
+  title: "EOY-Dec2-2025-D"
+  severity: 4
+  type: donation_tab
+  URL: https://updates.thunderbird.net/en-US/thunderbird/140.0/dec25-2d/?utm_campaign=dec25_appeal-2&utm_medium=desktop&utm_source=in_app&utm_content=dec25-2d
+  targeting:
+    include:
+      - { }
+    exclude:
+      - { displayed_notifications: [EOY-Dec2-2025-A] }
+      - { displayed_notifications: [EOY-Dec2-2025-B] }
+      - { displayed_notifications: [EOY-Dec2-2025-C] }
+      - { displayed_notifications: [EOY-Nov-2025-C] }
+    percent_chance: 33
     
