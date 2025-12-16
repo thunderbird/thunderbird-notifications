@@ -94,7 +94,7 @@
       - { locales: [en-CA, en-GB, en-US]}
     percent_chance: 100
 
-  - id: EOY-Dec2-2025-BD
+- id: EOY-Dec2-2025-BD
   start_at: 2025-12-20T00:00:00.000Z
   end_at: 2026-03-01T00:00:00.000Z
   title: "EOY-Dec2-2025-BD"
