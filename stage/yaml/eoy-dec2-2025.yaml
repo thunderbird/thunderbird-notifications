@@ -80,7 +80,7 @@
       - { }
     percent_chance: 100
 
-  - id: EOY-Dec2-2025-AD
+- id: EOY-Dec2-2025-AD
   start_at: 2025-12-20T00:00:00.000Z
   end_at: 2026-03-01T00:00:00.000Z
   title: "EOY-Dec2-2025-AD"
