@@ -84,7 +84,7 @@
   start_at: 2025-20-09T00:00:00.000Z
   end_at: 2026-03-01T00:00:00.000Z
   title: "EOY-Dec2-2025-AD"
-  severity: 6
+  severity: 5
   type: donation_tab
   URL: https://updates.thunderbird.net/thunderbird/140.0/dec25-2d/?utm_campaign=dec25_appeal-2&utm_medium=desktop&utm_source=in_app&utm_content=dec25-2d
   targeting:
@@ -98,7 +98,7 @@
   start_at: 2025-20-09T00:00:00.000Z
   end_at: 2026-03-01T00:00:00.000Z
   title: "EOY-Dec2-2025-BD"
-  severity: 7
+  severity: 5
   type: donation_tab
   URL: https://updates.thunderbird.net/thunderbird/140.0/dec25-2d/?utm_campaign=dec25_appeal-2&utm_medium=desktop&utm_source=in_app&utm_content=dec25-2d
   targeting:
