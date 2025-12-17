@@ -13,13 +13,12 @@
       - { displayed_notifications: [EOY-Dec2-2025-C] }
       - { displayed_notifications: [EOY-Dec2-2025-D] }
       - { displayed_notifications: [EOY-Nov-2025-C] }
-
     percent_chance: 3
 
 - id: EOY-Dec2-2025-B
   start_at: 2025-12-09T00:00:00.000Z
   end_at: 2026-03-01T00:00:00.000Z
-  title: "EOY-Dec1-2025-B"
+  title: "EOY-Dec2-2025-B"
   severity: 2
   type: donation_tab
   URL: https://updates.thunderbird.net/thunderbird/140.0/dec25-2b/?utm_campaign=dec25_appeal-2&utm_medium=desktop&utm_source=in_app&utm_content=cta_b
@@ -65,5 +64,46 @@
       - { displayed_notifications: [EOY-Dec2-2025-B] }
       - { displayed_notifications: [EOY-Dec2-2025-C] }
       - { displayed_notifications: [EOY-Nov-2025-C] }
-    percent_chance: 33
-    
+    percent_chance: 100
+
+- id: EOY-Dec2-2025-6C
+  start_at: 2025-12-09T00:00:00.000Z
+  end_at: 2026-03-01T00:00:00.000Z
+  title: "EOY-Dec2-2025-6C"
+  severity: 5
+  type: donation_tab
+  URL: https://updates.thunderbird.net/thunderbird/140.0/dec25-2d6c/?utm_campaign=dec25_appeal-2&utm_medium=desktop&utm_source=in_app&utm_content=dec25-2d6c
+  targeting:
+    include:
+      - { displayed_notifications: [EOY-Nov-2025-C] }
+    exclude:
+      - { }
+    percent_chance: 100
+
+- id: EOY-Dec2-2025-AD
+  start_at: 2025-12-20T00:00:00.000Z
+  end_at: 2026-03-01T00:00:00.000Z
+  title: "EOY-Dec2-2025-AD"
+  severity: 5
+  type: donation_tab
+  URL: https://updates.thunderbird.net/thunderbird/140.0/dec25-2d/?utm_campaign=dec25_appeal-2&utm_medium=desktop&utm_source=in_app&utm_content=dec25-2d
+  targeting:
+    include:
+      - { displayed_notifications: [EOY-Dec2-2025-A] }
+    exclude:
+      - { locales: [en-CA, en-GB, en-US]}
+    percent_chance: 100
+
+- id: EOY-Dec2-2025-BD
+  start_at: 2025-12-20T00:00:00.000Z
+  end_at: 2026-03-01T00:00:00.000Z
+  title: "EOY-Dec2-2025-BD"
+  severity: 5
+  type: donation_tab
+  URL: https://updates.thunderbird.net/thunderbird/140.0/dec25-2d/?utm_campaign=dec25_appeal-2&utm_medium=desktop&utm_source=in_app&utm_content=dec25-2d
+  targeting:
+    include:
+      - { displayed_notifications: [EOY-Dec2-2025-B] }
+    exclude:
+      - { locales: [en-CA, en-GB, en-US]}
+    percent_chance: 100
