@@ -76,8 +76,6 @@
   targeting:
     include:
       - { displayed_notifications: [EOY-Nov-2025-C] }
-    exclude:
-      - { }
     percent_chance: 100
 
 - id: EOY-Dec2-2025-AD
