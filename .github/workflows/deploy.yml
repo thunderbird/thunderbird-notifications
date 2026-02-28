@@ -1,0 +1,127 @@
+name: Deploy Notifications
+
+on:
+  pull_request:
+    branches: ["*"]
+  push:
+    branches: [main]
+    paths:
+      - "stage/yaml/**"
+      - "prod/yaml/**"
+      - "schema.json"
+      - "pulumi/**"
+      - "src/**"
+      - ".github/workflows/**"
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  AWS_REGION: us-west-2
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Convert YAML to JSON
+        run: |
+          uv run python scripts/convert_yaml.py stage/yaml stage/json/notifications.json
+          uv run python scripts/convert_yaml.py prod/yaml prod/json/notifications.json
+
+      - name: Validate JSON
+        run: |
+          uv run python scripts/validate_json.py ./schema.json stage/json
+          uv run python scripts/validate_json.py ./schema.json prod/json
+
+      - name: Upload JSON artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: notifications-json
+          path: |
+            stage/json/notifications.json
+            prod/json/notifications.json
+
+  deploy-stage:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    environment: stage
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download JSON artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: notifications-json
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::768512802988:role/thunderbird-notifications-deploy
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Authenticate with Pulumi Cloud
+        uses: pulumi/auth-actions@v1
+        with:
+          organization: thunderbird
+          requested-token-type: urn:pulumi:token-type:access_token:organization
+
+      - uses: pulumi/actions@v6
+        with:
+          command: up
+          stack-name: thunderbird/thunderbird-notifications/stage
+          work-dir: pulumi
+
+  deploy-prod:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    environment: prod
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download JSON artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: notifications-json
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::768512802988:role/thunderbird-notifications-deploy
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Authenticate with Pulumi Cloud
+        uses: pulumi/auth-actions@v1
+        with:
+          organization: thunderbird
+          requested-token-type: urn:pulumi:token-type:access_token:organization
+
+      - uses: pulumi/actions@v6
+        with:
+          command: up
+          stack-name: thunderbird/thunderbird-notifications/prod
+          work-dir: pulumi
