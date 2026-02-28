@@ -2,34 +2,50 @@
 Deploying changes
 =================
 
-**Important:** before you proceed with deploying changes, make sure you've actually merged in the hand-written yaml changes to the notifications json file. You can find instructions on the `project's readme. <../README.md>`_
+Deployment is handled automatically by GitHub Actions. When changes to notification
+YAML files are merged into ``main``, the CI pipeline converts YAML to JSON, validates
+it, and deploys to AWS via Pulumi.
 
-Ensure you're setup by following the setup instructions available `here. <https://thunderbird.github.io/pulumi/getting-started.html>`_
-
-Additionally you'll also need a login token from pulumi cloud. The pulumi cloud account is located in the Services 1password account. Alternatively you can log-in through pulumi cloud via ``pulumi login``.
-
-Before running
---------------
-
-Make sure to cd into ``pulumi`` and ensure you're not in any active virtual environment. The easiest way is to just start a new shell in the current directory (i.e. run ``bash`` or ``zsh`` depending on what you use.)
-
-Everytime you run either ``pulumi up`` or ``pulumi preview`` pulumi will ask you which stack you want to run.
-
-If you'd like to avoid this in the future you can run ``pulumi stack select $stack``
-
-Previewing changes
+Automated workflow
 ------------------
 
-To preview changes showing the diff of the update run the following:
+On every push to ``main`` that touches ``stage/yaml/``, ``prod/yaml/``, ``schema.json``,
+``pulumi/``, ``src/``, or ``.github/workflows/``:
+
+1. The **validate** job converts all YAML files to JSON and validates them against the schema.
+2. The **deploy-stage** job automatically runs ``pulumi up`` for the ``stage`` stack.
+3. The **deploy-prod** job waits for manual approval in the GitHub Actions UI (via the
+   ``production`` environment protection rule), then runs ``pulumi up`` for the ``prod`` stack.
+
+Pull requests run only the validate job, so broken YAML is caught before merge.
+
+Approving a production deployment
+----------------------------------
+
+After a push to ``main``, navigate to the workflow run in GitHub Actions. The
+``deploy-prod`` job will show as "Waiting for review". Click **Review deployments**,
+select the ``production`` environment, and approve.
+
+Authentication
+--------------
+
+The workflow uses OIDC (OpenID Connect) for both AWS and Pulumi Cloud.
+
+Running Pulumi manually
+-----------------------
+
+If you need to run Pulumi locally (e.g. for debugging or previewing), make sure to
+``cd`` into ``pulumi/`` and ensure you're not in any active virtual environment.
+
+You will need a login token from Pulumi Cloud.
+
+Previewing changes:
 
 .. code-block:: bash
 
   pulumi preview --diff
 
-No actual changes will be pushed up, this command should be safe to run at anytime.
-
-Deploying changes
------------------
+Deploying changes:
 
 .. code-block:: bash
 
@@ -38,7 +54,7 @@ Deploying changes
 Verifying changes
 -----------------
 
-Once you've successfully deployed your json changes you can verify that they're live by going to:
+Once deployed, verify that notifications are live:
 
 - Stage: https://notifications-stage.thunderbird.net/2.0/notifications.json
 - Prod: https://notifications.thunderbird.net/2.0/notifications.json
@@ -46,4 +62,6 @@ Once you've successfully deployed your json changes you can verify that they're 
 Clearing the production cache
 ------------------------------
 
-Within our Cloudflare account under the ``thunderbird.net`` domain you'll need to run a ``Custom Purge`` under ``Caching -> Configuration`` for the hostname `notifications.thunderbird.net`. 
+Within our Cloudflare account under the ``thunderbird.net`` domain you'll need to run a
+``Custom Purge`` under ``Caching -> Configuration`` for the hostname
+``notifications.thunderbird.net``.
