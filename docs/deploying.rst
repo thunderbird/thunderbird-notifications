@@ -2,34 +2,63 @@
 Deploying changes
 =================
 
-**Important:** before you proceed with deploying changes, make sure you've actually merged in the hand-written yaml changes to the notifications json file. You can find instructions on the `project's readme. <../README.md>`_
+Deployment is handled automatically by GitHub Actions. When changes to notification
+YAML files are merged into ``main``, the CI pipeline converts YAML to JSON, validates
+it, and deploys to AWS via Pulumi.
 
-Ensure you're setup by following the setup instructions available `here. <https://thunderbird.github.io/pulumi/getting-started.html>`_
+Stage and production directories
+---------------------------------
 
-Additionally you'll also need a login token from pulumi cloud. The pulumi cloud account is located in the Services 1password account. Alternatively you can log-in through pulumi cloud via ``pulumi login``.
+Notification YAML files are kept in separate directories per environment:
 
-Before running
---------------
+- ``stage/yaml/`` — notifications deployed to the **stage** environment.
+- ``prod/yaml/`` — notifications deployed to the **production** environment.
 
-Make sure to cd into ``pulumi`` and ensure you're not in any active virtual environment. The easiest way is to just start a new shell in the current directory (i.e. run ``bash`` or ``zsh`` depending on what you use.)
+To deploy a notification to production, its YAML file must be present in ``prod/yaml/``.
+Placing a file only in ``stage/yaml/`` will deploy it to stage but not production. This
+allows you to test notifications on stage before promoting them to production by copying
+the file into ``prod/yaml/``.
 
-Everytime you run either ``pulumi up`` or ``pulumi preview`` pulumi will ask you which stack you want to run.
-
-If you'd like to avoid this in the future you can run ``pulumi stack select $stack``
-
-Previewing changes
+Automated workflow
 ------------------
 
-To preview changes showing the diff of the update run the following:
+On every push to ``main`` that touches ``stage/yaml/``, ``prod/yaml/``, ``schema.json``,
+``pulumi/``, ``src/``, or ``.github/workflows/``:
+
+1. The **validate** job converts all YAML files to JSON and validates them against the schema.
+2. A single **deploy** job uses a matrix strategy to run ``pulumi up`` for both the
+   ``stage`` and ``prod`` stacks in parallel. The ``prod`` leg waits for manual approval
+   in the GitHub Actions UI (via the ``production`` environment protection rule).
+
+Pull requests run only the validate job, so broken YAML is caught before merge.
+
+Approving a production deployment
+----------------------------------
+
+After a push to ``main``, navigate to the workflow run in GitHub Actions. The
+``deploy (prod)`` job will show as "Waiting for review". Click **Review deployments**,
+select the ``production`` environment, and approve.
+
+Authentication
+--------------
+
+The workflow uses OIDC (OpenID Connect) for both AWS and Pulumi Cloud.
+
+Running Pulumi manually
+-----------------------
+
+If you need to run Pulumi locally (e.g. for debugging or previewing), make sure to
+``cd`` into ``pulumi/`` and ensure you're not in any active virtual environment.
+
+You will need a login token from Pulumi Cloud.
+
+Previewing changes:
 
 .. code-block:: bash
 
   pulumi preview --diff
 
-No actual changes will be pushed up, this command should be safe to run at anytime.
-
-Deploying changes
------------------
+Deploying changes:
 
 .. code-block:: bash
 
@@ -38,7 +67,7 @@ Deploying changes
 Verifying changes
 -----------------
 
-Once you've successfully deployed your json changes you can verify that they're live by going to:
+Once deployed, verify that notifications are live:
 
 - Stage: https://notifications-stage.thunderbird.net/2.0/notifications.json
 - Prod: https://notifications.thunderbird.net/2.0/notifications.json
@@ -46,4 +75,6 @@ Once you've successfully deployed your json changes you can verify that they're 
 Clearing the production cache
 ------------------------------
 
-Within our Cloudflare account under the ``thunderbird.net`` domain you'll need to run a ``Custom Purge`` under ``Caching -> Configuration`` for the hostname `notifications.thunderbird.net`. 
+Within our Cloudflare account under the ``thunderbird.net`` domain you'll need to run a
+``Custom Purge`` under ``Caching -> Configuration`` for the hostname
+``notifications.thunderbird.net``.

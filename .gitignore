@@ -15,5 +15,10 @@ venv
 htmlcov
 caldav
 
+# Generated JSON (built from YAML by CI)
+stage/json/
+prod/json/
+json/
+
 # Mac noise
 **/.DS_Store
