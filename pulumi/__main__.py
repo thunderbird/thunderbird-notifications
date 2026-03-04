@@ -2,6 +2,7 @@ import json
 import pulumi
 import pulumi_aws as aws
 import pulumi_cloudflare as cloudflare
+import pulumi_command as command
 from datetime import datetime, timedelta
 from pulumi import FileAsset
 from rewrite import create_rewrite_lambda
@@ -160,15 +161,34 @@ cloudfront_distribution = aws.cloudfront.Distribution(
 )
 
 # Create a Cloudflare DNS entry pointing to the CloudFront distribution
-# Docs: https://www.pulumi.com/registry/packages/cloudflare/api-docs/record/
-dns_record = cloudflare.Record(
+# Docs: https://www.pulumi.com/registry/packages/cloudflare/api-docs/dnsrecord/
+dns_record = cloudflare.DnsRecord(
     'notifications_dns_record',
     zone_id=zone_id,
     name=domain_name,
     type='CNAME',
     content=cloudfront_distribution.domain_name,
     proxied=cf_proxy,
-    ttl=1  # 1 == automatic according to documentation
+    ttl=1,  # 1 == automatic according to documentation
+)
+
+# Purge Cloudflare cache by hostname when deployed content changes
+cf_config = pulumi.Config("cloudflare")
+cf_api_token = cf_config.require_secret("apiToken")
+
+purge_cache = command.local.Command(
+    "purge_cloudflare_cache",
+    create=cf_api_token.apply(
+        lambda token: (
+            f'curl -s -X POST "https://api.cloudflare.com/client/v4/zones/{zone_id}/purge_cache" '
+            f'-H "Authorization: Bearer {token}" '
+            f'-H "Content-Type: application/json" '
+            f'--data \'{{"hosts":["{domain_name}"]}}\' '
+            f'--fail'
+        )
+    ),
+    triggers=[notifications_file.etag, schema_file.etag],
+    opts=pulumi.ResourceOptions(depends_on=[dns_record]),
 )
 
 # Export the CloudFront distribution URL (SSL-enabled)
