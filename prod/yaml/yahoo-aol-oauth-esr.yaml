@@ -1,0 +1,179 @@
+- id: AOLYahooOauth-esr-en
+  start_at: 2026-03-01T00:00:00.000Z
+  end_at: 2026-04-30T00:00:00.000Z
+  title: "Upcoming Account Change"
+  description: "We're switching to a more secure login system for one or more of your email accounts."
+  CTA: "Learn More"
+  URL: https://support.mozilla.org/kb/thunderbird-and-yahoo
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [esr, release],
+          locales: [en-CA, en-GB, en-US],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-esr-de
+  start_at: 2026-03-01T00:00:00.000Z
+  end_at: 2026-04-30T00:00:00.000Z
+  title: "Bevorstehende Änderung beim Kontozugang"
+  description: "Wir stellen eines oder mehrere E-Mail Konten auf ein sichereres Anmeldeverfahren um."
+  CTA: "Weitere Informationen"
+  URL: https://support.mozilla.org/kb/thunderbird-and-yahoo
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [esr, release],
+          locales: [de],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-esr-fr
+  start_at: 2026-03-01T00:00:00.000Z
+  end_at: 2026-04-30T00:00:00.000Z
+  title: "Changement relatif à votre compte e-mail"
+  description: "Nous passons à une méthode d'authentification plus sécurisée pour un ou plusieurs de vos comptes e-mail."
+  CTA: "En savoir plus"
+  URL: https://support.mozilla.org/kb/thunderbird-and-yahoo
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [esr, release],
+          locales: [fr],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-esr-it
+  start_at: 2026-03-01T00:00:00.000Z
+  end_at: 2026-04-30T00:00:00.000Z
+  title: "Modifica della configurazione degli account "
+  description: "Stiamo aggiornando il sistema di autenticazione per aumentare la sicurezza di alcuni dei tuoi account. "
+  CTA: "Scopri di più"
+  URL: https://support.mozilla.org/kb/thunderbird-and-yahoo
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [esr, release],
+          locales: [it],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-esr-ja
+  start_at: 2026-03-01T00:00:00.000Z
+  end_at: 2026-04-30T00:00:00.000Z
+  title: "アカウント変更について"
+  description: "お客さまの1つ以上のメールアカウントについてより安全なログインシステムへ移行いたします。"
+  CTA: "詳しくはこちら"
+  URL: https://support.mozilla.org/kb/thunderbird-and-yahoo
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [esr, release],
+          locales: [ja],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-esr-pl
+  start_at: 2026-03-01T00:00:00.000Z
+  end_at: 2026-04-30T00:00:00.000Z
+  title: "Zmiana logowania"
+  description: "Wprowadzamy bezpieczniejszą metodę logowania dla jednego lub kilku Twoich kont e mail."
+  CTA: "Dowiedz się więcej"
+  URL: https://support.mozilla.org/kb/thunderbird-and-yahoo
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [esr, release],
+          locales: [pl],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-esr-pt_BR
+  start_at: 2026-03-01T00:00:00.000Z
+  end_at: 2026-04-30T00:00:00.000Z
+  title: "Mudança no acesso à conta"
+  description: "Estamos migrando para um método de login mais seguro para uma ou mais de suas contas de e mail."
+  CTA: "Saiba mais"
+  URL: https://support.mozilla.org/kb/thunderbird-and-yahoo
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [esr, release],
+          locales: [pt-BR],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-esr-es
+  start_at: 2026-03-01T00:00:00.000Z
+  end_at: 2026-04-30T00:00:00.000Z
+  title: "Cambio en el acceso a la cuenta"
+  description: "Estamos adoptando un método de inicio de sesión más seguro para una o varias de tus cuentas de correo."
+  CTA: "Más información"
+  URL: https://support.mozilla.org/kb/thunderbird-and-yahoo
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [esr, release],
+          locales: [es-ES],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-esr-nl
+  start_at: 2026-03-01T00:00:00.000Z
+  end_at: 2026-04-30T00:00:00.000Z
+  title: "Wijziging in accounttoegang"
+  description: "We schakelen over op een veiliger aanmeldmethode voor een of meer van uw e mailaccounts."
+  CTA: "Meer informatie"
+  URL: https://support.mozilla.org/kb/thunderbird-and-yahoo
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [esr, release],
+          locales: [nl],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
+
+- id: AOLYahooOauth-esr-ru
+  start_at: 2026-03-01T00:00:00.000Z
+  end_at: 2026-04-30T00:00:00.000Z
+  title: "Изменение входа в учетную запись"
+  description: "Мы переходим на более безопасный способ входа в один или несколько ваших почтовых аккаунтов."
+  CTA: "Узнать больше"
+  URL: https://support.mozilla.org/kb/thunderbird-and-yahoo
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          channels: [esr, release],
+          locales: [ru],
+          pref_true: [mail.inappnotifications.pkceUpgradeForYahooAol],
+        }
+    percent_chance: 100
