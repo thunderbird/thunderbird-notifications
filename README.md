@@ -20,8 +20,8 @@ Server-side notification definitions for Thunderbird's [in-app notification syst
 You'll first need to setup [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```shell
-# Download python 3.12
-uv python install 3.12
+# Download python 3.14
+uv python install 3.14
 
 # Create the virtual environment
 uv venv
