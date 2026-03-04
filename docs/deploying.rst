@@ -72,9 +72,12 @@ Once deployed, verify that notifications are live:
 - Stage: https://notifications-stage.thunderbird.net/2.0/notifications.json
 - Prod: https://notifications.thunderbird.net/2.0/notifications.json
 
-Clearing the production cache
+Clearing the Cloudflare cache
 ------------------------------
 
-Within our Cloudflare account under the ``thunderbird.net`` domain you'll need to run a
-``Custom Purge`` under ``Caching -> Configuration`` for the hostname
-``notifications.thunderbird.net``.
+Pulumi automatically purges the Cloudflare cache by hostname when deployed content
+changes. The purge is triggered by changes to the S3 object ETags for
+``notifications.json`` or ``schema.json``.
+
+To purge manually, go to the Cloudflare dashboard for the ``thunderbird.net`` domain and
+run a ``Custom Purge`` under ``Caching -> Configuration`` for the desired hostname.
