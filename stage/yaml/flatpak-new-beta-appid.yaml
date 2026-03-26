@@ -9,11 +9,9 @@
   type: message
   targeting:
     include:
-      - {
-          channels: [beta],
-          locales: [en-CA, en-GB, en-US],
-          pref_true: [mail.inappnotifications.isFlatpak],
-        }
+      - { channels: [beta], pref_true: [mail.inappnotifications.isFlatpak] }
+    exclude:
+      - { locales: [de, fr, it, ja, pl, pt-BR, es-AR, es-ES, es-MX, nl, ru] }
     percent_chance: 100
 
 - id: FlatpakBeta-de
@@ -137,7 +135,7 @@
     include:
       - {
           channels: [beta],
-          locales: [es-ES],
+          locales: [es-AR, es-ES, es-MX],
           pref_true: [mail.inappnotifications.isFlatpak],
         }
     percent_chance: 100
