@@ -1,5 +1,5 @@
 - id: FlatpakBeta-en
-  start_at: 2026-03-31T00:00:00.000Z
+  start_at: 2026-04-01T00:00:00.000Z
   end_at: 2026-06-30T00:00:00.000Z
   title: "Flatpak beta application ID change"
   description: "We're switching the flatpak beta application ID from org.mozilla.Thunderbird to org.mozilla.thunderbird."
@@ -15,7 +15,7 @@
     percent_chance: 100
 
 - id: FlatpakBeta-de
-  start_at: 2026-03-31T00:00:00.000Z
+  start_at: 2026-04-01T00:00:00.000Z
   end_at: 2026-06-30T00:00:00.000Z
   title: "Änderung der Flatpak-Beta-Anwendungs-ID"
   description: "Wir ändern die Flatpak-Beta-Anwendungs-ID von org.mozilla.Thunderbird in org.mozilla.thunderbird."
@@ -33,7 +33,7 @@
     percent_chance: 100
 
 - id: FlatpakBeta-fr
-  start_at: 2026-03-31T00:00:00.000Z
+  start_at: 2026-04-01T00:00:00.000Z
   end_at: 2026-06-30T00:00:00.000Z
   title: "Modification de l’identifiant de l’application Flatpak (bêta)"
   description: "Nous modifions l’identifiant de l’application Flatpak (bêta), qui passe d’org.mozilla.Thunderbird à org.mozilla.thunderbird."
@@ -51,7 +51,7 @@
     percent_chance: 100
 
 - id: FlatpakBeta-it
-  start_at: 2026-03-31T00:00:00.000Z
+  start_at: 2026-04-01T00:00:00.000Z
   end_at: 2026-06-30T00:00:00.000Z
   title: "Modifica dell'ID dell'applicazione Flatpak beta"
   description: "Stiamo cambiando l'ID dell'applicazione flatpak beta da org.mozilla.Thunderbird a org.mozilla.thunderbird."
@@ -69,7 +69,7 @@
     percent_chance: 100
 
 - id: FlatpakBeta-ja
-  start_at: 2026-03-31T00:00:00.000Z
+  start_at: 2026-04-01T00:00:00.000Z
   end_at: 2026-06-30T00:00:00.000Z
   title: "Flatpakベータ版アプリケーションIDの変更"
   description: "Flatpakベータ版アプリケーションIDが、org.mozilla.Thunderbirdからorg.mozilla.thunderbirdに変更となります。"
@@ -87,7 +87,7 @@
     percent_chance: 100
 
 - id: FlatpakBeta-pl
-  start_at: 2026-03-31T00:00:00.000Z
+  start_at: 2026-04-01T00:00:00.000Z
   end_at: 2026-06-30T00:00:00.000Z
   title: "Zmiana identyfikatora flatpak beta aplikacji"
   description: "Zmieniamy identyfikator flatpak beta aplikacji z org.mozilla.Thunderbird na org.mozilla.thunderbird."
@@ -105,7 +105,7 @@
     percent_chance: 100
 
 - id: FlatpakBeta-pt_BR
-  start_at: 2026-03-31T00:00:00.000Z
+  start_at: 2026-04-01T00:00:00.000Z
   end_at: 2026-06-30T00:00:00.000Z
   title: "Alteração do ID do aplicativo Flatpak beta"
   description: "Estamos alterando o ID do aplicativo Flatpak beta de org.mozilla.Thunderbird para org.mozilla.thunderbird."
@@ -123,7 +123,7 @@
     percent_chance: 100
 
 - id: FlatpakBeta-es
-  start_at: 2026-03-31T00:00:00.000Z
+  start_at: 2026-04-01T00:00:00.000Z
   end_at: 2026-06-30T00:00:00.000Z
   title: "Cambio del ID de la aplicación Flatpak beta"
   description: "Vamos a cambiar el ID de la aplicación Flatpak beta, que pasará de org.mozilla.Thunderbird a org.mozilla.thunderbird."
@@ -141,7 +141,7 @@
     percent_chance: 100
 
 - id: FlatpakBeta-nl
-  start_at: 2026-03-31T00:00:00.000Z
+  start_at: 2026-04-01T00:00:00.000Z
   end_at: 2026-06-30T00:00:00.000Z
   title: "Wijziging van de Flatpak-beta-applicatie-ID"
   description: "We wijzigen de Flatpak-beta-applicatie-ID van org.mozilla.Thunderbird naar org.mozilla.thunderbird."
@@ -159,7 +159,7 @@
     percent_chance: 100
 
 - id: FlatpakBeta-ru
-  start_at: 2026-03-31T00:00:00.000Z
+  start_at: 2026-04-01T00:00:00.000Z
   end_at: 2026-06-30T00:00:00.000Z
   title: "Изменение идентификатора бета-версии приложения Flatpak"
   description: "Мы меняем идентификатор бета-версии приложения Flatpak с org.mozilla.Thunderbird на org.mozilla.thunderbird."
