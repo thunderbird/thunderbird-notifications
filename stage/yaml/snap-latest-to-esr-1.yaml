@@ -1,0 +1,177 @@
+- id: SnapESR1-en
+  start_at: 2026-04-21T00:00:00.000Z
+  end_at: 2026-07-21T00:00:00.000Z
+  title: "Snap ESR track change"
+  description: "The snap channels are changing. Action is required to stay on ESR."
+  CTA: "Learn More"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - { channels: [esr], pref_true: [mail.inappnotifications.isSnap] }
+    exclude:
+      - { locales: [de, fr, it, ja, pl, pt-BR, es-AR, es-ES, es-MX, nl, ru] }
+    percent_chance: 100
+
+- id: SnapESR1-de
+  start_at: 2026-04-21T00:00:00.000Z
+  end_at: 2026-07-21T00:00:00.000Z
+  title: "Änderung des snap-ESR-tracks"
+  description: "Die Snap-Kanäle ändern sich. Es sind Maßnahmen erforderlich, um ESR beizubehalten."
+  CTA: "Mehr erfahren"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [de],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapESR1-fr
+  start_at: 2026-04-21T00:00:00.000Z
+  end_at: 2026-07-21T00:00:00.000Z
+  title: "Changement de snap ESR track"
+  description: "Les snap channels évoluent. Une intervention de votre part est nécessaire pour rester sur la version ESR."
+  CTA: "En savoir plus"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [fr],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapESR1-it
+  start_at: 2026-04-21T00:00:00.000Z
+  end_at: 2026-07-21T00:00:00.000Z
+  title: "Modifica track snap ESR"
+  description: "I canali snap stanno cambiando. È necessario intervenire per mantenere l'ESR."
+  CTA: "Scopri di più"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [it],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapESR1-ja
+  start_at: 2026-04-21T00:00:00.000Z
+  end_at: 2026-07-21T00:00:00.000Z
+  title: "Snap ESRトラックの変更"
+  description: "Snapチャンネルに変更があります。ESRを引き続きご利用になるには、対応が必要です。"
+  CTA: "詳細はこちら"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [ja],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapESR1-pl
+  start_at: 2026-04-21T00:00:00.000Z
+  end_at: 2026-07-21T00:00:00.000Z
+  title: "Zmiana kanału snap ESR track"
+  description: "Kanały snap się zmieniają. Aby pozostać na ESR, musisz podjąć odpowiednie działania."
+  CTA: "Więcej informacji"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [pl],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapESR1-pt_BR
+  start_at: 2026-04-21T00:00:00.000Z
+  end_at: 2026-07-21T00:00:00.000Z
+  title: "Alteração do track ESR do snap"
+  description: "Os snap channels estão mudando. Ação necessária para permanecer no ESR."
+  CTA: "Saiba mais"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [pt-BR],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapESR1-es
+  start_at: 2026-04-21T00:00:00.000Z
+  end_at: 2026-07-21T00:00:00.000Z
+  title: "Cambio del track ESR de snap"
+  description: "Los snap channels están cambiando. Es necesario tomar medidas para permanecer en ESR."
+  CTA: "Más información"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [es-AR, es-ES, es-MX],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapESR1-nl
+  start_at: 2026-04-21T00:00:00.000Z
+  end_at: 2026-07-21T00:00:00.000Z
+  title: "Wijziging van de snap-ESR-track"
+  description: "De snap channels veranderen. Actie is vereist om op de ESR te blijven."
+  CTA: "Meer informatie"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [nl],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
+
+- id: SnapESR1-ru
+  start_at: 2026-04-21T00:00:00.000Z
+  end_at: 2026-07-21T00:00:00.000Z
+  title: "Изменение ESR track в snap"
+  description: "Меняются snap channels. Чтобы сохранить ESR, необходимо принять меры."
+  CTA: "Подробнее"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [ru],
+          pref_true: [mail.inappnotifications.isSnap],
+        }
+    percent_chance: 100
