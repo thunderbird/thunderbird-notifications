@@ -145,3 +145,23 @@
       - { displayed_notifications: [Apr26Appeal-F] }
       - { displayed_notifications: [Apr26Appeal-E-Wave1] }
     percent_chance: 100
+
+- id: Apr26Appeal-E-Wave3
+  start_at: 2026-04-22T00:00:00.000Z
+  end_at: 2026-05-30T00:00:00.000Z
+  title: "Apr26Appeal-E-Wave3"
+  severity: 1
+  type: donation_tab
+  URL: https://updates.thunderbird.net/thunderbird/140.0/apr26-2e/?utm_content=apr26-2e&utm_source=in_app&utm_medium=desktop&utm_campaign=apr26_appeal
+  targeting:
+    include:
+      - { displayed_notifications: [Apr26Appeal-A] }
+      - { displayed_notifications: [Apr26Appeal-B] }
+      - { displayed_notifications: [Apr26Appeal-C] }
+      - { displayed_notifications: [Apr26Appeal-D] }
+    exclude:
+      - { displayed_notifications: [Apr26Appeal-E] }
+      - { displayed_notifications: [Apr26Appeal-F] }
+      - { displayed_notifications: [Apr26Appeal-E-Wave1] }
+      - { displayed_notifications: [Apr26Appeal-E-Wave2] }
+    percent_chance: 100
