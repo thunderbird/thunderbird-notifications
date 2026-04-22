@@ -3,7 +3,6 @@ import yaml
 import json
 from enum import Enum
 from typing import Optional
-from uuid import UUID
 from datetime import datetime
 from pydantic import BaseModel, Field, HttpUrl, RootModel, model_validator
 
@@ -89,7 +88,10 @@ class Notification(CustomBaseModel):
     )
     end_at: datetime = Field(
         ...,
-        description='UTC Timestamp after which Thunderbird will never show the event, even if it has never been shown to the user.',
+        description=(
+            'UTC Timestamp after which Thunderbird will never show the event, '
+            'even if it has never been shown to the user.'
+        ),
     )
     title: str = Field(
         ..., description='Short sentence describing the event which will be displayed in the Thunderbird UI.'
