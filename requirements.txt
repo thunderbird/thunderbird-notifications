@@ -2,5 +2,5 @@ annotated-types>=0.7.0
 pydantic>=2.12
 PyYAML>=6.0.1
 typing_extensions>=4.12.1
-check-jsonschema>=0.29.3
+check-jsonschema>=0.30.0
 ruff>=0.6.8
