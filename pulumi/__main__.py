@@ -3,7 +3,6 @@ import pulumi
 import pulumi_aws as aws
 import pulumi_cloudflare as cloudflare
 import pulumi_command as command
-from datetime import datetime, timedelta
 from pulumi import FileAsset
 from rewrite import create_rewrite_lambda
 from urllib.parse import urlparse

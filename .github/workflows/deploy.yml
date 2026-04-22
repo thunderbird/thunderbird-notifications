@@ -49,6 +49,9 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Lint Python
+        run: uv run ruff check .
+
       - name: Convert YAML to JSON
         run: |
           uv run python scripts/convert_yaml.py stage/yaml stage/json/notifications.json
