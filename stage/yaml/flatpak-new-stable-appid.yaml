@@ -1,0 +1,177 @@
+- id: FlatpakESR-en
+  start_at: 2026-05-08T00:00:00.000Z
+  end_at: 2026-08-25T00:00:00.000Z
+  title: "Flatpak ESR application ID change"
+  description: "We're switching the Flatpak ESR application ID from org.mozilla.Thunderbird to org.mozilla.thunderbird_esr."
+  CTA: "Learn More"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - { channels: [esr], pref_true: [mail.inappnotifications.isFlatpak] }
+    exclude:
+      - { locales: [de, fr, it, ja, pl, pt-BR, es-AR, es-ES, es-MX, nl, ru] }
+    percent_chance: 100
+
+- id: FlatpakESR-de
+  start_at: 2026-05-08T00:00:00.000Z
+  end_at: 2026-08-25T00:00:00.000Z
+  title: "Änderung der Flatpak-ESR-Anwendungs-ID"
+  description: "Wir ändern die Flatpak-ESR-Anwendungs-ID von org.mozilla.Thunderbird in org.mozilla.thunderbird_esr."
+  CTA: "Mehr erfahren"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [de],
+          pref_true: [mail.inappnotifications.isFlatpak],
+        }
+    percent_chance: 100
+
+- id: FlatpakESR-fr
+  start_at: 2026-05-08T00:00:00.000Z
+  end_at: 2026-08-25T00:00:00.000Z
+  title: "Modification de l’identifiant de l’application Flatpak ESR"
+  description: "Nous modifions l’identifiant de l’application Flatpak ESR, qui passe d’org.mozilla.Thunderbird à org.mozilla.thunderbird_esr."
+  CTA: "En savoir plus"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [fr],
+          pref_true: [mail.inappnotifications.isFlatpak],
+        }
+    percent_chance: 100
+
+- id: FlatpakESR-it
+  start_at: 2026-05-08T00:00:00.000Z
+  end_at: 2026-08-25T00:00:00.000Z
+  title: "Modifica dell'ID dell'applicazione Flatpak ESR"
+  description: "Stiamo cambiando l'ID dell'applicazione Flatpak ESR da org.mozilla.Thunderbird a org.mozilla.thunderbird_esr."
+  CTA: "Scopri di più"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [it],
+          pref_true: [mail.inappnotifications.isFlatpak],
+        }
+    percent_chance: 100
+
+- id: FlatpakESR-ja
+  start_at: 2026-05-08T00:00:00.000Z
+  end_at: 2026-08-25T00:00:00.000Z
+  title: "Flatpak ESRアプリケーションIDの変更"
+  description: "Flatpak ESRアプリケーションIDが、org.mozilla.Thunderbirdからorg.mozilla.thunderbird_esrに変更となります。"
+  CTA: "もっと詳しく"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [ja],
+          pref_true: [mail.inappnotifications.isFlatpak],
+        }
+    percent_chance: 100
+
+- id: FlatpakESR-pl
+  start_at: 2026-05-08T00:00:00.000Z
+  end_at: 2026-08-25T00:00:00.000Z
+  title: "Zmiana identyfikatora Flatpak ESR aplikacji"
+  description: "Zmieniamy identyfikator Flatpak ESR aplikacji z org.mozilla.Thunderbird na org.mozilla.thunderbird_esr."
+  CTA: "Więcej informacji"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [pl],
+          pref_true: [mail.inappnotifications.isFlatpak],
+        }
+    percent_chance: 100
+
+- id: FlatpakESR-pt_BR
+  start_at: 2026-05-08T00:00:00.000Z
+  end_at: 2026-08-25T00:00:00.000Z
+  title: "Alteração do ID do aplicativo Flatpak ESR"
+  description: "Estamos alterando o ID do aplicativo Flatpak ESR de org.mozilla.Thunderbird para org.mozilla.thunderbird_esr."
+  CTA: "Saiba mais"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [pt-BR],
+          pref_true: [mail.inappnotifications.isFlatpak],
+        }
+    percent_chance: 100
+
+- id: FlatpakESR-es
+  start_at: 2026-05-08T00:00:00.000Z
+  end_at: 2026-08-25T00:00:00.000Z
+  title: "Cambio del ID de la aplicación Flatpak ESR"
+  description: "Vamos a cambiar el ID de la aplicación Flatpak ESR, que pasará de org.mozilla.Thunderbird a org.mozilla.thunderbird_esr."
+  CTA: "Más información"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [es-AR, es-ES, es-MX],
+          pref_true: [mail.inappnotifications.isFlatpak],
+        }
+    percent_chance: 100
+
+- id: FlatpakESR-nl
+  start_at: 2026-05-08T00:00:00.000Z
+  end_at: 2026-08-25T00:00:00.000Z
+  title: "Wijziging van de Flatpak-ESR-applicatie-ID"
+  description: "We wijzigen de Flatpak-ESR-applicatie-ID van org.mozilla.Thunderbird naar org.mozilla.thunderbird_esr."
+  CTA: "Meer informatie"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [nl],
+          pref_true: [mail.inappnotifications.isFlatpak],
+        }
+    percent_chance: 100
+
+- id: FlatpakESR-ru
+  start_at: 2026-05-08T00:00:00.000Z
+  end_at: 2026-08-25T00:00:00.000Z
+  title: "Изменение идентификатора приложения Flatpak ESR"
+  description: "Идентификатор приложения Flatpak ESR будет изменен с org.mozilla.Thunderbird на org.mozilla.thunderbird_esr."
+  CTA: "Подробнее"
+  URL: https://support.mozilla.org/kb/channel-choices-thunderbird-snap-and-flatpak
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [esr],
+          locales: [ru],
+          pref_true: [mail.inappnotifications.isFlatpak],
+        }
+    percent_chance: 100
