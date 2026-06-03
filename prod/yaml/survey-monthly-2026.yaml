@@ -1,0 +1,944 @@
+- id: Survey-2026-06-en
+  start_at: 2026-06-01T00:00:00.000Z
+  end_at: 2026-07-01T00:00:00.000Z
+  title: "Help Us Improve"
+  description: "Please take a quick survey to share your experience using Thunderbird."
+  CTA: "Take Survey"
+  URL: https://www.surveymonkey.com/r/VF8FDHF
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [en-US, en-CA, en-GB] }
+    percent_chance: 2
+- id: Survey-2026-06-de
+  start_at: 2026-06-01T00:00:00.000Z
+  end_at: 2026-07-01T00:00:00.000Z
+  title: "Helfen Sie mit"
+  description: "Machen Sie bei einer kurzen Umfrage zu Ihrer Thunderbird-Nutzung mit."
+  CTA: "Umfrage starten"
+  URL: https://www.surveymonkey.com/r/VF8FDHF?lang=de
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [de] }
+    percent_chance: 1
+- id: Survey-2026-06-fr
+  start_at: 2026-06-01T00:00:00.000Z
+  end_at: 2026-07-01T00:00:00.000Z
+  title: "Aidez-nous à améliorer"
+  description: "Participez à une courte enquête sur votre expérience avec Thunderbird."
+  CTA: "Répondre au sondage"
+  URL: https://www.surveymonkey.com/r/VF8FDHF?lang=fr
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [fr] }
+    percent_chance: 3
+- id: Survey-2026-06-it
+  start_at: 2026-06-01T00:00:00.000Z
+  end_at: 2026-07-01T00:00:00.000Z
+  title: "Aiutaci a migliorare"
+  description: "Partecipa a un breve sondaggio sulla tua esperienza con Thunderbird."
+  CTA: "Inizia il sondaggio"
+  URL: https://www.surveymonkey.com/r/VF8FDHF?lang=it
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [it] }
+    percent_chance: 4
+- id: Survey-2026-06-ja
+  start_at: 2026-06-01T00:00:00.000Z
+  end_at: 2026-07-01T00:00:00.000Z
+  title: "ご意見をお聞かせください"
+  description: "Thunderbird の体験について短いアンケートにご協力ください。"
+  CTA: "アンケートに回答する"
+  URL: https://www.surveymonkey.com/r/VF8FDHF?lang=ja
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [ja, ja-JP-mac] }
+    percent_chance: 3
+- id: Survey-2026-06-pl
+  start_at: 2026-06-01T00:00:00.000Z
+  end_at: 2026-07-01T00:00:00.000Z
+  title: "Pomóż nam ulepszyć"
+  description: "Weź udział w krótkiej ankiecie o swoich doświadczeniach z Thunderbirdem."
+  CTA: "Rozpocznij ankietę"
+  URL: https://www.surveymonkey.com/r/VF8FDHF?lang=pl
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pl] }
+    percent_chance: 3
+- id: Survey-2026-06-pt
+  start_at: 2026-06-01T00:00:00.000Z
+  end_at: 2026-07-01T00:00:00.000Z
+  title: "Ajude a melhorar"
+  description: "Participe de uma pesquisa rápida sobre sua experiência com o Thunderbird."
+  CTA: "Iniciar pesquisa"
+  URL: https://www.surveymonkey.com/r/VF8FDHF?lang=pt
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pt-BR, pt-PT] }
+    percent_chance: 8
+- id: Survey-2026-06-es
+  start_at: 2026-06-01T00:00:00.000Z
+  end_at: 2026-07-01T00:00:00.000Z
+  title: "Ayúdanos a mejorar"
+  description: "Participa en una breve encuesta sobre tu experiencia con Thunderbird."
+  CTA: "Iniciar encuesta"
+  URL: https://www.surveymonkey.com/r/VF8FDHF?lang=es
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [es-AR, es-ES, es-MX] }
+    percent_chance: 5
+- id: Survey-2026-07-en
+  start_at: 2026-07-01T00:00:00.000Z
+  end_at: 2026-08-01T00:00:00.000Z
+  title: "Help Us Improve"
+  description: "Please take a quick survey to share your experience using Thunderbird."
+  CTA: "Take Survey"
+  URL: https://www.surveymonkey.com/r/VF8H3LL
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [en-US, en-CA, en-GB] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-en] }
+    percent_chance: 2
+- id: Survey-2026-07-de
+  start_at: 2026-07-01T00:00:00.000Z
+  end_at: 2026-08-01T00:00:00.000Z
+  title: "Helfen Sie mit"
+  description: "Machen Sie bei einer kurzen Umfrage zu Ihrer Thunderbird-Nutzung mit."
+  CTA: "Umfrage starten"
+  URL: https://www.surveymonkey.com/r/VF8H3LL?lang=de
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [de] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-de] }
+    percent_chance: 1
+- id: Survey-2026-07-fr
+  start_at: 2026-07-01T00:00:00.000Z
+  end_at: 2026-08-01T00:00:00.000Z
+  title: "Aidez-nous à améliorer"
+  description: "Participez à une courte enquête sur votre expérience avec Thunderbird."
+  CTA: "Répondre au sondage"
+  URL: https://www.surveymonkey.com/r/VF8H3LL?lang=fr
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [fr] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-fr] }
+    percent_chance: 3
+- id: Survey-2026-07-it
+  start_at: 2026-07-01T00:00:00.000Z
+  end_at: 2026-08-01T00:00:00.000Z
+  title: "Aiutaci a migliorare"
+  description: "Partecipa a un breve sondaggio sulla tua esperienza con Thunderbird."
+  CTA: "Inizia il sondaggio"
+  URL: https://www.surveymonkey.com/r/VF8H3LL?lang=it
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [it] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-it] }
+    percent_chance: 4
+- id: Survey-2026-07-ja
+  start_at: 2026-07-01T00:00:00.000Z
+  end_at: 2026-08-01T00:00:00.000Z
+  title: "ご意見をお聞かせください"
+  description: "Thunderbird の体験について短いアンケートにご協力ください。"
+  CTA: "アンケートに回答する"
+  URL: https://www.surveymonkey.com/r/VF8H3LL?lang=ja
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [ja, ja-JP-mac] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-ja] }
+    percent_chance: 3
+- id: Survey-2026-07-pl
+  start_at: 2026-07-01T00:00:00.000Z
+  end_at: 2026-08-01T00:00:00.000Z
+  title: "Pomóż nam ulepszyć"
+  description: "Weź udział w krótkiej ankiecie o swoich doświadczeniach z Thunderbirdem."
+  CTA: "Rozpocznij ankietę"
+  URL: https://www.surveymonkey.com/r/VF8H3LL?lang=pl
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pl] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-pl] }
+    percent_chance: 3
+- id: Survey-2026-07-pt
+  start_at: 2026-07-01T00:00:00.000Z
+  end_at: 2026-08-01T00:00:00.000Z
+  title: "Ajude a melhorar"
+  description: "Participe de uma pesquisa rápida sobre sua experiência com o Thunderbird."
+  CTA: "Iniciar pesquisa"
+  URL: https://www.surveymonkey.com/r/VF8H3LL?lang=pt
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pt-BR, pt-PT] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-pt] }
+    percent_chance: 8
+- id: Survey-2026-07-es
+  start_at: 2026-07-01T00:00:00.000Z
+  end_at: 2026-08-01T00:00:00.000Z
+  title: "Ayúdanos a mejorar"
+  description: "Participa en una breve encuesta sobre tu experiencia con Thunderbird."
+  CTA: "Iniciar encuesta"
+  URL: https://www.surveymonkey.com/r/VF8H3LL?lang=es
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [es-AR, es-ES, es-MX] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-es] }
+    percent_chance: 5
+- id: Survey-2026-08-en
+  start_at: 2026-08-01T00:00:00.000Z
+  end_at: 2026-09-01T00:00:00.000Z
+  title: "Help Us Improve"
+  description: "Please take a quick survey to share your experience using Thunderbird."
+  CTA: "Take Survey"
+  URL: https://www.surveymonkey.com/r/VFLK92S
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [en-US, en-CA, en-GB] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-en] }
+      - { displayed_notifications: [Survey-2026-07-en] }
+    percent_chance: 2
+- id: Survey-2026-08-de
+  start_at: 2026-08-01T00:00:00.000Z
+  end_at: 2026-09-01T00:00:00.000Z
+  title: "Helfen Sie mit"
+  description: "Machen Sie bei einer kurzen Umfrage zu Ihrer Thunderbird-Nutzung mit."
+  CTA: "Umfrage starten"
+  URL: https://www.surveymonkey.com/r/VFLK92S?lang=de
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [de] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-de] }
+      - { displayed_notifications: [Survey-2026-07-de] }
+    percent_chance: 1
+- id: Survey-2026-08-fr
+  start_at: 2026-08-01T00:00:00.000Z
+  end_at: 2026-09-01T00:00:00.000Z
+  title: "Aidez-nous à améliorer"
+  description: "Participez à une courte enquête sur votre expérience avec Thunderbird."
+  CTA: "Répondre au sondage"
+  URL: https://www.surveymonkey.com/r/VFLK92S?lang=fr
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [fr] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-fr] }
+      - { displayed_notifications: [Survey-2026-07-fr] }
+    percent_chance: 3
+- id: Survey-2026-08-it
+  start_at: 2026-08-01T00:00:00.000Z
+  end_at: 2026-09-01T00:00:00.000Z
+  title: "Aiutaci a migliorare"
+  description: "Partecipa a un breve sondaggio sulla tua esperienza con Thunderbird."
+  CTA: "Inizia il sondaggio"
+  URL: https://www.surveymonkey.com/r/VFLK92S?lang=it
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [it] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-it] }
+      - { displayed_notifications: [Survey-2026-07-it] }
+    percent_chance: 4
+- id: Survey-2026-08-ja
+  start_at: 2026-08-01T00:00:00.000Z
+  end_at: 2026-09-01T00:00:00.000Z
+  title: "ご意見をお聞かせください"
+  description: "Thunderbird の体験について短いアンケートにご協力ください。"
+  CTA: "アンケートに回答する"
+  URL: https://www.surveymonkey.com/r/VFLK92S?lang=ja
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [ja, ja-JP-mac] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-ja] }
+      - { displayed_notifications: [Survey-2026-07-ja] }
+    percent_chance: 3
+- id: Survey-2026-08-pl
+  start_at: 2026-08-01T00:00:00.000Z
+  end_at: 2026-09-01T00:00:00.000Z
+  title: "Pomóż nam ulepszyć"
+  description: "Weź udział w krótkiej ankiecie o swoich doświadczeniach z Thunderbirdem."
+  CTA: "Rozpocznij ankietę"
+  URL: https://www.surveymonkey.com/r/VFLK92S?lang=pl
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pl] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-pl] }
+      - { displayed_notifications: [Survey-2026-07-pl] }
+    percent_chance: 3
+- id: Survey-2026-08-pt
+  start_at: 2026-08-01T00:00:00.000Z
+  end_at: 2026-09-01T00:00:00.000Z
+  title: "Ajude a melhorar"
+  description: "Participe de uma pesquisa rápida sobre sua experiência com o Thunderbird."
+  CTA: "Iniciar pesquisa"
+  URL: https://www.surveymonkey.com/r/VFLK92S?lang=pt
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pt-BR, pt-PT] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-pt] }
+      - { displayed_notifications: [Survey-2026-07-pt] }
+    percent_chance: 8
+- id: Survey-2026-08-es
+  start_at: 2026-08-01T00:00:00.000Z
+  end_at: 2026-09-01T00:00:00.000Z
+  title: "Ayúdanos a mejorar"
+  description: "Participa en una breve encuesta sobre tu experiencia con Thunderbird."
+  CTA: "Iniciar encuesta"
+  URL: https://www.surveymonkey.com/r/VFLK92S?lang=es
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [es-AR, es-ES, es-MX] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-es] }
+      - { displayed_notifications: [Survey-2026-07-es] }
+    percent_chance: 5
+- id: Survey-2026-09-en
+  start_at: 2026-09-01T00:00:00.000Z
+  end_at: 2026-10-01T00:00:00.000Z
+  title: "Help Us Improve"
+  description: "Please take a quick survey to share your experience using Thunderbird."
+  CTA: "Take Survey"
+  URL: https://www.surveymonkey.com/r/VFL7NRP
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [en-US, en-CA, en-GB] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-en] }
+      - { displayed_notifications: [Survey-2026-07-en] }
+      - { displayed_notifications: [Survey-2026-08-en] }
+    percent_chance: 2
+- id: Survey-2026-09-de
+  start_at: 2026-09-01T00:00:00.000Z
+  end_at: 2026-10-01T00:00:00.000Z
+  title: "Helfen Sie mit"
+  description: "Machen Sie bei einer kurzen Umfrage zu Ihrer Thunderbird-Nutzung mit."
+  CTA: "Umfrage starten"
+  URL: https://www.surveymonkey.com/r/VFL7NRP?lang=de
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [de] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-de] }
+      - { displayed_notifications: [Survey-2026-07-de] }
+      - { displayed_notifications: [Survey-2026-08-de] }
+    percent_chance: 1
+- id: Survey-2026-09-fr
+  start_at: 2026-09-01T00:00:00.000Z
+  end_at: 2026-10-01T00:00:00.000Z
+  title: "Aidez-nous à améliorer"
+  description: "Participez à une courte enquête sur votre expérience avec Thunderbird."
+  CTA: "Répondre au sondage"
+  URL: https://www.surveymonkey.com/r/VFL7NRP?lang=fr
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [fr] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-fr] }
+      - { displayed_notifications: [Survey-2026-07-fr] }
+      - { displayed_notifications: [Survey-2026-08-fr] }
+    percent_chance: 3
+- id: Survey-2026-09-it
+  start_at: 2026-09-01T00:00:00.000Z
+  end_at: 2026-10-01T00:00:00.000Z
+  title: "Aiutaci a migliorare"
+  description: "Partecipa a un breve sondaggio sulla tua esperienza con Thunderbird."
+  CTA: "Inizia il sondaggio"
+  URL: https://www.surveymonkey.com/r/VFL7NRP?lang=it
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [it] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-it] }
+      - { displayed_notifications: [Survey-2026-07-it] }
+      - { displayed_notifications: [Survey-2026-08-it] }
+    percent_chance: 4
+- id: Survey-2026-09-ja
+  start_at: 2026-09-01T00:00:00.000Z
+  end_at: 2026-10-01T00:00:00.000Z
+  title: "ご意見をお聞かせください"
+  description: "Thunderbird の体験について短いアンケートにご協力ください。"
+  CTA: "アンケートに回答する"
+  URL: https://www.surveymonkey.com/r/VFL7NRP?lang=ja
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [ja, ja-JP-mac] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-ja] }
+      - { displayed_notifications: [Survey-2026-07-ja] }
+      - { displayed_notifications: [Survey-2026-08-ja] }
+    percent_chance: 3
+- id: Survey-2026-09-pl
+  start_at: 2026-09-01T00:00:00.000Z
+  end_at: 2026-10-01T00:00:00.000Z
+  title: "Pomóż nam ulepszyć"
+  description: "Weź udział w krótkiej ankiecie o swoich doświadczeniach z Thunderbirdem."
+  CTA: "Rozpocznij ankietę"
+  URL: https://www.surveymonkey.com/r/VFL7NRP?lang=pl
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pl] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-pl] }
+      - { displayed_notifications: [Survey-2026-07-pl] }
+      - { displayed_notifications: [Survey-2026-08-pl] }
+    percent_chance: 3
+- id: Survey-2026-09-pt
+  start_at: 2026-09-01T00:00:00.000Z
+  end_at: 2026-10-01T00:00:00.000Z
+  title: "Ajude a melhorar"
+  description: "Participe de uma pesquisa rápida sobre sua experiência com o Thunderbird."
+  CTA: "Iniciar pesquisa"
+  URL: https://www.surveymonkey.com/r/VFL7NRP?lang=pt
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pt-BR, pt-PT] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-pt] }
+      - { displayed_notifications: [Survey-2026-07-pt] }
+      - { displayed_notifications: [Survey-2026-08-pt] }
+    percent_chance: 8
+- id: Survey-2026-09-es
+  start_at: 2026-09-01T00:00:00.000Z
+  end_at: 2026-10-01T00:00:00.000Z
+  title: "Ayúdanos a mejorar"
+  description: "Participa en una breve encuesta sobre tu experiencia con Thunderbird."
+  CTA: "Iniciar encuesta"
+  URL: https://www.surveymonkey.com/r/VFL7NRP?lang=es
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [es-AR, es-ES, es-MX] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-es] }
+      - { displayed_notifications: [Survey-2026-07-es] }
+      - { displayed_notifications: [Survey-2026-08-es] }
+    percent_chance: 5
+- id: Survey-2026-10-en
+  start_at: 2026-10-01T00:00:00.000Z
+  end_at: 2026-11-01T00:00:00.000Z
+  title: "Help Us Improve"
+  description: "Please take a quick survey to share your experience using Thunderbird."
+  CTA: "Take Survey"
+  URL: https://www.surveymonkey.com/r/VFLCVGY
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [en-US, en-CA, en-GB] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-en] }
+      - { displayed_notifications: [Survey-2026-07-en] }
+      - { displayed_notifications: [Survey-2026-08-en] }
+      - { displayed_notifications: [Survey-2026-09-en] }
+    percent_chance: 2
+- id: Survey-2026-10-de
+  start_at: 2026-10-01T00:00:00.000Z
+  end_at: 2026-11-01T00:00:00.000Z
+  title: "Helfen Sie mit"
+  description: "Machen Sie bei einer kurzen Umfrage zu Ihrer Thunderbird-Nutzung mit."
+  CTA: "Umfrage starten"
+  URL: https://www.surveymonkey.com/r/VFLCVGY?lang=de
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [de] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-de] }
+      - { displayed_notifications: [Survey-2026-07-de] }
+      - { displayed_notifications: [Survey-2026-08-de] }
+      - { displayed_notifications: [Survey-2026-09-de] }
+    percent_chance: 1
+- id: Survey-2026-10-fr
+  start_at: 2026-10-01T00:00:00.000Z
+  end_at: 2026-11-01T00:00:00.000Z
+  title: "Aidez-nous à améliorer"
+  description: "Participez à une courte enquête sur votre expérience avec Thunderbird."
+  CTA: "Répondre au sondage"
+  URL: https://www.surveymonkey.com/r/VFLCVGY?lang=fr
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [fr] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-fr] }
+      - { displayed_notifications: [Survey-2026-07-fr] }
+      - { displayed_notifications: [Survey-2026-08-fr] }
+      - { displayed_notifications: [Survey-2026-09-fr] }
+    percent_chance: 3
+- id: Survey-2026-10-it
+  start_at: 2026-10-01T00:00:00.000Z
+  end_at: 2026-11-01T00:00:00.000Z
+  title: "Aiutaci a migliorare"
+  description: "Partecipa a un breve sondaggio sulla tua esperienza con Thunderbird."
+  CTA: "Inizia il sondaggio"
+  URL: https://www.surveymonkey.com/r/VFLCVGY?lang=it
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [it] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-it] }
+      - { displayed_notifications: [Survey-2026-07-it] }
+      - { displayed_notifications: [Survey-2026-08-it] }
+      - { displayed_notifications: [Survey-2026-09-it] }
+    percent_chance: 4
+- id: Survey-2026-10-ja
+  start_at: 2026-10-01T00:00:00.000Z
+  end_at: 2026-11-01T00:00:00.000Z
+  title: "ご意見をお聞かせください"
+  description: "Thunderbird の体験について短いアンケートにご協力ください。"
+  CTA: "アンケートに回答する"
+  URL: https://www.surveymonkey.com/r/VFLCVGY?lang=ja
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [ja, ja-JP-mac] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-ja] }
+      - { displayed_notifications: [Survey-2026-07-ja] }
+      - { displayed_notifications: [Survey-2026-08-ja] }
+      - { displayed_notifications: [Survey-2026-09-ja] }
+    percent_chance: 3
+- id: Survey-2026-10-pl
+  start_at: 2026-10-01T00:00:00.000Z
+  end_at: 2026-11-01T00:00:00.000Z
+  title: "Pomóż nam ulepszyć"
+  description: "Weź udział w krótkiej ankiecie o swoich doświadczeniach z Thunderbirdem."
+  CTA: "Rozpocznij ankietę"
+  URL: https://www.surveymonkey.com/r/VFLCVGY?lang=pl
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pl] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-pl] }
+      - { displayed_notifications: [Survey-2026-07-pl] }
+      - { displayed_notifications: [Survey-2026-08-pl] }
+      - { displayed_notifications: [Survey-2026-09-pl] }
+    percent_chance: 3
+- id: Survey-2026-10-pt
+  start_at: 2026-10-01T00:00:00.000Z
+  end_at: 2026-11-01T00:00:00.000Z
+  title: "Ajude a melhorar"
+  description: "Participe de uma pesquisa rápida sobre sua experiência com o Thunderbird."
+  CTA: "Iniciar pesquisa"
+  URL: https://www.surveymonkey.com/r/VFLCVGY?lang=pt
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pt-BR, pt-PT] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-pt] }
+      - { displayed_notifications: [Survey-2026-07-pt] }
+      - { displayed_notifications: [Survey-2026-08-pt] }
+      - { displayed_notifications: [Survey-2026-09-pt] }
+    percent_chance: 8
+- id: Survey-2026-10-es
+  start_at: 2026-10-01T00:00:00.000Z
+  end_at: 2026-11-01T00:00:00.000Z
+  title: "Ayúdanos a mejorar"
+  description: "Participa en una breve encuesta sobre tu experiencia con Thunderbird."
+  CTA: "Iniciar encuesta"
+  URL: https://www.surveymonkey.com/r/VFLCVGY?lang=es
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [es-AR, es-ES, es-MX] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-es] }
+      - { displayed_notifications: [Survey-2026-07-es] }
+      - { displayed_notifications: [Survey-2026-08-es] }
+      - { displayed_notifications: [Survey-2026-09-es] }
+    percent_chance: 5
+- id: Survey-2026-11-en
+  start_at: 2026-11-01T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "Help Us Improve"
+  description: "Please take a quick survey to share your experience using Thunderbird."
+  CTA: "Take Survey"
+  URL: https://www.surveymonkey.com/r/VFLSM5N
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [en-US, en-CA, en-GB] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-en] }
+      - { displayed_notifications: [Survey-2026-07-en] }
+      - { displayed_notifications: [Survey-2026-08-en] }
+      - { displayed_notifications: [Survey-2026-09-en] }
+      - { displayed_notifications: [Survey-2026-10-en] }
+    percent_chance: 2
+- id: Survey-2026-11-de
+  start_at: 2026-11-01T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "Helfen Sie mit"
+  description: "Machen Sie bei einer kurzen Umfrage zu Ihrer Thunderbird-Nutzung mit."
+  CTA: "Umfrage starten"
+  URL: https://www.surveymonkey.com/r/VFLSM5N?lang=de
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [de] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-de] }
+      - { displayed_notifications: [Survey-2026-07-de] }
+      - { displayed_notifications: [Survey-2026-08-de] }
+      - { displayed_notifications: [Survey-2026-09-de] }
+      - { displayed_notifications: [Survey-2026-10-de] }
+    percent_chance: 1
+- id: Survey-2026-11-fr
+  start_at: 2026-11-01T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "Aidez-nous à améliorer"
+  description: "Participez à une courte enquête sur votre expérience avec Thunderbird."
+  CTA: "Répondre au sondage"
+  URL: https://www.surveymonkey.com/r/VFLSM5N?lang=fr
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [fr] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-fr] }
+      - { displayed_notifications: [Survey-2026-07-fr] }
+      - { displayed_notifications: [Survey-2026-08-fr] }
+      - { displayed_notifications: [Survey-2026-09-fr] }
+      - { displayed_notifications: [Survey-2026-10-fr] }
+    percent_chance: 3
+- id: Survey-2026-11-it
+  start_at: 2026-11-01T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "Aiutaci a migliorare"
+  description: "Partecipa a un breve sondaggio sulla tua esperienza con Thunderbird."
+  CTA: "Inizia il sondaggio"
+  URL: https://www.surveymonkey.com/r/VFLSM5N?lang=it
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [it] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-it] }
+      - { displayed_notifications: [Survey-2026-07-it] }
+      - { displayed_notifications: [Survey-2026-08-it] }
+      - { displayed_notifications: [Survey-2026-09-it] }
+      - { displayed_notifications: [Survey-2026-10-it] }
+    percent_chance: 4
+- id: Survey-2026-11-ja
+  start_at: 2026-11-01T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "ご意見をお聞かせください"
+  description: "Thunderbird の体験について短いアンケートにご協力ください。"
+  CTA: "アンケートに回答する"
+  URL: https://www.surveymonkey.com/r/VFLSM5N?lang=ja
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [ja, ja-JP-mac] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-ja] }
+      - { displayed_notifications: [Survey-2026-07-ja] }
+      - { displayed_notifications: [Survey-2026-08-ja] }
+      - { displayed_notifications: [Survey-2026-09-ja] }
+      - { displayed_notifications: [Survey-2026-10-ja] }
+    percent_chance: 3
+- id: Survey-2026-11-pl
+  start_at: 2026-11-01T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "Pomóż nam ulepszyć"
+  description: "Weź udział w krótkiej ankiecie o swoich doświadczeniach z Thunderbirdem."
+  CTA: "Rozpocznij ankietę"
+  URL: https://www.surveymonkey.com/r/VFLSM5N?lang=pl
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pl] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-pl] }
+      - { displayed_notifications: [Survey-2026-07-pl] }
+      - { displayed_notifications: [Survey-2026-08-pl] }
+      - { displayed_notifications: [Survey-2026-09-pl] }
+      - { displayed_notifications: [Survey-2026-10-pl] }
+    percent_chance: 3
+- id: Survey-2026-11-pt
+  start_at: 2026-11-01T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "Ajude a melhorar"
+  description: "Participe de uma pesquisa rápida sobre sua experiência com o Thunderbird."
+  CTA: "Iniciar pesquisa"
+  URL: https://www.surveymonkey.com/r/VFLSM5N?lang=pt
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pt-BR, pt-PT] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-pt] }
+      - { displayed_notifications: [Survey-2026-07-pt] }
+      - { displayed_notifications: [Survey-2026-08-pt] }
+      - { displayed_notifications: [Survey-2026-09-pt] }
+      - { displayed_notifications: [Survey-2026-10-pt] }
+    percent_chance: 8
+- id: Survey-2026-11-es
+  start_at: 2026-11-01T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "Ayúdanos a mejorar"
+  description: "Participa en una breve encuesta sobre tu experiencia con Thunderbird."
+  CTA: "Iniciar encuesta"
+  URL: https://www.surveymonkey.com/r/VFLSM5N?lang=es
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [es-AR, es-ES, es-MX] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-es] }
+      - { displayed_notifications: [Survey-2026-07-es] }
+      - { displayed_notifications: [Survey-2026-08-es] }
+      - { displayed_notifications: [Survey-2026-09-es] }
+      - { displayed_notifications: [Survey-2026-10-es] }
+    percent_chance: 5
+- id: Survey-2026-12-en
+  start_at: 2026-12-01T00:00:00.000Z
+  end_at: 2027-01-01T00:00:00.000Z
+  title: "Help Us Improve"
+  description: "Please take a quick survey to share your experience using Thunderbird."
+  CTA: "Take Survey"
+  URL: https://www.surveymonkey.com/r/VFLNLD8
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [en-US, en-CA, en-GB] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-en] }
+      - { displayed_notifications: [Survey-2026-07-en] }
+      - { displayed_notifications: [Survey-2026-08-en] }
+      - { displayed_notifications: [Survey-2026-09-en] }
+      - { displayed_notifications: [Survey-2026-10-en] }
+      - { displayed_notifications: [Survey-2026-11-en] }
+    percent_chance: 2
+- id: Survey-2026-12-de
+  start_at: 2026-12-01T00:00:00.000Z
+  end_at: 2027-01-01T00:00:00.000Z
+  title: "Helfen Sie mit"
+  description: "Machen Sie bei einer kurzen Umfrage zu Ihrer Thunderbird-Nutzung mit."
+  CTA: "Umfrage starten"
+  URL: https://www.surveymonkey.com/r/VFLNLD8?lang=de
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [de] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-de] }
+      - { displayed_notifications: [Survey-2026-07-de] }
+      - { displayed_notifications: [Survey-2026-08-de] }
+      - { displayed_notifications: [Survey-2026-09-de] }
+      - { displayed_notifications: [Survey-2026-10-de] }
+      - { displayed_notifications: [Survey-2026-11-de] }
+    percent_chance: 1
+- id: Survey-2026-12-fr
+  start_at: 2026-12-01T00:00:00.000Z
+  end_at: 2027-01-01T00:00:00.000Z
+  title: "Aidez-nous à améliorer"
+  description: "Participez à une courte enquête sur votre expérience avec Thunderbird."
+  CTA: "Répondre au sondage"
+  URL: https://www.surveymonkey.com/r/VFLNLD8?lang=fr
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [fr] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-fr] }
+      - { displayed_notifications: [Survey-2026-07-fr] }
+      - { displayed_notifications: [Survey-2026-08-fr] }
+      - { displayed_notifications: [Survey-2026-09-fr] }
+      - { displayed_notifications: [Survey-2026-10-fr] }
+      - { displayed_notifications: [Survey-2026-11-fr] }
+    percent_chance: 3
+- id: Survey-2026-12-it
+  start_at: 2026-12-01T00:00:00.000Z
+  end_at: 2027-01-01T00:00:00.000Z
+  title: "Aiutaci a migliorare"
+  description: "Partecipa a un breve sondaggio sulla tua esperienza con Thunderbird."
+  CTA: "Inizia il sondaggio"
+  URL: https://www.surveymonkey.com/r/VFLNLD8?lang=it
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [it] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-it] }
+      - { displayed_notifications: [Survey-2026-07-it] }
+      - { displayed_notifications: [Survey-2026-08-it] }
+      - { displayed_notifications: [Survey-2026-09-it] }
+      - { displayed_notifications: [Survey-2026-10-it] }
+      - { displayed_notifications: [Survey-2026-11-it] }
+    percent_chance: 4
+- id: Survey-2026-12-ja
+  start_at: 2026-12-01T00:00:00.000Z
+  end_at: 2027-01-01T00:00:00.000Z
+  title: "ご意見をお聞かせください"
+  description: "Thunderbird の体験について短いアンケートにご協力ください。"
+  CTA: "アンケートに回答する"
+  URL: https://www.surveymonkey.com/r/VFLNLD8?lang=ja
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [ja, ja-JP-mac] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-ja] }
+      - { displayed_notifications: [Survey-2026-07-ja] }
+      - { displayed_notifications: [Survey-2026-08-ja] }
+      - { displayed_notifications: [Survey-2026-09-ja] }
+      - { displayed_notifications: [Survey-2026-10-ja] }
+      - { displayed_notifications: [Survey-2026-11-ja] }
+    percent_chance: 3
+- id: Survey-2026-12-pl
+  start_at: 2026-12-01T00:00:00.000Z
+  end_at: 2027-01-01T00:00:00.000Z
+  title: "Pomóż nam ulepszyć"
+  description: "Weź udział w krótkiej ankiecie o swoich doświadczeniach z Thunderbirdem."
+  CTA: "Rozpocznij ankietę"
+  URL: https://www.surveymonkey.com/r/VFLNLD8?lang=pl
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pl] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-pl] }
+      - { displayed_notifications: [Survey-2026-07-pl] }
+      - { displayed_notifications: [Survey-2026-08-pl] }
+      - { displayed_notifications: [Survey-2026-09-pl] }
+      - { displayed_notifications: [Survey-2026-10-pl] }
+      - { displayed_notifications: [Survey-2026-11-pl] }
+    percent_chance: 3
+- id: Survey-2026-12-pt
+  start_at: 2026-12-01T00:00:00.000Z
+  end_at: 2027-01-01T00:00:00.000Z
+  title: "Ajude a melhorar"
+  description: "Participe de uma pesquisa rápida sobre sua experiência com o Thunderbird."
+  CTA: "Iniciar pesquisa"
+  URL: https://www.surveymonkey.com/r/VFLNLD8?lang=pt
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [pt-BR, pt-PT] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-pt] }
+      - { displayed_notifications: [Survey-2026-07-pt] }
+      - { displayed_notifications: [Survey-2026-08-pt] }
+      - { displayed_notifications: [Survey-2026-09-pt] }
+      - { displayed_notifications: [Survey-2026-10-pt] }
+      - { displayed_notifications: [Survey-2026-11-pt] }
+    percent_chance: 8
+- id: Survey-2026-12-es
+  start_at: 2026-12-01T00:00:00.000Z
+  end_at: 2027-01-01T00:00:00.000Z
+  title: "Ayúdanos a mejorar"
+  description: "Participa en una breve encuesta sobre tu experiencia con Thunderbird."
+  CTA: "Iniciar encuesta"
+  URL: https://www.surveymonkey.com/r/VFLNLD8?lang=es
+  severity: 3
+  type: blog
+  targeting:
+    include:
+      - { channels: [esr, release], locales: [es-AR, es-ES, es-MX] }
+    exclude:
+      - { displayed_notifications: [Survey-2026-06-es] }
+      - { displayed_notifications: [Survey-2026-07-es] }
+      - { displayed_notifications: [Survey-2026-08-es] }
+      - { displayed_notifications: [Survey-2026-09-es] }
+      - { displayed_notifications: [Survey-2026-10-es] }
+      - { displayed_notifications: [Survey-2026-11-es] }
+    percent_chance: 5
