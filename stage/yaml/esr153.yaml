@@ -2,7 +2,7 @@
   start_at: 2026-06-19T00:00:00.000Z
   end_at: 2026-11-01T00:00:00.000Z
   title: "ESR153-A"
-  severity: 1
+  severity: 2
   type: donation_tab
   URL: https://updates.thunderbird.net/thunderbird/153.0/jun26-1a/?utm_campaign=jun26_appeal&utm_medium=desktop&utm_source=in_app&utm_content=jun26-a
   targeting:
@@ -17,7 +17,7 @@
   start_at: 2026-06-19T00:00:00.000Z
   end_at: 2026-11-01T00:00:00.000Z
   title: "ESR153-B"
-  severity: 1
+  severity: 2
   type: donation_tab
   URL: https://updates.thunderbird.net/thunderbird/153.0/jun26-1b/?utm_campaign=jun26_appeal&utm_medium=desktop&utm_source=in_app&utm_content=jun26-b
   targeting:
@@ -32,7 +32,7 @@
   start_at: 2026-06-19T00:00:00.000Z
   end_at: 2026-11-01T00:00:00.000Z
   title: "ESR153-C"
-  severity: 1
+  severity: 2
   type: donation_tab
   URL: https://updates.thunderbird.net/thunderbird/153.0/jun26-1c/?utm_campaign=jun26_appeal&utm_medium=desktop&utm_source=in_app&utm_content=jun26-c
   targeting:
