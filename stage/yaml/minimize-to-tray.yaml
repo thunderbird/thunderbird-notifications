@@ -4,7 +4,7 @@
   title: '"Minimize to Tray" feature change'
   description: 'Starting in our 154 release, the "Minimize to Tray" feature is being replaced with "Close to Tray".'
   CTA: "Learn More"
-  URL: https://support.mozilla.org/kb/
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
   type: message
   targeting:
@@ -15,12 +15,12 @@
     percent_chance: 100
 
 - id: CloseToTray-de
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
   title: 'Änderung der Funktion "Minimize to Tray"'
   description: 'Ab unserer Version 154 wird die Funktion "Minimize to Tray" durch "Close to Tray" ersetzt.'
   CTA: "Mehr erfahren"
-  URL: https://support.mozilla.org/kb/
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
   type: message
   targeting:
@@ -33,12 +33,12 @@
     percent_chance: 100
 
 - id: CloseToTray-fr
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
   title: 'Changement de la fonctionnalité "Minimize to Tray"'
   description: 'À partir de notre version 154, la fonctionnalité "Minimize to Tray" est remplacée par "Close to Tray".'
   CTA: "En savoir plus"
-  URL: https://support.mozilla.org/kb/
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
   type: message
   targeting:
@@ -51,12 +51,12 @@
     percent_chance: 100
 
 - id: CloseToTray-it
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
   title: 'Modifica della funzione "Minimize to Tray"'
   description: 'A partire dalla nostra versione 154, la funzione "Minimize to Tray" verrà sostituita da "Close to Tray".'
   CTA: "Scopri di più"
-  URL: https://support.mozilla.org/kb/
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
   type: message
   targeting:
@@ -69,12 +69,12 @@
     percent_chance: 100
 
 - id: CloseToTray-ja
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
   title: '"Minimize to Tray" 機能の変更'
   description: 'バージョン154以降、"Minimize to Tray" 機能は "Close to Tray" に置き換えられます。'
   CTA: "詳細はこちら"
-  URL: https://support.mozilla.org/kb/
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
   type: message
   targeting:
@@ -87,12 +87,12 @@
     percent_chance: 100
 
 - id: CloseToTray-pl
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
   title: 'Zmiana funkcji "Minimize to Tray"'
   description: 'Od wersji 154 funkcja "Minimize to Tray" zostanie zastąpiona funkcją "Close to Tray".'
   CTA: "Więcej informacji"
-  URL: https://support.mozilla.org/kb/
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
   type: message
   targeting:
@@ -105,12 +105,12 @@
     percent_chance: 100
 
 - id: CloseToTray-pt_BR
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
   title: 'Alteração do recurso "Minimize to Tray"'
   description: 'A partir da nossa versão 154, o recurso "Minimize to Tray" será substituído por "Close to Tray".'
   CTA: "Saiba mais"
-  URL: https://support.mozilla.org/kb/
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
   type: message
   targeting:
@@ -123,12 +123,12 @@
     percent_chance: 100
 
 - id: CloseToTray-es
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
   title: 'Cambio de la función "Minimize to Tray"'
   description: 'A partir de nuestra versión 154, la función "Minimize to Tray" será reemplazada por "Close to Tray".'
   CTA: "Más información"
-  URL: https://support.mozilla.org/kb/
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
   type: message
   targeting:
@@ -141,12 +141,12 @@
     percent_chance: 100
 
 - id: CloseToTray-nl
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
   title: 'Wijziging van de functie "Minimize to Tray"'
   description: 'Vanaf onze versie 154 wordt de functie "Minimize to Tray" vervangen door "Close to Tray".'
   CTA: "Meer informatie"
-  URL: https://support.mozilla.org/kb/
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
   type: message
   targeting:
@@ -159,12 +159,12 @@
     percent_chance: 100
 
 - id: CloseToTray-ru
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
   title: 'Изменение функции "Minimize to Tray"'
   description: 'Начиная с версии 154 функция "Minimize to Tray" заменяется на "Close to Tray".'
   CTA: "Подробнее"
-  URL: https://support.mozilla.org/kb/
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
   type: message
   targeting:
