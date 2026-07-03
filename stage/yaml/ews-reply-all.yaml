@@ -1,10 +1,10 @@
 - id: EwsReplyAll-en
   start_at: 2026-07-01T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: 'Microsoft Exchange (EWS) "Reply All" issue'
-  description: 'A recent Thunderbird update may hide the "Reply All" button for some Microsoft Exchange (EWS) messages. Learn how to resolve the issue.'
+  title: "Microsoft Exchange (EWS) “Reply All” issue"
+  description: "A recent Thunderbird update may hide the “Reply All” button for some Microsoft Exchange (EWS) messages. Learn how to resolve the issue.""
   CTA: "Learn More"
-  URL: https://support.mozilla.org/kb/...
+  URL: https://support.mozilla.org/kb/fix-missing-reply-all-button-152
   severity: 1
   type: message
   targeting:
@@ -18,12 +18,12 @@
     percent_chance: 100
 
 - id: EwsReplyAll-de
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: 'Problem mit "Allen antworten" bei Microsoft Exchange (EWS)'
-  description: 'Ein aktuelles Thunderbird-Update kann dazu führen, dass die Schaltfläche "Allen antworten" bei einigen Microsoft Exchange (EWS)-Nachrichten ausgeblendet wird. Erfahren Sie, wie Sie das Problem beheben können.'
+  title: "Funktion “an alle antworten” bei Microsoft Exchangen (EWS) Konten."
+  description: "Die Schaltfäche “an alle antworten” wird möglicherweise bei MS Exchange Konten nicht angezeigt. So lässt sich das Problem beheben."
   CTA: "Mehr erfahren"
-  URL: https://support.mozilla.org/kb/...
+  URL: https://support.mozilla.org/kb/fix-missing-reply-all-button-152
   severity: 1
   type: message
   targeting:
@@ -36,12 +36,12 @@
     percent_chance: 100
 
 - id: EwsReplyAll-fr
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: 'Problème avec "Répondre à tous" pour Microsoft Exchange (EWS)'
-  description: 'Une mise à jour récente de Thunderbird peut masquer le bouton "Répondre à tous" pour certains messages Microsoft Exchange (EWS). Découvrez comment résoudre ce problème.'
+  title: "Problème avec « Répondre à tous » dans Microsoft Exchange (EWS)"
+  description: "Une mise à jour récente de Thunderbird peut masquer le bouton « Répondre à tous » pour certains messages dans les comptes Microsoft Exchange (EWS). Découvrez comment résoudre le problème."
   CTA: "En savoir plus"
-  URL: https://support.mozilla.org/kb/...
+  URL: https://support.mozilla.org/kb/fix-missing-reply-all-button-152
   severity: 1
   type: message
   targeting:
@@ -54,12 +54,12 @@
     percent_chance: 100
 
 - id: EwsReplyAll-it
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: 'Problema con "Rispondi a tutti" per Microsoft Exchange (EWS)'
-  description: 'Un recente aggiornamento di Thunderbird potrebbe nascondere il pulsante "Rispondi a tutti" per alcuni messaggi Microsoft Exchange (EWS). Scopri come risolvere il problema.'
+  title: "Problema con «Rispondi a tutti» in Microsoft Exchange (EWS)"
+  description: "Un recente aggiornamento di Thunderbird potrebbe nascondere il pulsante «Rispondi a tutti» per alcuni messaggi Microsoft Exchange (EWS). Scopri come risolvere il problema."
   CTA: "Scopri di più"
-  URL: https://support.mozilla.org/kb/...
+  URL: https://support.mozilla.org/kb/fix-missing-reply-all-button-152
   severity: 1
   type: message
   targeting:
@@ -72,12 +72,12 @@
     percent_chance: 100
 
 - id: EwsReplyAll-ja
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: "Microsoft Exchange (EWS) の「全員に返信」の問題"
-  description: "最近の Thunderbird の更新により、一部の Microsoft Exchange (EWS) メッセージで「全員に返信」ボタンが非表示になる場合があります。この問題の解決方法をご確認ください。"
+  title: "Microsoft Exchange (EWS) の「全員に返信」に関する問題"
+  description: "最近の Thunderbird の更新により、一部の Microsoft Exchange (EWS) メッセージで「全員に返信」ボタンが表示されないことがあります。問題を解決する方法をご確認ください。"
   CTA: "詳細はこちら"
-  URL: https://support.mozilla.org/kb/...
+  URL: https://support.mozilla.org/kb/fix-missing-reply-all-button-152
   severity: 1
   type: message
   targeting:
@@ -90,12 +90,12 @@
     percent_chance: 100
 
 - id: EwsReplyAll-pl
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: "Problem z funkcją „Odpowiedz wszystkim” w Microsoft Exchange (EWS)"
-  description: "Niedawna aktualizacja Thunderbirda może ukrywać przycisk „Odpowiedz wszystkim” w niektórych wiadomościach Microsoft Exchange (EWS). Dowiedz się, jak rozwiązać ten problem."
+  title: "Problem z funkcją „Odpowiedz wszystkim“ w Microsoft Exchange (EWS)"
+  description: "Niedawna aktualizacja programu Thunderbird może powodować ukrycie przycisku „Odpowiedz wszystkim“ w niektórych wiadomościach Microsoft Exchange (EWS). Dowiedz się, jak rozwiązać ten problem."
   CTA: "Więcej informacji"
-  URL: https://support.mozilla.org/kb/...
+  URL: https://support.mozilla.org/kb/fix-missing-reply-all-button-152
   severity: 1
   type: message
   targeting:
@@ -108,12 +108,12 @@
     percent_chance: 100
 
 - id: EwsReplyAll-pt_BR
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: 'Problema com "Responder a todos" no Microsoft Exchange (EWS)'
-  description: 'Uma atualização recente do Thunderbird pode ocultar o botão "Responder a todos" em algumas mensagens do Microsoft Exchange (EWS). Saiba como resolver o problema.'
+  title: "Problema com “Responder a todos” no Microsoft Exchange (EWS)"
+  description: "Uma atualização recente do Thunderbird pode ocultar o botão “Responder a todos” em algumas mensagens do Microsoft Exchange (EWS). Saiba como resolver o problema."
   CTA: "Saiba mais"
-  URL: https://support.mozilla.org/kb/...
+  URL: https://support.mozilla.org/kb/fix-missing-reply-all-button-152
   severity: 1
   type: message
   targeting:
@@ -126,12 +126,12 @@
     percent_chance: 100
 
 - id: EwsReplyAll-es
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: 'Problema con "Responder a todos" en Microsoft Exchange (EWS)'
-  description: 'Una actualización reciente de Thunderbird puede ocultar el botón "Responder a todos" en algunos mensajes de Microsoft Exchange (EWS). Aprende cómo resolver el problema.'
+  title: "Problema con «Responder a todos» en Microsoft Exchange (EWS)"
+  description: "Una actualización reciente de Thunderbird puede ocultar el botón «Responder a todos» en algunos mensajes de Microsoft Exchange (EWS). Descubre cómo solucionar el problema."
   CTA: "Más información"
-  URL: https://support.mozilla.org/kb/...
+  URL: https://support.mozilla.org/kb/fix-missing-reply-all-button-152
   severity: 1
   type: message
   targeting:
@@ -144,12 +144,12 @@
     percent_chance: 100
 
 - id: EwsReplyAll-nl
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: 'Probleem met "Allen beantwoorden" voor Microsoft Exchange (EWS)'
-  description: 'Door een recente Thunderbird-update kan de knop "Allen beantwoorden" verborgen zijn voor sommige Microsoft Exchange (EWS)-berichten. Lees hoe u het probleem kunt oplossen.'
+  title: "Probleem met “Allen beantwoorden” in Microsoft Exchange (EWS)"
+  description: "Een recente Thunderbird-update verbergt mogelijk de knop “Allen beantwoorden” bij sommige Microsoft Exchange (EWS)-berichten. Ontdek hoe u het probleem kunt oplossen."
   CTA: "Meer informatie"
-  URL: https://support.mozilla.org/kb/...
+  URL: https://support.mozilla.org/kb/fix-missing-reply-all-button-152
   severity: 1
   type: message
   targeting:
@@ -162,12 +162,12 @@
     percent_chance: 100
 
 - id: EwsReplyAll-ru
-  start_at: 2026-07-01T00:00:00.000Z
+  start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: "Проблема с кнопкой «Ответить всем» в Microsoft Exchange (EWS)"
-  description: "После недавнего обновления Thunderbird кнопка «Ответить всем» может быть скрыта для некоторых сообщений Microsoft Exchange (EWS). Узнайте, как решить эту проблему."
+  title: "Проблема с функцией «Ответить всем» в Microsoft Exchange (EWS)"
+  description: "Недавнее обновление Thunderbird может скрывать кнопку «Ответить всем» для некоторых сообщений Microsoft Exchange (EWS). Узнайте, как исправить эту проблему."
   CTA: "Подробнее"
-  URL: https://support.mozilla.org/kb/...
+  URL: https://support.mozilla.org/kb/fix-missing-reply-all-button-152
   severity: 1
   type: message
   targeting:
