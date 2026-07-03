@@ -14,7 +14,24 @@
           pref_true: [mail.exchange.hasMicrosoft365EwsAccount],
         }
     exclude:
-      - { locales: [de, fr, it, ja, pl, pt-BR, es-AR, es-ES, es-MX, nl, ru] }
+      - {
+          locales:
+            [
+              de,
+              fr,
+              it,
+              ja,
+              ja-JP-mac,
+              pl,
+              pt-BR,
+              pt-PT,
+              es-AR,
+              es-ES,
+              es-MX,
+              nl,
+              ru,
+            ],
+        }
     percent_chance: 100
 
 - id: EwsReplyAll-de
@@ -84,7 +101,7 @@
     include:
       - {
           channels: [release, beta],
-          locales: [ja],
+          locales: [ja, ja-JP-mac],
           pref_true: [mail.exchange.hasMicrosoft365EwsAccount],
         }
     percent_chance: 100
@@ -107,7 +124,7 @@
         }
     percent_chance: 100
 
-- id: EwsReplyAll-pt_BR
+- id: EwsReplyAll-pt
   start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
   title: 'Problema com "Responder a todos" no Microsoft Exchange (EWS)'
@@ -120,7 +137,7 @@
     include:
       - {
           channels: [release, beta],
-          locales: [pt-BR],
+          locales: [pt-BR, pt-PT],
           pref_true: [mail.exchange.hasMicrosoft365EwsAccount],
         }
     percent_chance: 100
