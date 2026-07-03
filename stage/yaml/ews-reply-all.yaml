@@ -20,8 +20,8 @@
 - id: EwsReplyAll-de
   start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: 'Funktion "an alle antworten" bei Microsoft Exchangen (EWS) Konten.'
-  description: 'Die Schaltfäche "an alle antworten" wird möglicherweise bei MS Exchange Konten nicht angezeigt. So lässt sich das Problem beheben.'
+  title: 'Funktion "Allen antworten" bei Microsoft Exchange (EWS) Konten'
+  description: 'Die Schaltfläche "an alle antworten" wird möglicherweise bei MS Exchange Konten nicht angezeigt. So lässt sich das Problem beheben.'
   CTA: "Mehr erfahren"
   URL: https://support.mozilla.org/kb/fix-missing-reply-all-button-152
   severity: 1
@@ -92,8 +92,8 @@
 - id: EwsReplyAll-pl
   start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: "Problem z funkcją „Odpowiedz wszystkim“ w Microsoft Exchange (EWS)"
-  description: "Niedawna aktualizacja programu Thunderbird może powodować ukrycie przycisku „Odpowiedz wszystkim“ w niektórych wiadomościach Microsoft Exchange (EWS). Dowiedz się, jak rozwiązać ten problem."
+  title: "Problem z funkcją „Odpowiedz wszystkim” w Microsoft Exchange (EWS)"
+  description: "Niedawna aktualizacja programu Thunderbird może powodować ukrycie przycisku „Odpowiedz wszystkim” w niektórych wiadomościach Microsoft Exchange (EWS). Dowiedz się, jak rozwiązać ten problem."
   CTA: "Więcej informacji"
   URL: https://support.mozilla.org/kb/fix-missing-reply-all-button-152
   severity: 1
