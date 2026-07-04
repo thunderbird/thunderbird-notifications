@@ -1,0 +1,194 @@
+- id: CloseToTray-en
+  start_at: 2026-07-01T00:00:00.000Z
+  end_at: 2026-08-31T00:00:00.000Z
+  title: '"Minimize to Tray" feature change'
+  description: 'Starting in our 154 release, the "Minimize to Tray" feature is being replaced with "Close to Tray".'
+  CTA: "Learn More"
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - { channels: [release, beta], pref_true: [mail.minimizeToTray] }
+    exclude:
+      - {
+          locales:
+            [
+              de,
+              fr,
+              it,
+              ja,
+              ja-JP-mac,
+              pl,
+              pt-BR,
+              pt-PT,
+              es-AR,
+              es-ES,
+              es-MX,
+              nl,
+              ru,
+            ],
+        }
+    percent_chance: 100
+
+- id: CloseToTray-de
+  start_at: 2026-07-10T00:00:00.000Z
+  end_at: 2026-08-31T00:00:00.000Z
+  title: "Änderung bei der Anzeige im Infobereich"
+  description: "Ab Version 154 wird Thunderbird beim Schließen, anstatt beim Minimieren, in den Infobereich verschoben."
+  CTA: "Mehr erfahren"
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release, beta],
+          locales: [de],
+          pref_true: [mail.minimizeToTray],
+        }
+    percent_chance: 100
+
+- id: CloseToTray-fr
+  start_at: 2026-07-10T00:00:00.000Z
+  end_at: 2026-08-31T00:00:00.000Z
+  title: "Modification de la fonction « Réduire dans la zone de notification »"
+  description: "À partir de la version 154, la fonction « Réduire dans la zone de notification » est remplacée par « Fermer dans la zone de notification »."
+  CTA: "En savoir plus"
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release, beta],
+          locales: [fr],
+          pref_true: [mail.minimizeToTray],
+        }
+    percent_chance: 100
+
+- id: CloseToTray-it
+  start_at: 2026-07-10T00:00:00.000Z
+  end_at: 2026-08-31T00:00:00.000Z
+  title: "Modifica della funzione «Minimizza nell'area di notifica»"
+  description: "A partire dalla versione 154, la funzione «Minimizza nell'area di notifica» verrà sostituita da «Chiudi nell'area di notifica»."
+  CTA: "Scopri di più"
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release, beta],
+          locales: [it],
+          pref_true: [mail.minimizeToTray],
+        }
+    percent_chance: 100
+
+- id: CloseToTray-ja
+  start_at: 2026-07-10T00:00:00.000Z
+  end_at: 2026-08-31T00:00:00.000Z
+  title: "「トレイに最小化」機能の変更"
+  description: "バージョン 154 より、「トレイに最小化」機能は「トレイに閉じる」機能に置き換えられます。"
+  CTA: "詳細はこちら"
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release, beta],
+          locales: [ja, ja-JP-mac],
+          pref_true: [mail.minimizeToTray],
+        }
+    percent_chance: 100
+
+- id: CloseToTray-pl
+  start_at: 2026-07-10T00:00:00.000Z
+  end_at: 2026-08-31T00:00:00.000Z
+  title: "Zmiana funkcji „Minimalizuj do zasobnika“"
+  description: "Od wersji 154 funkcja „Minimalizuj do zasobnika“ zostanie zastąpiona funkcją „Zamknij do zasobnika“."
+  CTA: "Więcej informacji"
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release, beta],
+          locales: [pl],
+          pref_true: [mail.minimizeToTray],
+        }
+    percent_chance: 100
+
+- id: CloseToTray-pt
+  start_at: 2026-07-10T00:00:00.000Z
+  end_at: 2026-08-31T00:00:00.000Z
+  title: "Alteração na função “Minimizar para a bandeja”"
+  description: "A partir da versão 154, a função “Minimizar para a bandeja” será substituída por “Fechar para a bandeja”."
+  CTA: "Saiba mais"
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release, beta],
+          locales: [pt-BR, pt-PT],
+          pref_true: [mail.minimizeToTray],
+        }
+    percent_chance: 100
+
+- id: CloseToTray-es
+  start_at: 2026-07-10T00:00:00.000Z
+  end_at: 2026-08-31T00:00:00.000Z
+  title: "Cambio en la función «Minimizar a la bandeja»"
+  description: "A partir de la versión 154, la función «Minimizar a la bandeja» se reemplazará por «Cerrar a la bandeja»."
+  CTA: "Más información"
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release, beta],
+          locales: [es-AR, es-ES, es-MX],
+          pref_true: [mail.minimizeToTray],
+        }
+    percent_chance: 100
+
+- id: CloseToTray-nl
+  start_at: 2026-07-10T00:00:00.000Z
+  end_at: 2026-08-31T00:00:00.000Z
+  title: "Wijziging van de functie 'Minimaliseren naar systeemvak'"
+  description: "Vanaf versie 154 wordt de functie 'Minimaliseren naar systeemvak' vervangen door 'Sluiten naar systeemvak'."
+  CTA: "Meer informatie"
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release, beta],
+          locales: [nl],
+          pref_true: [mail.minimizeToTray],
+        }
+    percent_chance: 100
+
+- id: CloseToTray-ru
+  start_at: 2026-07-10T00:00:00.000Z
+  end_at: 2026-08-31T00:00:00.000Z
+  title: "Изменение функции «Убрать в Dock»"
+  description: "Начиная с версии 154, функция «Убрать в Dock» будет заменена функцией «Закрыть в Dock»."
+  CTA: "Подробнее"
+  URL: https://support.mozilla.org/kb/close-tray-starting-154
+  severity: 1
+  type: message
+  targeting:
+    include:
+      - {
+          channels: [release, beta],
+          locales: [ru],
+          pref_true: [mail.minimizeToTray],
+        }
+    percent_chance: 100
