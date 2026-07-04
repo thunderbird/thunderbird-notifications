@@ -11,7 +11,24 @@
     include:
       - { channels: [release, beta], pref_true: [mail.minimizeToTray] }
     exclude:
-      - { locales: [de, fr, it, ja, pl, pt-BR, es-AR, es-ES, es-MX, nl, ru] }
+      - {
+          locales:
+            [
+              de,
+              fr,
+              it,
+              ja,
+              ja-JP-mac,
+              pl,
+              pt-BR,
+              pt-PT,
+              es-AR,
+              es-ES,
+              es-MX,
+              nl,
+              ru,
+            ],
+        }
     percent_chance: 100
 
 - id: CloseToTray-de
@@ -81,7 +98,7 @@
     include:
       - {
           channels: [release, beta],
-          locales: [ja],
+          locales: [ja, ja-JP-mac],
           pref_true: [mail.minimizeToTray],
         }
     percent_chance: 100
@@ -104,7 +121,7 @@
         }
     percent_chance: 100
 
-- id: CloseToTray-pt_BR
+- id: CloseToTray-pt
   start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
   title: "Alteração na função “Minimizar para a bandeja”"
@@ -117,7 +134,7 @@
     include:
       - {
           channels: [release, beta],
-          locales: [pt-BR],
+          locales: [pt-BR, pt-PT],
           pref_true: [mail.minimizeToTray],
         }
     percent_chance: 100
