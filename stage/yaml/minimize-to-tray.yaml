@@ -88,8 +88,8 @@
 - id: CloseToTray-ja
   start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: "「トレイに最小化」機能の変更"
-  description: "バージョン 154 より、「トレイに最小化」機能は「トレイに閉じる」機能に置き換えられます。"
+  title: "「タスクトレイに最小化」機能の変更"
+  description: "バージョン 154 より、「タスクトレイに最小化」機能は「タスクトレイに閉じる」機能に置き換えられます。"
   CTA: "詳細はこちら"
   URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
@@ -106,8 +106,8 @@
 - id: CloseToTray-pl
   start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: "Zmiana funkcji „Minimalizuj do zasobnika“"
-  description: "Od wersji 154 funkcja „Minimalizuj do zasobnika“ zostanie zastąpiona funkcją „Zamknij do zasobnika“."
+  title: "Zmiana funkcji „Minimalizuj do ikony w obszarze powiadomień”"
+  description: "Od wersji 154 funkcja „Minimalizuj do ikony w obszarze powiadomień” zostanie zastąpiona funkcją „Zamknij do ikony w obszarze powiadomień”."
   CTA: "Więcej informacji"
   URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
@@ -178,8 +178,8 @@
 - id: CloseToTray-ru
   start_at: 2026-07-10T00:00:00.000Z
   end_at: 2026-08-31T00:00:00.000Z
-  title: "Изменение функции «Убрать в Dock»"
-  description: "Начиная с версии 154, функция «Убрать в Dock» будет заменена функцией «Закрыть в Dock»."
+  title: "Изменение функции «Сворачивание в системный трей»"
+  description: "Начиная с версии 154, функция «Сворачивание в системный трей» будет заменена функцией «Закрытие в системный трей»."
   CTA: "Подробнее"
   URL: https://support.mozilla.org/kb/close-tray-starting-154
   severity: 1
