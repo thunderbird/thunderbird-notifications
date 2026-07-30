@@ -7,11 +7,53 @@
   URL: https://updates.thunderbird.net/thunderbird/153.0/jun26-1a/?utm_campaign=jun26_appeal&utm_medium=desktop&utm_source=in_app&utm_content=jun26-a
   targeting:
     include:
-      - { channels: [release], versions: ["153.0"] }
+      - {
+          versions:
+            [
+              "153.0",
+              "153.0.1",
+              "153.0.2",
+              "154.0",
+              "154.0.1",
+              "154.0.2",
+              "155.0",
+              "155.0.1",
+              "155.0.2",
+              "156.0",
+              "156.0.1",
+              "156.0.2",
+              "157.0",
+              "157.0.1",
+              "157.0.2",
+            ],
+          channels: [release],
+        }
+      - {
+          versions:
+            [
+              "153.0",
+              "153.0.1",
+              "153.0.2",
+              "153.1.0",
+              "153.1.1",
+              "153.1.2",
+              "153.2.0",
+              "153.2.1",
+              "153.2.2",
+              "153.3.0",
+              "153.3.1",
+              "153.3.2",
+              "153.4.0",
+              "153.4.1",
+              "153.4.2",
+            ],
+          channels: [esr],
+        }
+      - { channels: [beta, nightly] }
     exclude:
       - { displayed_notifications: [ESR153-B] }
       - { displayed_notifications: [ESR153-C] }
-    percent_chance: 6
+    percent_chance: 100
 
 - id: ESR153-B
   start_at: 2026-06-19T00:00:00.000Z
@@ -26,7 +68,7 @@
     exclude:
       - { displayed_notifications: [ESR153-A] }
       - { displayed_notifications: [ESR153-C] }
-    percent_chance: 6
+    percent_chance: 0
 
 - id: ESR153-C
   start_at: 2026-06-19T00:00:00.000Z
@@ -41,4 +83,4 @@
     exclude:
       - { displayed_notifications: [ESR153-A] }
       - { displayed_notifications: [ESR153-B] }
-    percent_chance: 6
+    percent_chance: 0
