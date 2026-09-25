@@ -1,0 +1,16 @@
+- id: EwsDeprecation-en
+  start_at: 2026-09-25T00:00:00.000Z
+  end_at: 2026-10-31T00:00:00.000Z
+  title: "Microsoft 365 is ending EWS support"
+  description: "Microsoft is beginning to disable EWS for Microsoft 365 accounts. Action is required to keep accessing your email with Thunderbird."
+  CTA: "Learn More"
+  URL: https://blog.thunderbird.net/2026/09/thunderbird-desktop-new-protocol-support-microsoft-graph-api/
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          pref_true: [mail.exchange.hasMicrosoft365EwsAccount],
+          locales: [en-US, en-CA, en-GB],
+        }
+    percent_chance: 100
