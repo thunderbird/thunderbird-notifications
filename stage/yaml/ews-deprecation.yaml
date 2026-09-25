@@ -6,7 +6,7 @@
   CTA: "Learn More"
   URL: https://blog.thunderbird.net/2026/09/thunderbird-desktop-new-protocol-support-microsoft-graph-api/
   severity: 1
-  type: message
+  type: security
   targeting:
     include:
       - {
