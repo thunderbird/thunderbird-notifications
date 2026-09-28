@@ -1,0 +1,151 @@
+- id: EwsDeprecation-en
+  start_at: 2026-09-25T00:00:00.000Z
+  end_at: 2026-10-31T00:00:00.000Z
+  title: "Microsoft 365 is ending EWS support"
+  description: "Microsoft is beginning to disable EWS for Microsoft 365 accounts. Action is required to continue accessing affected Microsoft 365 accounts with Thunderbird."
+  CTA: "Learn More"
+  URL: https://support.mozilla.org/kb/microsoft-ews-graph-migration
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          pref_true: [mail.exchange.hasMicrosoft365EwsAccount],
+          locales: [en-US, en-CA, en-GB],
+        }
+    percent_chance: 100
+
+- id: EwsDeprecation-de
+  start_at: 2026-09-25T00:00:00.000Z
+  end_at: 2026-10-31T00:00:00.000Z
+  title: "Microsoft 365 stellt die Unterstützung für EWS ein"
+  description: "Microsoft beginnt mit der Deaktivierung von EWS für Microsoft 365-Konten. Um weiterhin mit Thunderbird auf die betroffenen Microsoft 365-Konten zugreifen zu können, sollten Sie jetzt handeln."
+  CTA: "Weitere Informationen"
+  URL: https://support.mozilla.org/kb/microsoft-ews-graph-migration
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - { pref_true: [mail.exchange.hasMicrosoft365EwsAccount], locales: [de] }
+    percent_chance: 100
+
+- id: EwsDeprecation-fr
+  start_at: 2026-09-25T00:00:00.000Z
+  end_at: 2026-10-31T00:00:00.000Z
+  title: "Microsoft 365 met fin à la prise en charge d'EWS"
+  description: "Microsoft commence à désactiver le service EWS pour les comptes Microsoft 365. Une intervention de votre part est nécessaire afin de maintenir l'accès aux comptes concernés via Thunderbird."
+  CTA: "En savoir plus"
+  URL: https://support.mozilla.org/kb/microsoft-ews-graph-migration
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - { pref_true: [mail.exchange.hasMicrosoft365EwsAccount], locales: [fr] }
+    percent_chance: 100
+
+- id: EwsDeprecation-it
+  start_at: 2026-09-25T00:00:00.000Z
+  end_at: 2026-10-31T00:00:00.000Z
+  title: "Microsoft 365 sta terminando il supporto per EWS"
+  description: "Microsoft sta iniziando a disattivare il servizio EWS per gli account Microsoft 365. È necessario intervenire per continuare ad accedere agli account Microsoft 365 interessati tramite Thunderbird."
+  CTA: "Scopri di più"
+  URL: https://support.mozilla.org/kb/microsoft-ews-graph-migration
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - { pref_true: [mail.exchange.hasMicrosoft365EwsAccount], locales: [it] }
+    percent_chance: 100
+
+- id: EwsDeprecation-ja
+  start_at: 2026-09-25T00:00:00.000Z
+  end_at: 2026-10-31T00:00:00.000Z
+  title: "Microsoft 365でのEWSサポートが終了します"
+  description: "Microsoftは、Microsoft 365アカウントのEWSを段階的に無効化しています。影響を受けるMicrosoft 365アカウントへのアクセスをThunderbirdで継続するには、対応が必要です。"
+  CTA: "詳しくはこちら"
+  URL: https://support.mozilla.org/kb/microsoft-ews-graph-migration
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          pref_true: [mail.exchange.hasMicrosoft365EwsAccount],
+          locales: [ja, ja-JP-mac],
+        }
+    percent_chance: 100
+
+- id: EwsDeprecation-pl
+  start_at: 2026-09-25T00:00:00.000Z
+  end_at: 2026-10-31T00:00:00.000Z
+  title: "Microsoft 365 wycofuje obsługę EWS"
+  description: "Firma Microsoft rozpoczyna wyłączanie usługi EWS dla kont Microsoft 365. Aby nadal korzystać z kont objętych tą zmianą w Thunderbirdzie, należy podjąć odpowiednie działania."
+  CTA: "Dowiedz się więcej"
+  URL: https://support.mozilla.org/kb/microsoft-ews-graph-migration
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - { pref_true: [mail.exchange.hasMicrosoft365EwsAccount], locales: [pl] }
+    percent_chance: 100
+
+- id: EwsDeprecation-pt_BR
+  start_at: 2026-09-25T00:00:00.000Z
+  end_at: 2026-10-31T00:00:00.000Z
+  title: "O Microsoft 365 está encerrando o suporte ao EWS"
+  description: "A Microsoft está começando a desativar o EWS para contas Microsoft 365. É necessário tomar algumas medidas para continuar acessando as contas Microsoft 365 afetadas usando o Thunderbird."
+  CTA: "Saiba mais"
+  URL: https://support.mozilla.org/kb/microsoft-ews-graph-migration
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          pref_true: [mail.exchange.hasMicrosoft365EwsAccount],
+          locales: [pt-BR],
+        }
+    percent_chance: 100
+
+- id: EwsDeprecation-es
+  start_at: 2026-09-25T00:00:00.000Z
+  end_at: 2026-10-31T00:00:00.000Z
+  title: "Microsoft 365 dejará de admitir EWS"
+  description: "Microsoft ha comenzado a deshabilitar el servicio EWS para las cuentas de Microsoft 365. Es preciso adoptar medidas para seguir accediendo con Thunderbird a las cuentas de Microsoft 365 afectadas."
+  CTA: "Más información"
+  URL: https://support.mozilla.org/kb/microsoft-ews-graph-migration
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - {
+          pref_true: [mail.exchange.hasMicrosoft365EwsAccount],
+          locales: [es-AR, es-ES, es-MX],
+        }
+    percent_chance: 100
+
+- id: EwsDeprecation-nl
+  start_at: 2026-09-25T00:00:00.000Z
+  end_at: 2026-10-31T00:00:00.000Z
+  title: "Microsoft 365 stopt met ondersteuning voor EWS"
+  description: "Microsoft begint met het uitschakelen van EWS voor Microsoft 365-accounts. Er is actie vereist om toegang te blijven houden tot de getroffen Microsoft 365-accounts met Thunderbird."
+  CTA: "Meer informatie"
+  URL: https://support.mozilla.org/kb/microsoft-ews-graph-migration
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - { pref_true: [mail.exchange.hasMicrosoft365EwsAccount], locales: [nl] }
+    percent_chance: 100
+
+- id: EwsDeprecation-ru
+  start_at: 2026-09-25T00:00:00.000Z
+  end_at: 2026-10-31T00:00:00.000Z
+  title: "Microsoft 365 прекращает поддержку EWS"
+  description: "Microsoft начинает отключать EWS для учётных записей Microsoft 365. Чтобы продолжить пользоваться такими учётными записями в Thunderbird, необходимо принять меры."
+  CTA: "Узнать больше"
+  URL: https://support.mozilla.org/kb/microsoft-ews-graph-migration
+  severity: 1
+  type: security
+  targeting:
+    include:
+      - { pref_true: [mail.exchange.hasMicrosoft365EwsAccount], locales: [ru] }
+    percent_chance: 100
