@@ -1,0 +1,111 @@
+- id: Oct26Donation-en
+  start_at: 2026-10-21T00:00:00.000Z
+  end_at: 2026-11-11T00:00:00.000Z
+  title: "Support Thunderbird"
+  severity: 3
+  type: donation
+  description: "Thunderbird’s mission is to give you a private, customizable, and robust email experience, while keeping it free and accessible for users around the world. Your contributions make a huge difference. We truly can’t do this without you."
+  CTA: "Donate"
+  URL: https://updates.thunderbird.net/thunderbird/153.0/oct26/?form=oct26&utm_content=cta&utm_source=desktop&utm_medium=pop_up&utm_campaign=oct26_appeal
+  targeting:
+    include:
+      - { locales: [en-US, en-CA, en-GB] }
+    percent_chance: 30
+
+- id: Oct26Donation-de
+  start_at: 2026-10-21T00:00:00.000Z
+  end_at: 2026-11-11T00:00:00.000Z
+  title: "Unterstützen Sie Thunderbird"
+  severity: 3
+  type: donation
+  description: "Die Mission von Thunderbird ist es, Ihnen ein privates, anpassbares und robustes E-Mail-Erlebnis zu bieten und es gleichzeitig frei und für Benutzer auf der ganzen Welt zugänglich zu halten. Ihre Beiträge machen einen großen Unterschied. Wir schaffen das nicht ohne Sie."
+  CTA: "Spenden"
+  URL: https://updates.thunderbird.net/thunderbird/153.0/oct26/?form=oct26&utm_content=cta&utm_source=desktop&utm_medium=pop_up&utm_campaign=oct26_appeal
+  targeting:
+    include:
+      - { locales: [de] }
+    percent_chance: 30
+
+- id: Oct26Donation-fr
+  start_at: 2026-10-21T00:00:00.000Z
+  end_at: 2026-11-11T00:00:00.000Z
+  title: "Soutenez Thunderbird"
+  severity: 3
+  type: donation
+  description: "La mission de Thunderbird est de vous procurer une messagerie privée, personnalisable et robuste, tout en la maintenant libre et accessible pour les utilisateurs·trices du monde entier. Vos contributions font une énorme différence. Nous ne pouvons vraiment pas le faire sans vous."
+  CTA: "Faire un don"
+  URL: https://updates.thunderbird.net/thunderbird/153.0/oct26/?form=oct26&utm_content=cta&utm_source=desktop&utm_medium=pop_up&utm_campaign=oct26_appeal
+  targeting:
+    include:
+      - { locales: [fr] }
+    percent_chance: 30
+
+- id: Oct26Donation-it
+  start_at: 2026-10-21T00:00:00.000Z
+  end_at: 2026-11-11T00:00:00.000Z
+  title: "Sostieni Thunderbird"
+  severity: 3
+  type: donation
+  description: "La missione di Thunderbird è garantirti un’esperienza di posta elettronica riservata, personalizzabile, affidabile e, al tempo stesso, gratuita e accessibile per gli utenti di tutto il mondo. I tuoi contributi fanno davvero la differenza. Non possiamo farcela senza di te."
+  CTA: "Fai una donazione"
+  URL: https://updates.thunderbird.net/thunderbird/153.0/oct26/?form=oct26&utm_content=cta&utm_source=desktop&utm_medium=pop_up&utm_campaign=oct26_appeal
+  targeting:
+    include:
+      - { locales: [it] }
+    percent_chance: 30
+
+- id: Oct26Donation-ja
+  start_at: 2026-10-21T00:00:00.000Z
+  end_at: 2026-11-11T00:00:00.000Z
+  title: "Thunderbird をご支援ください"
+  severity: 3
+  type: donation
+  description: "Thunderbird の使命は、世界中のユーザーに自由に利用できる形で、プライベートでカスタマイズ可能、そして堅牢なメール体験を提供することです。皆さまのご支援は本当に大きな力になります。ご協力なしには実現できません。"
+  CTA: "寄付"
+  URL: https://updates.thunderbird.net/thunderbird/153.0/oct26/?form=oct26&utm_content=cta&utm_source=desktop&utm_medium=pop_up&utm_campaign=oct26_appeal
+  targeting:
+    include:
+      - { locales: [ja, ja-JP-mac] }
+    percent_chance: 30
+
+- id: Oct26Donation-pl
+  start_at: 2026-10-21T00:00:00.000Z
+  end_at: 2026-11-11T00:00:00.000Z
+  title: "Wesprzyj Thunderbirda"
+  severity: 3
+  type: donation
+  description: "Misją Thunderbirda jest zapewnienie Ci prywatnego, konfigurowalnego i niezawodnego środowiska poczty elektronicznej, przy jednoczesnym zachowaniu jego bezpłatności i dostępności dla użytkowników na całym świecie. Twój wkład ma ogromne znaczenie. Naprawdę nie możemy tego zrobić bez Ciebie."
+  CTA: "Przekaż datek"
+  URL: https://updates.thunderbird.net/thunderbird/153.0/oct26/?form=oct26&utm_content=cta&utm_source=desktop&utm_medium=pop_up&utm_campaign=oct26_appeal
+  targeting:
+    include:
+      - { locales: [pl] }
+    percent_chance: 30
+
+- id: Oct26Donation-pt_BR
+  start_at: 2026-10-21T00:00:00.000Z
+  end_at: 2026-11-11T00:00:00.000Z
+  title: "Apoie o Thunderbird"
+  severity: 3
+  type: donation
+  description: "A missão do Thunderbird é oferecer a você uma experiência de e-mail privada, personalizável e robusta, mantendo-a gratuita e acessível para usuários do mundo todo. Suas contribuições fazem toda a diferença. Realmente não podemos fazer isso sem você."
+  CTA: "Faça uma doação"
+  URL: https://updates.thunderbird.net/thunderbird/153.0/oct26/?form=oct26&utm_content=cta&utm_source=desktop&utm_medium=pop_up&utm_campaign=oct26_appeal
+  targeting:
+    include:
+      - { locales: [pt-BR] }
+    percent_chance: 30
+
+- id: Oct26Donation-es
+  start_at: 2026-10-21T00:00:00.000Z
+  end_at: 2026-11-11T00:00:00.000Z
+  title: "Apoya a Thunderbird"
+  severity: 3
+  type: donation
+  description: "La misión de Thunderbird es ofrecerte una experiencia de correo electrónico privada, personalizable y robusta, manteniéndola gratuita y accesible para usuarios de todo el mundo. Tus contribuciones marcan una gran diferencia. Realmente no podemos lograrlo sin ti."
+  CTA: "Donar"
+  URL: https://updates.thunderbird.net/thunderbird/153.0/oct26/?form=oct26&utm_content=cta&utm_source=desktop&utm_medium=pop_up&utm_campaign=oct26_appeal
+  targeting:
+    include:
+      - { locales: [es-AR, es-ES, es-MX] }
+    percent_chance: 30
