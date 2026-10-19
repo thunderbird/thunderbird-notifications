@@ -1,5 +1,5 @@
 - id: Oct26Donation-en
-  start_at: 2026-10-21T00:00:00.000Z
+  start_at: 2026-10-20T00:00:00.000Z
   end_at: 2026-11-11T00:00:00.000Z
   title: "Support Thunderbird"
   severity: 3
@@ -13,7 +13,7 @@
     percent_chance: 30
 
 - id: Oct26Donation-de
-  start_at: 2026-10-21T00:00:00.000Z
+  start_at: 2026-10-20T00:00:00.000Z
   end_at: 2026-11-11T00:00:00.000Z
   title: "Unterstützen Sie Thunderbird"
   severity: 3
@@ -27,7 +27,7 @@
     percent_chance: 30
 
 - id: Oct26Donation-fr
-  start_at: 2026-10-21T00:00:00.000Z
+  start_at: 2026-10-20T00:00:00.000Z
   end_at: 2026-11-11T00:00:00.000Z
   title: "Soutenez Thunderbird"
   severity: 3
@@ -41,7 +41,7 @@
     percent_chance: 30
 
 - id: Oct26Donation-it
-  start_at: 2026-10-21T00:00:00.000Z
+  start_at: 2026-10-20T00:00:00.000Z
   end_at: 2026-11-11T00:00:00.000Z
   title: "Sostieni Thunderbird"
   severity: 3
@@ -55,7 +55,7 @@
     percent_chance: 30
 
 - id: Oct26Donation-ja
-  start_at: 2026-10-21T00:00:00.000Z
+  start_at: 2026-10-20T00:00:00.000Z
   end_at: 2026-11-11T00:00:00.000Z
   title: "Thunderbird をご支援ください"
   severity: 3
@@ -69,7 +69,7 @@
     percent_chance: 30
 
 - id: Oct26Donation-pl
-  start_at: 2026-10-21T00:00:00.000Z
+  start_at: 2026-10-20T00:00:00.000Z
   end_at: 2026-11-11T00:00:00.000Z
   title: "Wesprzyj Thunderbirda"
   severity: 3
@@ -83,7 +83,7 @@
     percent_chance: 30
 
 - id: Oct26Donation-pt_BR
-  start_at: 2026-10-21T00:00:00.000Z
+  start_at: 2026-10-20T00:00:00.000Z
   end_at: 2026-11-11T00:00:00.000Z
   title: "Apoie o Thunderbird"
   severity: 3
@@ -97,7 +97,7 @@
     percent_chance: 30
 
 - id: Oct26Donation-es
-  start_at: 2026-10-21T00:00:00.000Z
+  start_at: 2026-10-20T00:00:00.000Z
   end_at: 2026-11-11T00:00:00.000Z
   title: "Apoya a Thunderbird"
   severity: 3
