@@ -10,7 +10,7 @@
   targeting:
     include:
       - { locales: [en-US, en-CA, en-GB] }
-    percent_chance: 30
+    percent_chance: 60
 
 - id: Oct26Donation-de
   start_at: 2026-10-20T00:00:00.000Z
@@ -24,7 +24,7 @@
   targeting:
     include:
       - { locales: [de] }
-    percent_chance: 30
+    percent_chance: 60
 
 - id: Oct26Donation-fr
   start_at: 2026-10-20T00:00:00.000Z
@@ -38,7 +38,7 @@
   targeting:
     include:
       - { locales: [fr] }
-    percent_chance: 30
+    percent_chance: 60
 
 - id: Oct26Donation-it
   start_at: 2026-10-20T00:00:00.000Z
@@ -52,7 +52,7 @@
   targeting:
     include:
       - { locales: [it] }
-    percent_chance: 30
+    percent_chance: 60
 
 - id: Oct26Donation-ja
   start_at: 2026-10-20T00:00:00.000Z
@@ -66,7 +66,7 @@
   targeting:
     include:
       - { locales: [ja, ja-JP-mac] }
-    percent_chance: 30
+    percent_chance: 60
 
 - id: Oct26Donation-pl
   start_at: 2026-10-20T00:00:00.000Z
@@ -80,7 +80,7 @@
   targeting:
     include:
       - { locales: [pl] }
-    percent_chance: 30
+    percent_chance: 60
 
 - id: Oct26Donation-pt_BR
   start_at: 2026-10-20T00:00:00.000Z
@@ -94,7 +94,7 @@
   targeting:
     include:
       - { locales: [pt-BR] }
-    percent_chance: 30
+    percent_chance: 60
 
 - id: Oct26Donation-es
   start_at: 2026-10-20T00:00:00.000Z
@@ -108,4 +108,4 @@
   targeting:
     include:
       - { locales: [es-AR, es-ES, es-MX] }
-    percent_chance: 30
+    percent_chance: 60
