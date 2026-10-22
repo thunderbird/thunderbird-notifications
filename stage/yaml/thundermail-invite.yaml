@@ -1,0 +1,15 @@
+- id: Thundermail-Daily-A
+  start_at: 2026-10-22T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "A new email service from Thunderbird is coming"
+  severity: 3
+  type: blog
+  description: "Thundermail is now in beta, and Thunderbird users are first in line. Join the waitlist to get your invitation."
+  CTA: "Get on the list"
+  URL: https://explore.thunderbird.net/desktop-thundermail-waitlist-1
+  targeting:
+    include:
+      - { channels: [nightly] }
+    exclude:
+      - { pref_true: [mail.inappnotifications.hasThundermailAccount] }
+    percent_chance: 100
