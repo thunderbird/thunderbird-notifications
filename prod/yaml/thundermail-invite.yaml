@@ -13,3 +13,39 @@
     exclude:
       - { pref_true: [mail.inappnotifications.hasThundermailAccount] }
     percent_chance: 100
+
+- id: Thundermail-Beta-A
+  start_at: 2026-10-27T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "A new email service from Thunderbird is coming"
+  severity: 3
+  type: blog
+  description: "Thundermail is in beta now, and Thunderbird users are first in line. Join the waitlist to get your invitation."
+  CTA: "Get on the list"
+  URL: https://explore.thunderbird.net/desktop-thundermail-waitlist-beta1236
+  targeting:
+    include:
+      - { channels: [beta], locales: [en-US, en-CA, en-GB] }
+    exclude:
+      - { pref_true: [mail.inappnotifications.hasThundermailAccount] }
+      - { displayed_notifications: [Thundermail-Daily-A] }
+      - { displayed_notifications: [Thundermail-Beta-B] }
+    percent_chance: 50
+
+- id: Thundermail-Beta-B
+  start_at: 2026-10-27T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "Be one of the first with a thundermail.com address"
+  severity: 3
+  type: blog
+  description: "Thundermail is in beta now. Claim your thundermail.com or tb.pro address by signing up for your invitation to Thunderbird’s new email service."
+  CTA: "Get on the list"
+  URL: https://explore.thunderbird.net/desktop-thundermail-waitlist-beta2857
+  targeting:
+    include:
+      - { channels: [beta], locales: [en-US, en-CA, en-GB] }
+    exclude:
+      - { pref_true: [mail.inappnotifications.hasThundermailAccount] }
+      - { displayed_notifications: [Thundermail-Daily-A] }
+      - { displayed_notifications: [Thundermail-Beta-A] }
+    percent_chance: 100
