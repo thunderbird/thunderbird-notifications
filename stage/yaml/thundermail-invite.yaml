@@ -49,3 +49,37 @@
       - { displayed_notifications: [Thundermail-Daily-A] }
       - { displayed_notifications: [Thundermail-Beta-A] }
     percent_chance: 100
+
+- id: Thundermail-Release-A1
+  start_at: 2026-10-28T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "A new email service from Thunderbird is coming"
+  severity: 3
+  type: blog
+  description: "Thundermail is in beta now, and Thunderbird users are first in line. Join the waitlist to get your invitation."
+  CTA: "Get on the list"
+  URL: https://explore.thunderbird.net/desktop-thundermail-waitlist-rel-1048
+  targeting:
+    include:
+      - { channels: [release], locales: [en-US, en-CA, en-GB] }
+    exclude:
+      - { pref_true: [mail.inappnotifications.hasThundermailAccount] }
+      - { displayed_notifications: [Thundermail-Release-A2] }
+    percent_chance: 9
+
+- id: Thundermail-Release-A2
+  start_at: 2026-10-28T00:00:00.000Z
+  end_at: 2026-12-01T00:00:00.000Z
+  title: "A new email service from Thunderbird is coming"
+  severity: 3
+  type: blog
+  description: "Thundermail is in beta now, and Thunderbird users are first in line. Join the waitlist to get your invitation."
+  CTA: "Get on the list"
+  URL: https://explore.thunderbird.net/desktop-thundermail-waitlist-rel-2957
+  targeting:
+    include:
+      - { channels: [release], locales: [en-US, en-CA, en-GB] }
+    exclude:
+      - { pref_true: [mail.inappnotifications.hasThundermailAccount] }
+      - { displayed_notifications: [Thundermail-Release-A1] }
+    percent_chance: 10
