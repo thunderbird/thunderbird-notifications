@@ -65,7 +65,7 @@
     exclude:
       - { pref_true: [mail.inappnotifications.hasThundermailAccount] }
       - { displayed_notifications: [Thundermail-Release-A2] }
-    percent_chance: 32
+    percent_chance: 66
 
 - id: Thundermail-Release-A2
   start_at: 2026-10-29T12:00:00.000Z
