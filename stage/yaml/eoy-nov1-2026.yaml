@@ -1,0 +1,44 @@
+- id: EOY-Nov1-2026-A
+  start_at: 2026-11-03T00:00:00.000Z
+  end_at: 2026-11-25T00:00:00.000Z
+  title: "EOY-Nov1-2026-A"
+  severity: 3
+  type: donation_tab
+  URL: https://updates.thunderbird.net/thunderbird/153.0/nov26-1a/?utm_content=cta_a&utm_source=desktop&utm_medium=in_app&utm_campaign=nov26-1_appeal
+  targeting:
+    include:
+      - { }
+    exclude:
+      - { displayed_notifications: [EOY-Nov1-2026-B] }
+      - { displayed_notifications: [EOY-Nov1-2026-C] }
+    percent_chance: 3
+
+- id: EOY-Nov1-2026-B
+  start_at: 2026-11-03T00:00:00.000Z
+  end_at: 2026-11-25T00:00:00.000Z
+  title: "EOY-Nov1-2026-B"
+  severity: 3
+  type: donation_tab
+  URL: https://updates.thunderbird.net/thunderbird/153.0/nov26-1b/?utm_content=cta_b&utm_source=desktop&utm_medium=in_app&utm_campaign=nov26-1_appeal
+  targeting:
+    include:
+      - { }
+    exclude:
+      - { displayed_notifications: [EOY-Nov1-2026-A] }
+      - { displayed_notifications: [EOY-Nov1-2026-C] }
+    percent_chance: 3
+
+- id: EOY-Nov1-2026-C
+  start_at: 2026-11-03T00:00:00.000Z
+  end_at: 2026-11-25T00:00:00.000Z
+  title: "EOY-Nov1-2026-C"
+  severity: 3
+  type: donation_tab
+  URL: https://updates.thunderbird.net/thunderbird/153.0/nov26-1c/?utm_content=cta_c&utm_source=desktop&utm_medium=in_app&utm_campaign=nov26-1_appeal
+  targeting:
+    include:
+      - { }
+    exclude:
+      - { displayed_notifications: [EOY-Nov1-2026-A] }
+      - { displayed_notifications: [EOY-Nov1-2026-B] }
+    percent_chance: 3
