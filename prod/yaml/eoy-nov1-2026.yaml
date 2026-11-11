@@ -11,7 +11,7 @@
     exclude:
       - { displayed_notifications: [EOY-Nov1-2026-B] }
       - { displayed_notifications: [EOY-Nov1-2026-C] }
-    percent_chance: 52
+    percent_chance: 100
 
 - id: EOY-Nov1-2026-B
   start_at: 2026-11-09T00:00:00.000Z
